@@ -1,0 +1,310 @@
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\_DebugClient.exe
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\_DebugClient.pdb
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\_client.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\wisebase.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\wiseclient.exe
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\wisewin.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\wisebase.xml
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\_client.pdb
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\bin\x86\Release\wiseclient.xml
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\obj\x86\Release\_DebugClient.exe
+F:\Wise-M\WiseMes30_201008201800\_DebugClient\obj\x86\Release\_DebugClient.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\_DebugClient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\_DebugClient.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\wiseclient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\wisewin.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\bin\x86\Release\wiseclient.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\obj\x86\Release\_DebugClient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Test\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Test\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Test\_DebugClient\bin\x86\Release\_client.dll
+E:\Test\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Test\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Test\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Test\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Test\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Test\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Test\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Test\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Test\_DebugClient\bin\x86\Release\_client.pdb
+E:\Test\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Test\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Test\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Test\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Test\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Test\_DebugClient\obj\x86\Release\_DebugClient.pdb
+F:\Wise-M\程序\ElentecSzMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Wise-M\程序\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+F:\Wise-M\程序\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+F:\Wise-M\程序\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\wiseclient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\wisewin.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\bin\x86\Release\wiseclient.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugClient\obj\x86\Release\_DebugClient.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_DebugClient.exe
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_DebugClient.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_client.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisebase.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wiseclient.exe
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisewin.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisebase.xml
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_client.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wiseclient.xml
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisewin.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\obj\x86\Release\_DebugClient.exe
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\obj\x86\Release\_DebugClient.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\_DebugClient.exe
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\_DebugClient.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\_client.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\wisebase.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\wiseclient.exe
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\wisewin.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\wisebase.xml
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\_client.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\bin\x86\Release\wiseclient.xml
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.exe
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\_DebugClient.pdb
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\_client.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\wisebase.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.exe
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\wisewin.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\wisebase.xml
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\_client.pdb
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\bin\x86\Release\wiseclient.xml
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.Properties.Resources.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.csproj.GenerateResource.Cache
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.exe
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugClient\obj\x86\Release\_DebugClient.pdb

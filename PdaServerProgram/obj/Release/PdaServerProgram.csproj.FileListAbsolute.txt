@@ -1,0 +1,10 @@
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\bin\Release\PdaServerProgram.exe.config
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\bin\Release\PdaServerProgram.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\bin\Release\PdaServerProgram.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\obj\Release\PdaServerProgram.Form1.resources
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\obj\Release\PdaServerProgram.FormAndroidUpload.resources
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\obj\Release\PdaServerProgram.Properties.Resources.resources
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\obj\Release\PdaServerProgram.csproj.GenerateResource.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\obj\Release\PdaServerProgram.csproj.CoreCompileInputs.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\obj\Release\PdaServerProgram.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\PdaServerProgram\obj\Release\PdaServerProgram.pdb

@@ -1,0 +1,15 @@
+14:30:58] ExistingKey = true
+14:30:58] Receive successfull.(192.168.0.177:57424 / 121.126.143.101:30719 = 1048)
+14:31:07] Save Start Info...
+14:33:14] ExistingKey = true
+14:33:14] Receive successfull.(192.168.0.177:57501 / 121.126.143.101:30719 = 1048)
+14:33:22] Save Start Info...
+14:34:57] ExistingKey = true
+14:34:57] Receive successfull.(192.168.0.177:57579 / 121.126.143.101:30719 = 1048)
+14:35:28] ** socket read exception.(192.168.0.177:57583 / 121.126.143.101:30719) 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+14:35:28] 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+                   위치: WiseM.WiseApp.ServiceConnect()
+   위치: WiseM.WiseApp.Connection()
+   위치: WiseM.AppService.LoginController._enter_Click(Object sender, EventArgs e)
+14:35:31] Receive successfull.(192.168.0.177:57594 / 121.126.143.101:30719 = 1048)
+14:35:34] Save Start Info...

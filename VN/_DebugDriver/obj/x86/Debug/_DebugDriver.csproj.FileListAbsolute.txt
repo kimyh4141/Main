@@ -1,0 +1,1260 @@
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\_driver.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\wisebase.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\wisedriver.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\_driver.pdb
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\bin\x86\Debug\wisebase.xml
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+F:\Wise-M\WiseMes30_201008201800\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\wisedriver.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\wisedriver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\wisedriver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Test\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Test\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Test\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Test\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Test\_DebugDriver\bin\x86\Debug\wisedriver.dll
+E:\Test\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Test\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Test\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Test\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Test\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Test\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Test\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Test\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Test\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Test\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Test\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisedriver.dll
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+F:\Wise-M\程序\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisedriver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\wisedriver.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\wisedriver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK 수정중\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\wisedriver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\WORK\ElentecSn_WiseMes30_20120601\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wisem_Share\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30_20120613\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\惠普金牌\e\Wisem_Share\04.Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\1. 업체별 파일 모음\Elentec자료\ElentecSn\Elentec최종 프로그램소스\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\성철\Documents\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\Lee.SH\Desktop\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\성철\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\admin01\Desktop\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\성철\Desktop\이렌텍 최신\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\tingl\Documents\카카오톡 받은 파일\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\1. 업체별 파일 모음\Elentec자료\Elentec_EVN2\20. 프로그램 관련\Main_Program\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\SJNAM\Desktop\WIP\WIP6_EPC\ElentecEve2_WiseMes30\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\WIP\ElentecEve2_WiseMes30 (2)\ElentecEve2_WiseMes30\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\yb.kim\Desktop\업체\Elentec\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\WIP\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\WIP\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+D:\WIP\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\WIP\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+D:\WIP\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+D:\WIP\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+D:\WIP\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\WIP\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍2\ElentecINMes3 (2)\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍2\6.CustomProgram\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecINMes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\신규\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\이렌텍테스트용\201207\ElentecIN2Mes3 (1)\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\work\업체별자료\업체별 CustomProgram BackUp\이랜텍\이랜텍(인도LG)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\김준영\Desktop\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\이렌텍(인도)\ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\이렌텍(인도)\ElentecIN2Mes3(신)\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\수녕\[210722]ElentecIN2Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_210927\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\하노이\ElentecVn1Mes3_211005\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Program File\ElentecVn1Mes3_211025\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211207\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\이랜택_베트남_하노이_EC\ElentecVn1Mes3_211208\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220106\ElentecVn1Mes3_220111\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220208\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\MES Program\Main Program\ElentecVn1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\비상용\말레이시아\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3_220321\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\Administrator\Desktop\Update\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220416\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\MES Program\Main Program\ElentecMy1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\말레이시아\ElentecMy1Mes3_220510\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3_220617\Y2SCN1Mes3_220617\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20220928)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221019)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20221102)_V2테스트\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\최신소스 20221230\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230228)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\USER\Desktop\Y2Solution\Y2SCN1Mes3(Merge_20230327) (2)\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2SCN1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\wisebase.dll
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\wisedas.exe
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.UI.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.Common.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\bin\x86\Debug\wisebase.xml
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojResolveAssemblyReference.cache
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.Cache
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\jyeah\OneDrive\바탕 화면\코드\Y2(20231124)\Y2sVn1Mes3\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.dll
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csprojAssemblyReference.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.dll
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.pdb
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.AssemblyReference.cache
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CopyComplete
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+C:\Users\Master\Desktop\Y2Solution\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.AssemblyReference.cache
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDr.D18B4180.Up2Date
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\캐리어\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.exe
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_DebugDriver.pdb
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.dll
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\bin\x86\Debug\_driver.pdb
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.AssemblyReference.cache
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.Properties.Resources.resources
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.GenerateResource.cache
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDr.D18B4180.Up2Date
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.exe
+D:\Wise-M\Project\Y2Solution\Windows\Y2Solution\VN\_DebugDriver\obj\x86\Debug\_DebugDriver.pdb

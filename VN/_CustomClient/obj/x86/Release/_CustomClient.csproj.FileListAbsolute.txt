@@ -1,0 +1,595 @@
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\_client.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\_client.pdb
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\wisebase.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\wiseclient.exe
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\wisewin.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\wisebase.xml
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\bin\x86\Release\wiseclient.xml
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BOXRepeat.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\_client.dll.licenses
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\_client.dll
+F:\Wise-M\WiseMes30_201008201800\_CustomClient\obj\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\wiseclient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\wisewin.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\bin\x86\Release\wiseclient.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BOXRepeat.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\_client.dll.licenses
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\WiseMes30_201008211157\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_History\ElentecSzMes30_201009111830\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30_Test\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.pdb
+E:\Test\_CustomClient\bin\x86\Release\_client.dll
+E:\Test\_CustomClient\bin\x86\Release\_client.pdb
+E:\Test\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Test\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Test\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Test\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Test\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Test\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Test\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Test\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Test\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Test\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Test\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Test\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Test\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Test\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Test\_CustomClient\obj\x86\Release\_client.dll
+E:\Test\_CustomClient\obj\x86\Release\_client.pdb
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\_client.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\_client.pdb
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\wisebase.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\wisewin.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\wisebase.xml
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.dll
+F:\Wise-M\程序\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\wisewin.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\WiseMes30\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-HGK Update\_CustomClient\obj\x86\Release\_client.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.dll.licenses
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\_client.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\_client.pdb
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisebase.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wiseclient.exe
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisewin.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisebase.xml
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wiseclient.xml
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.dll
+C:\Users\Wise-Jonghwa\Desktop\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30-JHC Updated\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSzMes30\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\WiseMes30\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\_client.pdb
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisewin.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.dll
+D:\02-Wise-m File\03-JH_Projects\Elentec_Suzhou\Elentec_Program\Elentec_Main_Program\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\_client.pdb
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisebase.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisewin.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wisebase.xml
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.AplStart.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadAcmAplInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCwdInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadCznCpkInner.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAplPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputAcmPanelAlter.resources
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.dll
+E:\Wise-M\05_Elentec_Main_Programs\ElentecSz_WiseMes30\_CustomClient\obj\x86\Release\_client.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\_client.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\_client.pdb
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\wisebase.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\wiseclient.exe
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\wisewin.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\wisebase.xml
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\bin\x86\Release\wiseclient.xml
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\_client.dll
+D:\WORK\ElentecSn_WiseMes30_20120601\_CustomClient\obj\x86\Release\_client.pdb
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\_client.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\_client.pdb
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\wisebase.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.exe
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\wisewin.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\wisebase.xml
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\bin\x86\Release\wiseclient.xml
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.HardPackMaterialInfo.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.MaterialCall.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.QtyManagement.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.SearchingBoxInfo.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.SinglePackLBoxScan1.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpSHPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputHCPExPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputHSPPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputHSPTestPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.WarningForm.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.Properties.Resources.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.CorePackMaterialInfo.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.BadChpInner.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxInfo.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.BoxNoEmpty.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.ChpBoxScanForm.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.HardPackStart.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.NGForm.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputBasePanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputChpPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCwdPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputHCPPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputType1Panel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.OutputCsdPanel.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.UserControls.RawMaterialPassword.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\WiseM.Client.SinglePackLBoxScan.resources
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\_CustomClient.csproj.GenerateResource.Cache
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\_client.dll.licenses
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\_client.dll
+E:\3. Elentec_Main_Programs\ElentecSn_WiseMes30\ElentecSn_WiseMes30\_CustomClient\obj\x86\Release\_client.pdb

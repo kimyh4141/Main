@@ -1,0 +1,1430 @@
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.dll
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.pdb
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.dll
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wiseglobal.dll
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wisewin.dll
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.Base.dll
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Gauge.dll
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wisebrowser.pdb
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.pdb
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.xml
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wisewin.pdb
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\wiseglobal.pdb
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Gauge.xml
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll
+D:\Documents\Visual Studio 2008\Projects\WiseMes3x\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.pdb
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.pdb
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\wiseglobal.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\wisewin.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.Base.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\office.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Gauge.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.xml
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1110\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.pdb
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.pdb
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\wiseglobal.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\wisewin.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.Base.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\office.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Gauge.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.xml
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1120\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.pdb
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.pdb
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\wiseglobal.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\wisewin.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.xml
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.pdb
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+D:\업체별Custom\닝보\제작 프로그램\기본WBT프로그램\WiseMes30_1123\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\MES3.0 프로그램\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.ErpTest.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderMake.resources
+E:\MES3.0 프로그램\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\_browser.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\_browser.pdb
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\wisebase.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\bin\x86\Release\wisewin.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\_browser.dll
+C:\Users\Janghoon\Desktop\직박구리\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\MES3.0 프로그램\닝보\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\MES3.0 프로그램\닝보\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\Browser\_CustomBrowser\obj\x86\Release\_browser.pdb
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\_browser.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\_browser.pdb
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\wisebase.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\wisewin.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\bin\x86\Release\wisebase.xml
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\_browser.dll
+C:\Users\Janghoon\Downloads\WiseMes30_201104251000\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\SeohanPtMes3\_CustomBrowser\obj\x86\Release\_browser.pdb
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\_browser.pdb
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\wisewin.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\office.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\wisebasee.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.xml
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll
+D:\02-Wise-m File\03-JH_Projects\SWTS_PyeongTaek\SWTS_MES30_PJ\SWTS_Program\SWTS_Main_Program\WiseMes30\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_2011051500804\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106211113\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\통합 프로그램\WiseMes30_201106231801\_CustomBrowser\obj\x86\Release\_browser.pdb
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\_browser.dll.config
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\_browser.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\_browser.pdb
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\office.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\wisewin.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\bin\x86\Release\wisebase.xml
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\_browser.dll
+C:\Backup\Mes3\업체별\서한\SeohanPt_WiseMes30\_CustomBrowser\obj\x86\Release\_browser.pdb
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\_browser.dll.config
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\_browser.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\_browser.pdb
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\office.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\wisebase.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\wisewin.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Base.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\ChartFX.WinForms.Adornments.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\bin\x86\Release\wisebase.xml
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\_browser.dll
+C:\Backup\Mes3\업체별\서한\2012-04-20 SeohanProgram\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\_browser.dll.config
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\서한\2012-06-19 SeohanProgram\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\_browser.dll.config
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\sapnco.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130411_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\_browser.dll.config
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\sapnco.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130417_(SAP_Interface)\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\_browser.dll.config
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\sapnco.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130430\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\_browser.dll.config
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\sapnco.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.Test1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130520\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\_browser.dll.config
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\sapnco.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.BOMInterfaceTest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.Test1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130521\_CustomBrowser\obj\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\_browser.dll.config
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\_browser.pdb
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\office.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\sapnco.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\wisebase.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\wisewin.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\bin\x86\Release\wisebase.xml
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.MROMaterialReq.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.ReqMaterialConfirm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.BOMInterfaceTest.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.Test1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\_browser.dll
+E:\장  훈\Company\Seohan BorgWarner\최종프로그램\SeohanMes3_20130705\_CustomBrowser\obj\x86\Release\_browser.pdb
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\_browser.dll.config
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\_browser.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\_browser.pdb
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\office.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\sapnco.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\wisebase.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\wisewin.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\bin\x86\Release\wisebase.xml
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaterialPrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.MROMaterialReq.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.ReqMaterialConfirm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.BadWorkOrderTest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.BOMInterfaceTest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.Test1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedExcel.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\_browser.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140207\_CustomBrowser\obj\x86\Release\_browser.pdb
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\_browser.dll.config
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\_browser.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\_browser.pdb
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\office.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\sapnco.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\wisebase.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\wisewin.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\bin\x86\Release\wisebase.xml
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaterialPrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.MROMaterialReq.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.ReqMaterialConfirm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.BadWorkOrderTest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.BOMInterfaceTest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.Test1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedExcel.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\_browser.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140211\_CustomBrowser\obj\x86\Release\_browser.pdb
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\_browser.dll.config
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\_browser.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\_browser.pdb
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\Interop.Excel.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\Janus.Windows.ButtonBar.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\Janus.Windows.Common.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\Janus.Windows.UI.v3.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\office.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\SAPFunction.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\SAPFunctionTest.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\sapnco.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\sapnco_utils.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\wisebase.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\wisebrowser.exe
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\wisewin.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\wisebase.xml
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\bin\x86\Release\SAPFunctionTest.pdb
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderInsert.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.KiboSendDetail.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaterialPrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotworkHistRemark.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.EditForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.GenerationMessageBox.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WorkOrderGen.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WorkOrderGen.WorkOrderGen_MaterialDetail.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.NextCalenderRange.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.OeeFormula.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProdTarget.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.DailyReport.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBill.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentBillMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaEquipmentLocation.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaintStd.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialEdit.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaMrMaterialHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaPmBase.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkOrderInfo.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MaWorkRequest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.MROMaterialReq.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.NotWorkHistInfo.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.ReqMaterialConfirm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaLocation.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchMaMrMaterial.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchNotWorkhistworkcenter.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SearchWorkerEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerarchMagementEmployee.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaEquipment.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SerchMaMaintStd.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmCp.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.TpmOnePointLession.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.MainForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WorkOrderPartitionCWSW.PartitionForm.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.BadWorkOrderTest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.BOMInterfaceTest.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionPrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendQty.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.Test1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfig.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderConfigT.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedClose.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderPlannedExcel.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkOrderSplit.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.ProductionRePrint.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SendManualQty.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WMS.WMSEditLogIn.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalendarGen_Shift.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCalenderUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WorkOrderCore.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.Properties.Resources.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WorkOrderEmission.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\SendWorkHist.SendWorkHist.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.CalenderUpdateByWorkTeam.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.SWCWMainByPalette.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WorkOrderSWCW.Form1.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WorkCenterMessageBox.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\WiseM.Browser.WO_RemarkUpdate.resources
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\_browser.dll.licenses
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\_browser.dll
+C:\Users\LeeKH\Desktop\SeohanMes3_20140718\_CustomBrowser\obj\x86\Release\_browser.pdb

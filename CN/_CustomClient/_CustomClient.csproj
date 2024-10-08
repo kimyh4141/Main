@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{403EE2AF-1529-4C18-B266-D5D68B4F2DAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WiseM.Client</RootNamespace>
+    <AssemblyName>_client</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib">
+      <HintPath>..\..\Reference\BarcodeLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="clsBarcode">
+      <HintPath>..\..\Reference\clsBarcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Data.v3">
+      <HintPath>..\..\Reference\Janus.Data.v3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.ButtonBar.v3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.Common.v3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.ExplorerBar.v3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.Ribbon.v3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.UI.v3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="wisebase">
+      <HintPath>..\..\Reference\wisebase.dll</HintPath>
+    </Reference>
+    <Reference Include="wiseclient, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\wiseclient.exe</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="wisewin">
+      <HintPath>..\..\Reference\wisewin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>..\..\Reference\zxing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Box_Palletizing_V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Box_Palletizing_V2.Designer.cs">
+      <DependentUpon>Box_Palletizing_V2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Box_Palletizing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Box_Palletizing.Designer.cs">
+      <DependentUpon>Box_Palletizing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcCRC.cs" />
+    <Compile Include="ConfirmType_V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmType_V2.Designer.cs">
+      <DependentUpon>ConfirmType_V2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomEnum.cs" />
+    <Compile Include="Daily_Output.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daily_Output.Designer.cs">
+      <DependentUpon>Daily_Output.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daily_Output_Boxing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daily_Output_Boxing.Designer.cs">
+      <DependentUpon>Daily_Output_Boxing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmType.Designer.cs">
+      <DependentUpon>ConfirmType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Process_Management_Mod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process_Management_Mod.Designer.cs">
+      <DependentUpon>Process_Management_Mod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Process_Management_V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process_Management_V2.Designer.cs">
+      <DependentUpon>Process_Management_V2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Palletizing_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Palletizing_2.Designer.cs">
+      <DependentUpon>Palletizing_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reprint_Box.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reprint_Box.Designer.cs">
+      <DependentUpon>Reprint_Box.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reprint_Pallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reprint_Pallet.Designer.cs">
+      <DependentUpon>Reprint_Pallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGwav.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WbtUserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Box_Palletizing_V2.resx">
+      <DependentUpon>Box_Palletizing_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Box_Palletizing.resx">
+      <DependentUpon>Box_Palletizing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmType_V2.resx">
+      <DependentUpon>ConfirmType_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daily_Output.resx">
+      <DependentUpon>Daily_Output.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daily_Output_Boxing.resx">
+      <DependentUpon>Daily_Output_Boxing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmType.resx">
+      <DependentUpon>ConfirmType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process_Management_Mod.resx">
+      <DependentUpon>Process_Management_Mod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Palletizing_2.resx">
+      <DependentUpon>Palletizing_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process_Management_V2.resx">
+      <DependentUpon>Process_Management_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reprint_Box.resx">
+      <DependentUpon>Reprint_Box.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reprint_Pallet.resx">
+      <DependentUpon>Reprint_Pallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(SolutionDir)CN\Output\Client" mkdir "$(SolutionDir)CN\Output\Client"
+copy "$(TargetDir)$(TargetFileName)" "$(SolutionDir)CN\Output\Client\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

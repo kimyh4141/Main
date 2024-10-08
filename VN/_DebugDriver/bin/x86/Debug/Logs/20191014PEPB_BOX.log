@@ -1,0 +1,27 @@
+[2019-10-14 16:54:12] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 140
+[2019-10-14 16:55:44] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 140 - PEPB_BOX
+[2019-10-14 17:08:52] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 117 - PEPB_BOX
+[2019-10-14 17:10:35] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.OnEvent(DriverEventArgs e) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 45 - PEPB_BOX
+[2019-10-14 17:11:07] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.OnEvent(DriverEventArgs e) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 45 - PEPB_BOX
+[2019-10-14 17:11:40] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.OnEvent(DriverEventArgs e) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 45 - PEPB_BOX
+[2019-10-14 17:12:12] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.OnEvent(DriverEventArgs e) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 45 - PEPB_BOX
+[2019-10-14 17:12:49] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.OnEvent(DriverEventArgs e) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 45 - PEPB_BOX

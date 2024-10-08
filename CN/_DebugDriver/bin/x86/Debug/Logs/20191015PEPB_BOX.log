@@ -1,0 +1,7 @@
+[2019-10-15 18:36:44] System.Net.Sockets.SocketException: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 95
+[2019-10-15 18:37:03] System.Net.Sockets.SocketException: 소켓이 연결되어 있지 않거나 Sendto 호출을 사용하여 데이터그램 소켓에 보내는 경우에 주소가 제공되지 않아서 데이터를 보내거나 받도록 요청할 수 없습니다
+   위치: System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   위치: WiseM.Driver.PEPB_Packing01.SendMessage(String message) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 143 - PEPB_BOX

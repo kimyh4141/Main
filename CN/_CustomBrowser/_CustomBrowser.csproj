@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6263ABCD-3C54-4C21-B459-28F751325CF6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WiseM.Browser</RootNamespace>
+    <AssemblyName>_browser</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\BarcodeLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="clsBarcode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\clsBarcode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.Excel">
+      <HintPath>..\..\Reference\Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Janus.Data.v3">
+      <HintPath>..\..\Reference\Janus.Data.v3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.ButtonBar.v3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.Common.v3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.ExplorerBar.v3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Janus.Windows.Ribbon.v3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3">
+      <HintPath>..\..\Reference\Janus.Windows.UI.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="ShanuCPCPKChart">
+      <HintPath>..\..\Reference\ShanuCPCPKChart.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Virtual_Keyboard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Virtual_Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="wisebase, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\wisebase.dll</HintPath>
+    </Reference>
+    <Reference Include="wisebrowser, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\wisebrowser.exe</HintPath>
+    </Reference>
+    <Reference Include="wisewin">
+      <HintPath>..\..\Reference\wisewin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\zxing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarcodeHist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarcodeHist.Designer.cs">
+      <DependentUpon>BarcodeHist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blocking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blocking.designer.cs">
+      <DependentUpon>Blocking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checksheet\CsCheckSheetSpec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checksheet\CsCheckSheetSpec.Designer.cs">
+      <DependentUpon>CsCheckSheetSpec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checksheet\CsCheckSheetSpecDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checksheet\CsCheckSheetSpecDetail.designer.cs">
+      <DependentUpon>CsCheckSheetSpecDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checksheet\CsCheckSheetSpec_User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Checksheet\CsCheckSheetSpec_User.Designer.cs">
+      <DependentUpon>CsCheckSheetSpec_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checksheet\LoginManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checksheet\LoginManager.designer.cs">
+      <DependentUpon>LoginManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CustomEnum.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCS3c5sSpec.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSCheckSheetSpec.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSDailySpec.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSLineRoute.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSOverhaulSpec.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSParameterCheckSpec.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSPeriodicSpec.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSPreventSpec.cs" />
+    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSSpec.cs" />
+    <Compile Include="EditColumn\EditColumnFctSpec.cs" />
+    <Compile Include="EditInfo\EditInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditInfo\EditInfo.designer.cs">
+      <DependentUpon>EditInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditInfo\TableList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditInfo\TableList.designer.cs">
+      <DependentUpon>TableList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteWorkOrderConfirm.cs" />
+    <Compile Include="EndWorkOrderCancelConfirm.cs" />
+    <Compile Include="FeederInfoChangeFeeder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeederInfoChangeFeeder.Designer.cs">
+      <DependentUpon>FeederInfoChangeFeeder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeederInfoUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeederInfoUpload.Designer.cs">
+      <DependentUpon>FeederInfoUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\HS_Receipt_frmMain00.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\HS_Receipt_frmMain00.designer.cs">
+      <DependentUpon>HS_Receipt_frmMain00.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\HS_Receipt_frmMain01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\HS_Receipt_frmMain01.Designer.cs">
+      <DependentUpon>HS_Receipt_frmMain01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\HS_Receipt_frmSub10_SelectWO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\HS_Receipt_frmSub10_SelectWO.designer.cs">
+      <DependentUpon>HS_Receipt_frmSub10_SelectWO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain00.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain00.designer.cs">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain00.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain01.designer.cs">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain10.designer.cs">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_FinishedGoods_frmMain12.designer.cs">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_Receipt_frmMain00.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_Receipt_frmMain00.Designer.cs">
+      <DependentUpon>Outsourcing_Receipt_frmMain00.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_Receipt_frmMain01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_Receipt_frmMain01.Designer.cs">
+      <DependentUpon>Outsourcing_Receipt_frmMain01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_Receipt_frmSub10_SelectWO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\Outsourcing_Receipt_frmSub10_SelectWO.Designer.cs">
+      <DependentUpon>Outsourcing_Receipt_frmSub10_SelectWO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\ProcessPassing_frmMain00.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\ProcessPassing_frmMain00.Designer.cs">
+      <DependentUpon>ProcessPassing_frmMain00.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\ProcessPassing_frmMain01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\ProcessPassing_frmMain01.Designer.cs">
+      <DependentUpon>ProcessPassing_frmMain01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutSourcing\ProcessPassing_frmSub10_SelectWO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutSourcing\ProcessPassing_frmSub10_SelectWO.Designer.cs">
+      <DependentUpon>ProcessPassing_frmSub10_SelectWO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PalletCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PalletCheck.Designer.cs">
+      <DependentUpon>PalletCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI\PI_frmMain00.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI\PI_frmMain00.Designer.cs">
+      <DependentUpon>PI_frmMain00.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI\PI_frmMain10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI\PI_frmMain10.Designer.cs">
+      <DependentUpon>PI_frmMain10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI\PI_frmMain20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI\PI_frmMain20.Designer.cs">
+      <DependentUpon>PI_frmMain20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PI\PI_frmMain30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PI\PI_frmMain30.Designer.cs">
+      <DependentUpon>PI_frmMain30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RePacking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RePacking.Designer.cs">
+      <DependentUpon>RePacking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RePackingNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RePackingNew.designer.cs">
+      <DependentUpon>RePackingNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RePackingReprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RePackingReprint.Designer.cs">
+      <DependentUpon>RePackingReprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigSpec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JigSpec.Designer.cs">
+      <DependentUpon>JigSpec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigSpecItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JigSpecItem.Designer.cs">
+      <DependentUpon>JigSpecItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxManager.cs" />
+    <Compile Include="JigPeriodMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigPeriodMsg.Designer.cs">
+      <DependentUpon>JigPeriodMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\ReturnBarcodeHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\ReturnBarcodeHistory.designer.cs">
+      <DependentUpon>ReturnBarcodeHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rework\BadEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rework\BadEdit.Designer.cs">
+      <DependentUpon>BadEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rework\RepairEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rework\RepairEdit.Designer.cs">
+      <DependentUpon>RepairEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShippingProcessing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShippingProcessing.designer.cs">
+      <DependentUpon>ShippingProcessing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShippingSelectMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShippingSelectMaterial.Designer.cs">
+      <DependentUpon>ShippingSelectMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShippingRequestOrderSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShippingRequestOrderSearch.Designer.cs">
+      <DependentUpon>ShippingRequestOrderSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPC\Spc005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPC\Spc005.Designer.cs">
+      <DependentUpon>Spc005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Worker.Designer.cs">
+      <DependentUpon>Edit_Worker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\RawPrinterHelper.cs" />
+    <Compile Include="WMS\DerivedProduct_frmMain00.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\DerivedProduct_frmMain00.designer.cs">
+      <DependentUpon>DerivedProduct_frmMain00.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\DerivedProduct_frmMain01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\DerivedProduct_frmMain01.designer.cs">
+      <DependentUpon>DerivedProduct_frmMain01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\NewBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\NewBarcode.Designer.cs">
+      <DependentUpon>NewBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\NewBarcodeSupplierSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\NewBarcodeSupplierSearch.Designer.cs">
+      <DependentUpon>NewBarcodeSupplierSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\NewBarcodeTestPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\NewBarcodeTestPrint.Designer.cs">
+      <DependentUpon>NewBarcodeTestPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\Print_PCB_V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\Print_PCB_V2.Designer.cs">
+      <DependentUpon>Print_PCB_V2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\Print_PCB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\Print_PCB.Designer.cs">
+      <DependentUpon>Print_PCB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\Reprint_PCB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\Reprint_PCB.Designer.cs">
+      <DependentUpon>Reprint_PCB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToCSV.cs" />
+    <Compile Include="WiseMEdit\EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WiseMEdit\EditForm.designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicCodeInfo.cs" />
+    <Compile Include="ChangeCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeCount.Designer.cs">
+      <DependentUpon>ChangeCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomLogin.designer.cs">
+      <DependentUpon>CustomLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSearching.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSearching.Designer.cs">
+      <DependentUpon>DataSearching.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dell_Cab_RawMaterialCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dell_Cab_RawMaterialCheck.Designer.cs">
+      <DependentUpon>Dell_Cab_RawMaterialCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditColumn\EditColumnFunctionChecked.cs" />
+    <Compile Include="EditColumn\EditColumnRawMaterial.cs" />
+    <Compile Include="EditColumn\EditColumnLocationGroup.cs" />
+    <Compile Include="EditColumn\EditColumnLocation.cs" />
+    <Compile Include="EndWorkOrderConfirm.cs" />
+    <Compile Include="IDM_EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDM_EditForm.Designer.cs">
+      <DependentUpon>IDM_EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigBasisManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigBasisManagement.Designer.cs">
+      <DependentUpon>JigBasisManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigBasisManagementUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigBasisManagementUpdate.Designer.cs">
+      <DependentUpon>JigBasisManagementUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigConfirm.Designer.cs">
+      <DependentUpon>JigConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigConfirmProcess.cs" />
+    <Compile Include="JigDelete.cs" />
+    <Compile Include="JigRepairConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigRepairConfirm.Designer.cs">
+      <DependentUpon>JigRepairConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigRepairInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigRepairInsert.Designer.cs">
+      <DependentUpon>JigRepairInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigRepairStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigRepairStart.Designer.cs">
+      <DependentUpon>JigRepairStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigStockIn.cs" />
+    <Compile Include="JigstockOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigstockOut.Designer.cs">
+      <DependentUpon>JigstockOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigSearch.Designer.cs">
+      <DependentUpon>JigSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigWareHouseIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigWareHouseIn.Designer.cs">
+      <DependentUpon>JigWareHouseIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recipient.Designer.cs">
+      <DependentUpon>Recipient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepairStart.cs" />
+    <Compile Include="SPCDataManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPCDataManagement.Designer.cs">
+      <DependentUpon>SPCDataManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPC\chart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPC\chart.designer.cs">
+      <DependentUpon>chart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPC\SPC002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPC\SPC002.designer.cs">
+      <DependentUpon>SPC002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPC\SPC003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPC\SPC003.designer.cs">
+      <DependentUpon>SPC003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomBrowser.cs" />
+    <Compile Include="EditColumn\EditColumnBad.cs" />
+    <Compile Include="EditColumn\EditColumnBadHist.cs" />
+    <Compile Include="EditColumn\EditColumnBOM.cs" />
+    <Compile Include="EditColumn\EditColumnDivision.cs" />
+    <Compile Include="EditColumn\EditColumnMaterial.cs" />
+    <Compile Include="EditColumn\EditColumnMaterialRouting.cs" />
+    <Compile Include="EditColumn\EditColumnNotwork.cs" />
+    <Compile Include="EditColumn\EditColumnNotworkHist.cs" />
+    <Compile Include="EditColumn\EditColumnOutputHist.cs" />
+    <Compile Include="EditColumn\EditColumnRouting.cs" />
+    <Compile Include="EditColumn\EditColumnRoutingBad.cs" />
+    <Compile Include="EditColumn\EditColumnRoutingNotWork.cs" />
+    <Compile Include="EditColumn\EditColumnWBTWorker.cs" />
+    <Compile Include="EditColumn\EditColumnWorkCalendarStd.cs" />
+    <Compile Include="EditColumn\EditColumnWorkcenter.cs" />
+    <Compile Include="EditColumn\EditColumnWorker.cs" />
+    <Compile Include="EditColumn\EditColumnWorkTeam.cs" />
+    <Compile Include="EditColumn\EditColumnMaterialMapping.cs" />
+    <Compile Include="EditColumn\EditColumnRepair.cs" />
+    <Compile Include="EditColumn\EditColumnRepairHist.cs" />
+    <Compile Include="EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerSetToFalse.cs" />
+    <Compile Include="WorkOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkOrder.Designer.cs">
+      <DependentUpon>WorkOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BarcodeHist.resx">
+      <DependentUpon>BarcodeHist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blocking.resx">
+      <DependentUpon>Blocking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checksheet\CsCheckSheetSpec.resx">
+      <DependentUpon>CsCheckSheetSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checksheet\CsCheckSheetSpecDetail.resx">
+      <DependentUpon>CsCheckSheetSpecDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checksheet\CsCheckSheetSpec_User.resx">
+      <DependentUpon>CsCheckSheetSpec_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checksheet\LoginManager.resx">
+      <DependentUpon>LoginManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditInfo\EditInfo.resx">
+      <DependentUpon>EditInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditInfo\TableList.resx">
+      <DependentUpon>TableList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeederInfoChangeFeeder.resx">
+      <DependentUpon>FeederInfoChangeFeeder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeederInfoUpload.resx">
+      <DependentUpon>FeederInfoUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\HS_Receipt_frmMain00.resx">
+      <DependentUpon>HS_Receipt_frmMain00.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\HS_Receipt_frmMain01.resx">
+      <DependentUpon>HS_Receipt_frmMain01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\HS_Receipt_frmSub10_SelectWO.resx">
+      <DependentUpon>HS_Receipt_frmSub10_SelectWO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\Outsourcing_FinishedGoods_frmMain00.resx">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain00.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\Outsourcing_FinishedGoods_frmMain01.resx">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\Outsourcing_FinishedGoods_frmMain10.resx">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\Outsourcing_FinishedGoods_frmMain12.resx">
+      <DependentUpon>Outsourcing_FinishedGoods_frmMain12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\Outsourcing_Receipt_frmMain00.resx">
+      <DependentUpon>Outsourcing_Receipt_frmMain00.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\Outsourcing_Receipt_frmMain01.resx">
+      <DependentUpon>Outsourcing_Receipt_frmMain01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\Outsourcing_Receipt_frmSub10_SelectWO.resx">
+      <DependentUpon>Outsourcing_Receipt_frmSub10_SelectWO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\ProcessPassing_frmMain00.resx">
+      <DependentUpon>ProcessPassing_frmMain00.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\ProcessPassing_frmMain01.resx">
+      <DependentUpon>ProcessPassing_frmMain01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutSourcing\ProcessPassing_frmSub10_SelectWO.resx">
+      <DependentUpon>ProcessPassing_frmSub10_SelectWO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PalletCheck.resx">
+      <DependentUpon>PalletCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI\PI_frmMain00.resx">
+      <DependentUpon>PI_frmMain00.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI\PI_frmMain10.resx">
+      <DependentUpon>PI_frmMain10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI\PI_frmMain20.resx">
+      <DependentUpon>PI_frmMain20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PI\PI_frmMain30.resx">
+      <DependentUpon>PI_frmMain30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RePacking.resx">
+      <DependentUpon>RePacking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RePackingNew.resx">
+      <DependentUpon>RePackingNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RePackingReprint.resx">
+      <DependentUpon>RePackingReprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigSpec.resx">
+      <DependentUpon>JigSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigSpecItem.resx">
+      <DependentUpon>JigSpecItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigPeriodMsg.resx">
+      <DependentUpon>JigPeriodMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\ReturnBarcodeHistory.resx">
+      <DependentUpon>ReturnBarcodeHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rework\BadEdit.resx">
+      <DependentUpon>BadEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShippingProcessing.resx">
+      <DependentUpon>ShippingProcessing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShippingSelectMaterial.resx">
+      <DependentUpon>ShippingSelectMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShippingRequestOrderSearch.resx">
+      <DependentUpon>ShippingRequestOrderSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPC\Spc005.resx">
+      <DependentUpon>Spc005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Worker.resx">
+      <DependentUpon>Edit_Worker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\DerivedProduct_frmMain00.resx">
+      <DependentUpon>DerivedProduct_frmMain00.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\DerivedProduct_frmMain01.resx">
+      <DependentUpon>DerivedProduct_frmMain01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\NewBarcode.resx">
+      <DependentUpon>NewBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\NewBarcodeSupplierSearch.resx">
+      <DependentUpon>NewBarcodeSupplierSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\NewBarcodeTestPrint.resx">
+      <DependentUpon>NewBarcodeTestPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\Print_PCB_V2.resx">
+      <DependentUpon>Print_PCB_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\Print_PCB.resx">
+      <DependentUpon>Print_PCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\Reprint_PCB.resx">
+      <DependentUpon>Reprint_PCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WiseMEdit\EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeCount.resx">
+      <DependentUpon>ChangeCount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomLogin.resx">
+      <DependentUpon>CustomLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSearching.resx">
+      <DependentUpon>DataSearching.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dell_Cab_RawMaterialCheck.resx">
+      <DependentUpon>Dell_Cab_RawMaterialCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDM_EditForm.resx">
+      <DependentUpon>IDM_EditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigBasisManagement.resx">
+      <DependentUpon>JigBasisManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigBasisManagementUpdate.resx">
+      <DependentUpon>JigBasisManagementUpdate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigConfirm.resx">
+      <DependentUpon>JigConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigRepairConfirm.resx">
+      <DependentUpon>JigRepairConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigRepairInsert.resx">
+      <DependentUpon>JigRepairInsert.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigRepairStart.resx">
+      <DependentUpon>JigRepairStart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigstockOut.resx">
+      <DependentUpon>JigstockOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigSearch.resx">
+      <DependentUpon>JigSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigWareHouseIn.resx">
+      <DependentUpon>JigWareHouseIn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipient.resx">
+      <DependentUpon>Recipient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPCDataManagement.resx">
+      <DependentUpon>SPCDataManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPC\chart.resx">
+      <DependentUpon>chart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPC\SPC002.resx">
+      <DependentUpon>SPC002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPC\SPC003.resx">
+      <DependentUpon>SPC003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkOrder.resx">
+      <DependentUpon>WorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rework\RepairInput.resx">
+      <DependentUpon>RepairInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rework\BadInput.resx">
+      <DependentUpon>BadInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WipInfo.resx">
+      <DependentUpon>WipInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigRepairsearch.resx">
+      <DependentUpon>JigRepairsearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigWarehouseSearch.resx">
+      <DependentUpon>JigWarehouseSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JigRepairInsert1.resx">
+      <DependentUpon>JigRepairInsert1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\x86\Debug\Log\Browser\2012-03-24.log" />
+    <None Include="bin\x86\Debug\production kanban drafts.xls" />
+    <None Include="bin\x86\Debug\Tracking_Card_C_W.xls" />
+    <None Include="bin\x86\Debug\Tracking_Card_S_W.xls" />
+    <None Include="obj\x86\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Debug\_CustomBrowser.csproj.GenerateResource.Cache" />
+    <None Include="obj\x86\Release\_CustomBrowser.csproj.GenerateResource.Cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Rework\RepairInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rework\RepairInput.Designer.cs">
+      <DependentUpon>RepairInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rework\BadInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rework\BadInput.Designer.cs">
+      <DependentUpon>BadInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WipInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WipInfo.Designer.cs">
+      <DependentUpon>WipInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigRepairsearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigRepairsearch.Designer.cs">
+      <DependentUpon>JigRepairsearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigWarehouseSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigWarehouseSearch.Designer.cs">
+      <DependentUpon>JigWarehouseSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JigRepairInsert1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JigRepairInsert1.Designer.cs">
+      <DependentUpon>JigRepairInsert1.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\x86\Debug\ChartFX.WinForms.Gauge.xml" />
+    <Content Include="bin\x86\Debug\Janus.Windows.ButtonBar.v3.dll" />
+    <Content Include="bin\x86\Debug\Janus.Windows.CalendarCombo.v3.dll" />
+    <Content Include="bin\x86\Debug\Janus.Windows.Common.v3.dll" />
+    <Content Include="bin\x86\Debug\Janus.Windows.ExplorerBar.v3.dll" />
+    <Content Include="bin\x86\Debug\Janus.Windows.UI.v3.dll" />
+    <Content Include="bin\x86\Debug\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="bin\x86\Debug\Microsoft.Vbe.Interop.dll" />
+    <Content Include="bin\x86\Debug\office.dll" />
+    <Content Include="bin\x86\Debug\wisebase.dll" />
+    <Content Include="bin\x86\Debug\wisebrowser.exe" />
+    <Content Include="bin\x86\Debug\wiseglobal.dll" />
+    <Content Include="bin\x86\Debug\wiseglobal.pdb" />
+    <Content Include="bin\x86\Debug\wisewin.dll" />
+    <Content Include="bin\x86\Debug\_browser.dll" />
+    <Content Include="bin\x86\Debug\_browser.pdb" />
+    <Content Include="bin\x86\Debug\_loc.dll" />
+    <Content Include="bin\x86\Release\ChartFX.WinForms.Adornments.dll" />
+    <Content Include="bin\x86\Release\ChartFX.WinForms.Base.dll" />
+    <Content Include="bin\x86\Release\ChartFX.WinForms.dll" />
+    <Content Include="bin\x86\Release\ChartFX.WinForms.Gauge.xml" />
+    <Content Include="bin\x86\Release\Janus.Windows.ButtonBar.v3.dll" />
+    <Content Include="bin\x86\Release\Janus.Windows.CalendarCombo.v3.dll" />
+    <Content Include="bin\x86\Release\Janus.Windows.Common.v3.dll" />
+    <Content Include="bin\x86\Release\Janus.Windows.ExplorerBar.v3.dll" />
+    <Content Include="bin\x86\Release\Janus.Windows.UI.v3.dll" />
+    <Content Include="bin\x86\Release\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="bin\x86\Release\Microsoft.Vbe.Interop.dll" />
+    <Content Include="bin\x86\Release\office.dll" />
+    <Content Include="bin\x86\Release\wisebase.dll" />
+    <Content Include="bin\x86\Release\wisebase.pdb" />
+    <Content Include="bin\x86\Release\wisebase.xml" />
+    <Content Include="bin\x86\Release\wisebrowser.exe" />
+    <Content Include="bin\x86\Release\wisebrowser.pdb" />
+    <Content Include="bin\x86\Release\wiseglobal.dll" />
+    <Content Include="bin\x86\Release\wiseglobal.pdb" />
+    <Content Include="bin\x86\Release\wisewin.dll" />
+    <Content Include="bin\x86\Release\wisewin.pdb" />
+    <Content Include="bin\x86\Release\_browser.dll" />
+    <Content Include="bin\x86\Release\_browser.pdb" />
+    <Content Include="obj\x86\Debug\Refactor\_browser.dll" />
+    <Content Include="obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\x86\Debug\_browser.dll" />
+    <Content Include="obj\x86\Debug\_browser.dll.licenses" />
+    <Content Include="obj\x86\Debug\_browser.pdb" />
+    <Content Include="obj\x86\Debug\_CustomBrowser.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\x86\Release\_browser.dll" />
+    <Content Include="obj\x86\Release\_browser.dll.licenses" />
+    <Content Include="obj\x86\Release\_browser.pdb" />
+    <Content Include="obj\x86\Release\_CustomBrowser.csproj.FileListAbsolute.txt" />
+    <None Include="Resources\if_icon-111-search_314478.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

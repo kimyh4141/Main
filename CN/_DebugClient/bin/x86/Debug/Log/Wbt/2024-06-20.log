@@ -1,0 +1,33 @@
+14:32:47] ExistingKey = true
+14:32:47] Receive successfull.(192.168.0.109:28233 / 123.235.1.131:30719 = 1048)
+14:32:57] 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+                
+   위치: WiseM.Global.Globalizer.ConvertTo(WeLangSubType type, String text)
+   위치: WiseM.MessageBox.ShowCaption(String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, Object[] values)
+   위치: WiseM.MessageBox.ShowCaption(String text, String caption, MessageBoxIcon icon, String[] values)
+   위치: WiseM.WiseApp.ShowForm(WiseForm form, Object[] args)
+   위치: WiseM.WiseApp.PostEnter()
+   위치: WiseM.WiseApp.Start(Type exeType, CustomService customService, Object[] args)
+14:33:39] ExistingKey = true
+14:33:39] Receive successfull.(192.168.0.109:28305 / 123.235.1.131:30719 = 1048)
+14:33:50] Shift loaded = 1
+14:33:50] Recess loaded = 10
+14:33:50] StopWork created...
+14:34:28] ExistingKey = true
+14:34:28] Receive successfull.(192.168.0.109:28403 / 123.235.1.131:30719 = 1048)
+14:34:43] Shift loaded = 1
+14:34:43] Recess loaded = 10
+14:34:43] StopWork created...
+14:36:00] ExistingKey = true
+14:36:00] Receive successfull.(192.168.0.109:28536 / 123.235.1.131:30719 = 1048)
+14:36:12] Shift loaded = 1
+14:36:12] Recess loaded = 10
+14:36:12] StopWork created...
+16:15:03] ExistingKey = true
+16:15:03] Receive successfull.(192.168.0.109:38649 / 123.235.1.131:30719 = 1048)
+16:15:14] Shift loaded = 1
+16:15:15] Recess loaded = 10
+16:15:15] StopWork created...
+16:15:35] DbAccess,ExecuteQuery.Incorrect syntax near 'ty'.
+Unclosed quotation mark after the character string ')  END '.
+                 IF NOT EXISTS (SELECT * FROM LocalizeItem  WHERE Type = N'Label' AND Text = N' [ Q'ty (Actual / Planned) ] ')  BEGIN    Insert Into LocalizeItem(Type, Text) Values(N'Label',N' [ Q'ty (Actual / Planned) ] ')  END 

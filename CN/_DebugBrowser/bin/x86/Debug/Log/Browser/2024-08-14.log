@@ -1,0 +1,63 @@
+17:36:33] ExistingKey = true
+17:36:34] Receive successfull.(192.168.0.132:43918 / 121.126.143.101:30719 = 1048)
+17:36:45] Receive successfull.(192.168.0.132:43947 / 121.126.143.101:30719 = 1048)
+17:36:45] Save Start Info...
+17:37:14] ExistingKey = true
+17:37:14] Receive successfull.(192.168.0.132:44037 / 121.126.143.101:30719 = 1048)
+17:38:46] Receive successfull.(192.168.0.132:44254 / 121.126.143.101:30719 = 1048)
+17:38:57] Receive successfull.(127.0.0.1:44274 / 127.0.0.1:30719 = 1040)
+17:39:07] Receive successfull.(127.0.0.1:44310 / 127.0.0.1:30719 = 1040)
+17:39:10] Receive successfull.(127.0.0.1:44319 / 127.0.0.1:30719 = 1040)
+17:39:13] Save Start Info...
+17:39:18] ExistingKey = true
+17:39:18] Receive successfull.(127.0.0.1:44348 / 127.0.0.1:30719 = 1040)
+17:39:28] Receive successfull.(127.0.0.1:44372 / 127.0.0.1:30719 = 1040)
+17:39:29] Save Start Info...
+17:40:50] *** socket listen(192.168.0.132:44570) 
+17:40:50] ** socket read size zero.(192.168.0.132:31837 / 192.168.0.132:44570)
+17:43:09] DbAccess,ExecuteScalar.제한 시간이 만료되었습니다. 작업을 완료하기 전에 제한 시간이 경과되었거나 서버가 응답하지 않았습니다.
+                
+                        DECLARE @BarcodeBase NVARCHAR(20) = '%Q1JO65895528%'
+                        ;
+
+                        SELECT MAX(Seq)
+                          FROM (
+                                 --발행이력
+                                 SELECT COALESCE(MAX(CONVERT(INTEGER, SerialNo)), 0) + 1 AS Seq
+                                   FROM PalletbcdPrintHist
+                                  WHERE PalletBcd LIKE @BarcodeBase
+                                  UNION ALL
+                                 --평휘의 경우 발행이력이 존재하지 않아 입고이력을 통해 확인
+                                 SELECT COALESCE(MAX(CONVERT(INTEGER, RIGHT(PalletBcd, 2))), 0) + 1
+                                   FROM StockHist
+                                  WHERE PalletBcd LIKE @BarcodeBase
+                                    AND IoType = 'IN'
+                                    AND PLANT_CD = 'PL35'
+                                    AND SL_CD = '980318'
+                               ) AS T
+                        ;
+                        
+
+17:44:22] DbAccess,ExecuteScalar.제한 시간이 만료되었습니다. 작업을 완료하기 전에 제한 시간이 경과되었거나 서버가 응답하지 않았습니다.
+                
+                        DECLARE @BarcodeBase NVARCHAR(20) = '%Q1JO65895528%'
+                        ;
+
+                        SELECT MAX(Seq)
+                          FROM (
+                                 --발행이력
+                                 SELECT COALESCE(MAX(CONVERT(INTEGER, SerialNo)), 0) + 1 AS Seq
+                                   FROM PalletbcdPrintHist
+                                  WHERE PalletBcd LIKE @BarcodeBase
+                                  UNION ALL
+                                 --평휘의 경우 발행이력이 존재하지 않아 입고이력을 통해 확인
+                                 SELECT COALESCE(MAX(CONVERT(INTEGER, RIGHT(PalletBcd, 2))), 0) + 1
+                                   FROM StockHist
+                                  WHERE PalletBcd LIKE @BarcodeBase
+                                    AND IoType = 'IN'
+                                    AND PLANT_CD = 'PL35'
+                                    AND SL_CD = '980318'
+                               ) AS T
+                        ;
+                        
+

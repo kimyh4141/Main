@@ -1,0 +1,32 @@
+[2019-09-24 16:10:54] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88
+[2019-09-24 16:11:48] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88 - PEPB_BOX
+[2019-09-24 16:14:31] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88 - PEPB_BOX
+[2019-09-24 16:21:03] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88 - PEPB_BOX
+[2019-09-24 16:22:36] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88 - PEPB_BOX
+[2019-09-24 16:23:06] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88 - PEPB_BOX
+[2019-09-24 16:23:36] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88 - PEPB_BOX
+[2019-09-24 16:24:06] System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.0.75:15000
+   위치: System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   위치: System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   위치: WiseM.Driver.PEPB_Packing01.ConnectedToServer(String hostName, UInt16 hostPort) 파일 C:\Users\yb.kim\Desktop\업체\Elentec\이랜텍(인도)\ElentecINMes3\_CustomDriver\User\PEPB\PEPB_Packing01.cs:줄 88 - PEPB_BOX

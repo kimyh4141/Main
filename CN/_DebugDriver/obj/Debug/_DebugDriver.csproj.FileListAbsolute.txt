@@ -1,0 +1,8 @@
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\bin\Debug\_DebugDriver.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\bin\Debug\_DebugDriver.pdb
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\obj\Debug\_DebugDriver.csprojAssemblyReference.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\obj\Debug\_DebugDriver.Properties.Resources.resources
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\obj\Debug\_DebugDriver.csproj.GenerateResource.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\obj\Debug\_DebugDriver.csproj.CoreCompileInputs.cache
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\obj\Debug\_DebugDriver.exe
+E:\Development\Wise-M\Project\Y2Solution\Source\Program\Windows\Y2Solution\CN\_DebugDriver\obj\Debug\_DebugDriver.pdb

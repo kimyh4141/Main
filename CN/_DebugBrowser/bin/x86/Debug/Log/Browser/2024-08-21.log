@@ -1,0 +1,46 @@
+11:13:36] ExistingKey = true
+11:14:09] ** socket read exception.(192.168.0.2:56321 / 121.126.143.101:30719) 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+11:14:32] Receive successfull.(192.168.0.2:56354 / 123.235.1.131:30719 = 1048)
+11:14:45] Save Start Info...
+11:14:48] ExistingKey = true
+11:15:13] ** socket read exception.(192.168.0.2:56359 / 123.235.1.131:30719) 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+11:15:16] Receive successfull.(192.168.0.2:56371 / 123.235.1.131:30719 = 1048)
+11:15:25] Receive successfull.(192.168.0.2:56378 / 123.235.1.131:30719 = 1048)
+11:15:28] Receive successfull.(192.168.0.2:56380 / 123.235.1.131:30719 = 1048)
+11:15:31] Save Start Info...
+11:15:36] ExistingKey = true
+11:15:36] Receive successfull.(192.168.0.2:56383 / 123.235.1.131:30719 = 1048)
+11:15:48] Receive successfull.(192.168.0.2:56390 / 123.235.1.131:30719 = 1048)
+11:15:48] Save Start Info...
+11:17:17] ExistingKey = true
+11:17:18] Receive successfull.(192.168.0.2:56425 / 123.235.1.131:30719 = 1048)
+11:17:29] Receive successfull.(192.168.0.2:56432 / 123.235.1.131:30719 = 1048)
+11:17:29] Save Start Info...
+13:26:02] ExistingKey = true
+13:26:02] Receive successfull.(192.168.0.2:59811 / 123.235.1.131:30719 = 1048)
+13:26:18] Receive successfull.(192.168.0.2:59821 / 123.235.1.131:30719 = 1048)
+13:26:18] Save Start Info...
+13:28:42] ExistingKey = true
+13:28:43] Receive successfull.(192.168.0.2:59897 / 123.235.1.131:30719 = 1048)
+13:30:03] ExistingKey = true
+13:30:03] Receive successfull.(192.168.0.2:59945 / 123.235.1.131:30719 = 1048)
+13:30:59] ExistingKey = true
+13:30:59] Receive successfull.(192.168.0.2:59987 / 123.235.1.131:30719 = 1048)
+13:32:07] Receive successfull.(192.168.0.2:60027 / 123.235.1.131:30719 = 1048)
+13:32:07] Save Start Info...
+13:35:29] ExistingKey = true
+13:36:47] ** socket read exception.(192.168.0.2:60142 / 123.235.1.131:30719) 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+13:36:50] Receive successfull.(192.168.0.2:60193 / 123.235.1.131:30719 = 1048)
+13:37:03] Save Start Info...
+13:37:18] ExistingKey = true
+13:37:18] Receive successfull.(192.168.0.2:60213 / 123.235.1.131:30719 = 1048)
+13:37:30] Receive successfull.(192.168.0.2:60226 / 123.235.1.131:30719 = 1048)
+13:37:30] Save Start Info...
+13:38:26] ExistingKey = true
+13:38:27] Receive successfull.(192.168.0.2:60253 / 123.235.1.131:30719 = 1048)
+13:38:41] Receive successfull.(192.168.0.2:60263 / 123.235.1.131:30719 = 1048)
+13:38:41] Save Start Info...
+15:44:04] ExistingKey = true
+15:44:04] Receive successfull.(192.168.0.2:64471 / 123.235.1.131:30719 = 1048)
+15:44:19] Receive successfull.(192.168.0.2:64481 / 123.235.1.131:30719 = 1048)
+15:44:19] Save Start Info...

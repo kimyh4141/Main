@@ -1,0 +1,151 @@
+16:01:36] Receive successfull.(192.168.0.132:32296 / 121.126.143.101:30719 = 1048)
+16:01:47] 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+                
+   위치: WiseM.Global.Globalizer.ConvertTo(WeLangSubType type, String text)
+   위치: WiseM.MessageBox.ShowCaption(String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, Object[] values)
+   위치: WiseM.MessageBox.ShowCaption(String text, String caption, MessageBoxIcon icon, String[] values)
+   위치: WiseM.WiseApp.ShowForm(WiseForm form, Object[] args)
+   위치: WiseM.WiseApp.PostEnter()
+   위치: WiseM.WiseApp.Start(Type exeType, CustomService customService, Object[] args)
+16:04:36] Receive successfull.(192.168.0.132:32913 / 121.126.143.101:30719 = 1048)
+16:04:49] Shift loaded = 1
+16:04:49] Recess loaded = 10
+16:04:49] StopWork created...
+16:05:01] DbAccess,ExecuteScalar.Incorrect syntax near 'SD2024072000040011SD'.,[dbo].[GetLineWithWorkOrder]('SD2024072000040011SD')
+16:05:01] DbAccess,ExecuteQuery.Incorrect syntax near 'SD2024072000040011SD'.
+                
+                INSERT
+                  INTO SysLog ( Type
+                              , Category
+                              , Source
+                              , Message
+                              , [user]
+                              , Updated )
+                VALUES ( 'E'
+                       , 'Client'
+                       , 'Palletizing.Init'
+                       , LEFT(ISNULL(N'Incorrect syntax near 'SD2024072000040011SD'.', ''), 3000)
+                       , 'WcPS11'
+                       , GETDATE() )
+                
+16:05:21] DbAccess,ExecuteScalar.Incorrect syntax near 'SD2024072000040011SD'.,[dbo].[GetLineWithWorkOrder]('SD2024072000040011SD')
+16:05:21] DbAccess,ExecuteQuery.Incorrect syntax near 'SD2024072000040011SD'.
+                
+                INSERT
+                  INTO SysLog ( Type
+                              , Category
+                              , Source
+                              , Message
+                              , [user]
+                              , Updated )
+                VALUES ( 'E'
+                       , 'Client'
+                       , 'Palletizing.Init'
+                       , LEFT(ISNULL(N'Incorrect syntax near 'SD2024072000040011SD'.', ''), 3000)
+                       , 'WcPS11'
+                       , GETDATE() )
+                
+16:05:35] DbAccess,ExecuteScalar.Incorrect syntax near 'SD2024072000040011SD'.,[dbo].[GetLineWithWorkOrder]('SD2024072000040011SD')
+16:05:35] DbAccess,ExecuteQuery.Incorrect syntax near 'SD2024072000040011SD'.
+                
+                INSERT
+                  INTO SysLog ( Type
+                              , Category
+                              , Source
+                              , Message
+                              , [user]
+                              , Updated )
+                VALUES ( 'E'
+                       , 'Client'
+                       , 'Palletizing.Init'
+                       , LEFT(ISNULL(N'Incorrect syntax near 'SD2024072000040011SD'.', ''), 3000)
+                       , 'WcPS11'
+                       , GETDATE() )
+                
+16:05:51] DbAccess,ExecuteScalar.Incorrect syntax near 'SD2024072000040011SD'.,[dbo].[GetLineWithWorkOrder]('SD2024072000040011SD')
+16:05:51] DbAccess,ExecuteQuery.Incorrect syntax near 'SD2024072000040011SD'.
+                
+                INSERT
+                  INTO SysLog ( Type
+                              , Category
+                              , Source
+                              , Message
+                              , [user]
+                              , Updated )
+                VALUES ( 'E'
+                       , 'Client'
+                       , 'Palletizing.Init'
+                       , LEFT(ISNULL(N'Incorrect syntax near 'SD2024072000040011SD'.', ''), 3000)
+                       , 'WcPS11'
+                       , GETDATE() )
+                
+16:06:06] DbAccess,ExecuteQuery.Incorrect syntax near 'ty'.
+Unclosed quotation mark after the character string ')  END '.
+                 IF NOT EXISTS (SELECT * FROM LocalizeItem  WHERE Type = N'Label' AND Text = N' [ Q'ty (Actual / Planned) ] ')  BEGIN    Insert Into LocalizeItem(Type, Text) Values(N'Label',N' [ Q'ty (Actual / Planned) ] ')  END 
+16:06:16] Receive successfull.(192.168.0.132:33152 / 121.126.143.101:30719 = 1048)
+16:06:28] Shift loaded = 1
+16:06:29] Recess loaded = 10
+16:06:29] StopWork created...
+16:06:31] DbAccess,ExecuteScalar.Incorrect syntax near 'SD2024072000040011SD'.,[dbo].[GetLineWithWorkOrder]('SD2024072000040011SD')
+16:06:31] DbAccess,ExecuteQuery.Incorrect syntax near 'SD2024072000040011SD'.
+                
+                INSERT
+                  INTO SysLog ( Type
+                              , Category
+                              , Source
+                              , Message
+                              , [user]
+                              , Updated )
+                VALUES ( 'E'
+                       , 'Client'
+                       , 'Palletizing.Init'
+                       , LEFT(ISNULL(N'Incorrect syntax near 'SD2024072000040011SD'.', ''), 3000)
+                       , 'WcPS11'
+                       , GETDATE() )
+                
+16:06:35] DbAccess,ExecuteScalar.Incorrect syntax near 'SD2024072000040011SD'.,[dbo].[GetLineWithWorkOrder]('SD2024072000040011SD')
+16:06:36] DbAccess,ExecuteQuery.Incorrect syntax near 'SD2024072000040011SD'.
+                
+                INSERT
+                  INTO SysLog ( Type
+                              , Category
+                              , Source
+                              , Message
+                              , [user]
+                              , Updated )
+                VALUES ( 'E'
+                       , 'Client'
+                       , 'Palletizing.Init'
+                       , LEFT(ISNULL(N'Incorrect syntax near 'SD2024072000040011SD'.', ''), 3000)
+                       , 'WcPS11'
+                       , GETDATE() )
+                
+16:08:28] Receive successfull.(192.168.0.132:33477 / 121.126.143.101:30719 = 1048)
+16:08:40] Shift loaded = 1
+16:08:40] Recess loaded = 10
+16:08:40] StopWork created...
+16:12:51] Receive successfull.(192.168.0.132:34119 / 121.126.143.101:30719 = 1048)
+16:13:03] Shift loaded = 1
+16:13:03] Recess loaded = 10
+16:13:03] StopWork created...
+16:31:21] Receive successfull.(192.168.0.132:37077 / 121.126.143.101:30719 = 1048)
+16:31:35] Shift loaded = 1
+16:31:35] Recess loaded = 10
+16:31:35] StopWork created...
+16:39:04] Receive successfull.(192.168.0.132:38295 / 121.126.143.101:30719 = 1048)
+16:39:16] Shift loaded = 1
+16:39:16] Recess loaded = 10
+16:39:16] StopWork created...
+16:43:12] Receive successfull.(192.168.0.132:38961 / 121.126.143.101:30719 = 1048)
+16:43:27] Shift loaded = 1
+16:43:27] Recess loaded = 10
+16:43:27] StopWork created...
+16:44:43] Receive successfull.(192.168.0.132:39208 / 121.126.143.101:30719 = 1048)
+16:45:33] Receive successfull.(192.168.0.132:39339 / 121.126.143.101:30719 = 1048)
+16:45:45] Shift loaded = 1
+16:45:45] Recess loaded = 10
+16:45:45] StopWork created...
+17:00:48] Receive successfull.(192.168.0.132:41538 / 121.126.143.101:30719 = 1048)
+17:01:00] Shift loaded = 1
+17:01:00] Recess loaded = 10
+17:01:00] StopWork created...

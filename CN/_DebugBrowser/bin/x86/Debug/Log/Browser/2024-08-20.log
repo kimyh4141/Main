@@ -1,0 +1,12 @@
+11:35:48] ExistingKey = false
+11:36:31] Receive successfull.(192.168.0.2:60110 / 121.126.143.101:30719 = 1048)
+11:36:50] Save Start Info...
+11:36:54] ExistingKey = true
+11:36:55] Receive successfull.(192.168.0.2:60128 / 121.126.143.101:30719 = 1048)
+11:37:32] ** socket read exception.(192.168.0.2:60136 / 121.126.143.101:30719) 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+11:37:32] 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+                   위치: WiseM.WiseApp.ServiceConnect()
+   위치: WiseM.WiseApp.Connection()
+   위치: WiseM.AppService.LoginController._enter_Click(Object sender, EventArgs e)
+11:37:35] Receive successfull.(192.168.0.2:60149 / 121.126.143.101:30719 = 1048)
+11:37:40] Save Start Info...
