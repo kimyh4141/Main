@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -64,7 +63,7 @@ namespace WiseM.Client
 
         System.Timers.Timer tmrDio1 = new System.Timers.Timer { AutoReset = false, Interval = 1000 }; // OK 접점 꺼주기 위해
         System.Timers.Timer tmrDio2 = new System.Timers.Timer { AutoReset = false, Interval = 1000 }; // NG 접점 꺼주기 위해
-        System.Timers.Timer tmrDioReply = new System.Timers.Timer { AutoReset = false, Interval = 1000}; // DIO가 응답을 안 할 수 있으니..
+        System.Timers.Timer tmrDioReply = new System.Timers.Timer { AutoReset = false, Interval = 1000 }; // DIO가 응답을 안 할 수 있으니..
         System.Timers.Timer tmrCheckReel = new System.Timers.Timer { AutoReset = false, Interval = 1500 }; // Reel 잔량 체크 
         System.Timers.Timer tmrCheckReel_NG = new System.Timers.Timer { AutoReset = false, Interval = 10000 }; // Reel 잔량 체크 
 

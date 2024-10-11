@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.IO;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -18,7 +21,7 @@ namespace WiseM.Browser
         private readonly DataTable _dataTableChange = new DataTable();
         private CustomEnum.LabelType _currentLabelType = CustomEnum.LabelType.None;
         private bool _isNew;
-
+        private SerialPort _serialPort = new SerialPort() { PortName = "COM3", BaudRate = 115200, DataBits = 8, StopBits =StopBits.One, NewLine = "\r\n"};
         private RePackingNew _rePackingNew = new RePackingNew();
 
         #endregion
@@ -33,6 +36,46 @@ namespace WiseM.Browser
         #endregion
 
         #region Method
+
+        private List<string> GetSerialPorts()
+        {
+            List<string> portNames = new List<string>();
+            string[] port = SerialPort.GetPortNames();
+
+            foreach (string portName in port)
+            {
+                portNames.Add(portName);
+            }
+
+            portNames.Sort();
+            return portNames;
+        }
+
+        private void BindCombo_Method()
+        {
+            var method = new List<string>();
+
+            method.Add("Hand Scanner");
+
+            if (SerialPort.GetPortNames().Length > 0)
+            {
+                method.Add("Serial");
+            }
+
+            method.Insert(0, "");
+
+            cb_Scan.DataSource = method;
+        }
+
+        private void BindCombo_PortName()
+        {
+            List<string> ports = GetSerialPorts();
+
+            ports.Insert(0, "");
+
+            comboBox_PortName.DataSource = ports;
+        }
+
 
         private CustomEnum.LabelType GetLabelType(string barcode)
         {
@@ -258,8 +301,7 @@ namespace WiseM.Browser
                     switch (comboBox_Location.SelectedValue.ToString())
                     {
                         case "Packing":
-                            return DbAccess.Default.IsExist("Packing",
-                                $"BoxBcd IN ({string.Join(",", list.ToArray())})");
+                            return DbAccess.Default.IsExist("Packing", $"BoxBcd IN ({string.Join(",", list.ToArray())})");
                         case "Warehouse":
                             return DbAccess.Default.IsExist("Stock", $"BoxBcd IN ({string.Join(",", list.ToArray())})");
                         default:
@@ -877,6 +919,33 @@ namespace WiseM.Browser
 
             textBox_SubScanBarcode.Text = string.Empty;
         }
+        private void SaveClear()
+        {
+            _isNew = false;
+            button_New.Enabled = true;
+
+            textBox_ScanBarcode.Text = string.Empty;
+            textBox_ScanBarcode.ReadOnly = false;
+
+            comboBox_Location.SelectedIndex = 0;
+
+            textBox_Material.Text = string.Empty;
+            textBox_Type.Text = string.Empty;
+            textBox_Qty.Text = string.Empty;
+            textBox_MaterialName.Text = string.Empty;
+            textBox_Spec.Text = string.Empty;
+            textBox_ItemCode.Text = string.Empty;
+            textBox_ItemName.Text = string.Empty;
+            textBox_Datetime.Text = string.Empty; //gmryu
+
+            groupBox_SubList.Enabled = false;
+            tableLayoutPanel_Right.Enabled = false;
+
+            _dataTableDataGridViewSub.Clear();
+            _dataTableChange.Clear();
+
+            _currentLabelType = CustomEnum.LabelType.None;
+        }
 
         private void Clear()
         {
@@ -896,6 +965,9 @@ namespace WiseM.Browser
             textBox_ItemCode.Text = string.Empty;
             textBox_ItemName.Text = string.Empty;
             textBox_Datetime.Text = string.Empty; //gmryu
+
+            cb_Scan.SelectedIndex = 0;
+            comboBox_PortName.SelectedIndex = 0;
 
             groupBox_SubList.Enabled = false;
             tableLayoutPanel_Right.Enabled = false;
@@ -936,6 +1008,43 @@ namespace WiseM.Browser
             comboBox_Location.ValueMember = "Key";
             comboBox_Location.DisplayMember = "Value";
             comboBox_Location.SelectedIndex = 0;
+
+            try
+            {
+                _serialPort.DataReceived += _serialPort_DataReceived;
+                GetSerialPorts();
+                BindCombo_Method();
+                BindCombo_PortName();
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show($"Failed to open serial port","Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void _serialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            if (!(sender is SerialPort serialPort)) return;
+
+            try
+            {
+                var barcode = serialPort.ReadLine().Trim();
+
+                if (InvokeRequired)
+                {
+                    Invoke(new Action(() =>
+                    {
+                        textBox_SubScanBarcode.Text = barcode;
+                        ScanBarcode(barcode);
+                        textBox_SubScanBarcode.Text = string.Empty;
+                    }));
+                }
+
+            }
+            catch (IOException ex)
+            {
+                
+            }
         }
 
         private void button_Save_Click(object sender, EventArgs e)
@@ -974,7 +1083,7 @@ namespace WiseM.Browser
                         "Đăng ký thành công。(Registration Successful.)", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                     //Clear
-                    Clear();
+                    SaveClear();
                 }
                 else
                 {
@@ -1071,21 +1180,58 @@ namespace WiseM.Browser
 
                 groupBox_SubList.Enabled = true;
                 tableLayoutPanel_Right.Enabled = true;
-                textBox_SubScanBarcode.Focus();
+                comboBox_PortName.Enabled = false;
             }
             else
             {
                 textBox_ScanBarcode.Text = string.Empty;
             }
+
+            if (cb_Scan.SelectedIndex == 2)
+            {
+                comboBox_PortName.Enabled = true;
+            }
+            else
+            {
+                comboBox_PortName.Enabled = false;
+            }
+        }
+        private void cb_Scan_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedValue = cb_Scan.SelectedItem.ToString();
+
+            if (string.IsNullOrEmpty(cb_Scan.Text))
+            {
+                textBox_SubScanBarcode.ReadOnly = true;
+                comboBox_PortName.Enabled = false;
+                comboBox_PortName.SelectedIndex = -1;
+            }
+
+            else if (selectedValue == "Serial")
+            {
+                comboBox_PortName.Enabled = true;
+                textBox_SubScanBarcode.ReadOnly = true;
+            }
+            else
+            {
+                textBox_SubScanBarcode.ReadOnly = false;
+                comboBox_PortName.Enabled = false;
+                comboBox_PortName.SelectedIndex = 0;
+            }
         }
 
-        private void textBox_SubScanBarcode_KeyDown(object sender, KeyEventArgs e)
+
+        private void ScanBarcode(string barcode)
         {
-            if (!(sender is TextBox textBox)) return;
-            if (e.KeyCode != Keys.Enter) return;
-            var subScanBarcode = textBox.Text.Trim();
+            if (0 > cb_Scan.SelectedIndex)
+            {
+                System.Windows.Forms.MessageBox.Show($"Vui lòng kiểm tra phương thức quét。(Please check the scan method.)", "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var subScanBarcode = barcode;
+
             
-            textBox.Text = string.Empty;
             if (_dataTableChange.Rows.Cast<DataRow>().Any(dataRow => dataRow["Barcode"].Equals(subScanBarcode)))
             {
                 System.Windows.Forms.MessageBox.Show($"Đã được bao gồm trong Pallet。(Already included in ChangeHist.)",
@@ -1116,60 +1262,60 @@ namespace WiseM.Browser
                 switch (_currentLabelType)
                 {
                     case CustomEnum.LabelType.ProductBox:
-                    {
-                        if (labelType != CustomEnum.LabelType.Pcb)
                         {
-                            System.Windows.Forms.MessageBox.Show($@"Loại Label không đúng。(Label of type not allowed.)",
-                                "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
-                        }
+                            if (labelType != CustomEnum.LabelType.Pcb)
+                            {
+                                System.Windows.Forms.MessageBox.Show($@"Loại Label không đúng。(Label of type not allowed.)",
+                                    "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                return;
+                            }
 
-                        if (!(DbAccess.Default.ExecuteScalar(
-                                    $"SELECT DISTINCT COALESCE(BoxBcd, '') FROM {tableName} WHERE PcbBcd = '{subScanBarcode}';")
-                                is string result))
-                        {
-                            System.Windows.Forms.MessageBox.Show(
-                                $@"Không tìm thấy thông tin 'PCB'。(Information of 'PCB' not found.)",
-                                "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
-                        }
+                            if (!(DbAccess.Default.ExecuteScalar(
+                                        $"SELECT DISTINCT COALESCE(BoxBcd, '') FROM {tableName} WHERE PcbBcd = '{subScanBarcode}';")
+                                    is string result))
+                            {
+                                System.Windows.Forms.MessageBox.Show(
+                                    $@"Không tìm thấy thông tin 'PCB'。(Information of 'PCB' not found.)",
+                                    "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                return;
+                            }
 
-                        if (!string.IsNullOrEmpty(result))
-                        {
-                            System.Windows.Forms.MessageBox.Show(
-                                $"Đã được bao gồm trong Box。(Already included in Box.)\r\nBox : {result}",
-                                "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
+                            if (!string.IsNullOrEmpty(result))
+                            {
+                                System.Windows.Forms.MessageBox.Show(
+                                    $"Đã được bao gồm trong Box。(Already included in Box.)\r\nBox : {result}",
+                                    "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                return;
+                            }
                         }
-                    }
                         break;
                     case CustomEnum.LabelType.Pallet:
-                    {
-                        if (labelType != CustomEnum.LabelType.ProductBox)
                         {
-                            System.Windows.Forms.MessageBox.Show($@"Loại Label không đúng。(Label of type not allowed.)",
-                                "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
-                        }
+                            if (labelType != CustomEnum.LabelType.ProductBox)
+                            {
+                                System.Windows.Forms.MessageBox.Show($@"Loại Label không đúng。(Label of type not allowed.)",
+                                    "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                return;
+                            }
 
-                        if (!(DbAccess.Default.ExecuteScalar(
-                                    $"SELECT DISTINCT COALESCE(PalletBcd, '') FROM {tableName} WHERE BoxBcd = '{subScanBarcode}';")
-                                is string result))
-                        {
-                            System.Windows.Forms.MessageBox.Show(
-                                $@"Không tìm thấy thông tin Box。(Information of 'Box' not found.)", "Cảnh báo(Warning)",
-                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
-                        }
+                            if (!(DbAccess.Default.ExecuteScalar(
+                                        $"SELECT DISTINCT COALESCE(PalletBcd, '') FROM {tableName} WHERE BoxBcd = '{subScanBarcode}';")
+                                    is string result))
+                            {
+                                System.Windows.Forms.MessageBox.Show(
+                                    $@"Không tìm thấy thông tin Box。(Information of 'Box' not found.)", "Cảnh báo(Warning)",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                return;
+                            }
 
-                        if (comboBox_Location.SelectedValue.ToString() != "Packing" && !string.IsNullOrEmpty(result))
-                        {
-                            System.Windows.Forms.MessageBox.Show(
-                                $"Đã được bao gồm trong Pallet。(Already included in Pallet.)\r\nPallet : {result}",
-                                "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
+                            if (comboBox_Location.SelectedValue.ToString() != "Packing" && !string.IsNullOrEmpty(result))
+                            {
+                                System.Windows.Forms.MessageBox.Show(
+                                    $"Đã được bao gồm trong Pallet。(Already included in Pallet.)\r\nPallet : {result}",
+                                    "Cảnh báo(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                return;
+                            }
                         }
-                    }
                         break;
                     case CustomEnum.LabelType.None:
                     case CustomEnum.LabelType.Pcb:
@@ -1187,6 +1333,14 @@ namespace WiseM.Browser
                 MessageBox.Show($"Lỗi cơ sở dữ liệu。(Database error.)\r\n{ex.Message}", "Lỗi(Error)",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void textBox_SubScanBarcode_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (!(sender is TextBox textBox)) return;
+            if (e.KeyCode != Keys.Enter) return;
+            ScanBarcode(textBox.Text.Trim());
+            textBox.Text = string.Empty;
         }
 
         private void dataGridView_ChangeHist_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
@@ -1276,6 +1430,29 @@ namespace WiseM.Browser
                     "Đăng ký thành công。(Registration Successful.)", MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
             }
+        }
+
+        private void comboBox_PortName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (_serialPort.IsOpen)
+                {
+                    _serialPort.Close();
+                }
+                if (string.IsNullOrEmpty(comboBox_PortName.Text)) return;
+                _serialPort.PortName = comboBox_PortName.Text;
+                _serialPort.Open();
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show($"{ex.Message}\r\n{ex.StackTrace}", "Không thể mở cổng.(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void RePacking_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            _serialPort.Close();
         }
 
         #endregion

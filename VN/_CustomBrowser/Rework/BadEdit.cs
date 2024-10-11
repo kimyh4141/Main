@@ -196,11 +196,14 @@ SELECT BH.BadHist
      , BH.TempKeyId
      , BH.BadReason
      , BH.SendStatusErp
+     , WC.Owner
   FROM BadHist AS BH
        LEFT OUTER JOIN Material AS M
                        ON BH.Material = M.Material
        LEFT OUTER JOIN Bad AS B
                        ON BH.Bad = B.Bad
+       LEFT OUTER JOIN WorkCenter AS WC
+                       ON BH.WorkCenter = WC.WorkCenter
  WHERE BadHist = {_key}
 ;
                     "
@@ -211,6 +214,7 @@ SELECT BH.BadHist
                 textBox_Material.Text = dataRow["Material"] as string;
                 textBox_MaterialName.Text = dataRow["Spec"] as string;
                 comboBox_Routing.SelectedValue = dataRow["Routing"] as string;
+                comboBox_Owner.SelectedValue = dataRow["Owner"] as string;
                 comboBox_WorkCenter.SelectedValue = dataRow["WorkCenter"] as string;
                 comboBox_BadGroup.SelectedValue = dataRow["Bunch"] as string;
                 comboBox_Bad.SelectedValue = dataRow["Bad"] as string;
@@ -278,8 +282,7 @@ SELECT BH.BadHist
         {
             comboBox_Routing.DataSource = null;
 
-            if (dataSet == null
-                || !dataSet.Tables.Contains("Routing")) return;
+            if (dataSet == null || !dataSet.Tables.Contains("Routing")) return;
             var dtSource = dataSet.Tables["Routing"];
 
             dtSource.Rows.InsertAt(dtSource.NewRow(), 0);
@@ -289,23 +292,58 @@ SELECT BH.BadHist
             comboBox_Routing.ValueMember = "Routing";
         }
 
-        private void BindCombo_Line()
+        private void BindCombo_Owner()
         {
-            comboBox_WorkCenter.DataSource = null;
+            comboBox_Owner.DataSource = null;
+
             var routing = comboBox_Routing.SelectedValue as string;
+
             if (string.IsNullOrEmpty(routing)) return;
+
             var stringBuilder = new StringBuilder();
+
             stringBuilder.AppendLine
                 (
                  $@"
-                SELECT WC.WorkCenter
-                     , WC.Text
-                  FROM WorkCenter WC
-                 WHERE COALESCE(WC.ERP_WC_CD, '') NOT IN ('C0010', 'C0058')
-                   AND WC.Routing = '{routing}'
+                SELECT DISTINCT WC.Owner
+                    FROM WorkCenter WC
+                   WHERE WC.Routing = '{routing}'
                 ;
                 "
                 );
+
+            var dataTable = DbAccess.Default.GetDataTable(stringBuilder.ToString());
+
+            dataTable.Rows.InsertAt(dataTable.NewRow(), 0);
+            comboBox_Owner.DataSource = dataTable;
+            comboBox_Owner.DisplayMember = "Owner";
+            comboBox_Owner.ValueMember = "Owner";
+        }
+
+        private void BindCombo_Line()
+        {
+            comboBox_WorkCenter.DataSource = null;
+
+            var routing = comboBox_Routing.SelectedValue as string;
+            var owner = comboBox_Owner.SelectedValue as string;
+
+            if (string.IsNullOrEmpty(routing)) return;
+            if (string.IsNullOrEmpty(owner)) return;
+
+            var stringBuilder = new StringBuilder();
+
+            stringBuilder.AppendLine(
+                $@"
+                SELECT WC.WorkCenter
+                     , WC.Text
+                     , WC.Owner
+                  FROM WorkCenter WC
+                 WHERE COALESCE(WC.ERP_WC_CD, '') NOT IN ('C0010', 'C0058')
+                   AND WC.Routing = '{routing}'
+                   AND WC.Owner = '{owner}'
+                ;
+                "
+            );
 
             var dataTable = DbAccess.Default.GetDataTable(stringBuilder.ToString());
             comboBox_WorkCenter.DataSource = dataTable;
@@ -396,6 +434,11 @@ SELECT BH.BadHist
 
         private void comboBox_Routing_SelectedIndexChanged(object sender, EventArgs e)
         {
+            BindCombo_Owner();
+        }
+
+        private void comboBox_Owner_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
             BindCombo_Line();
         }
 
@@ -403,5 +446,6 @@ SELECT BH.BadHist
         {
             BindCombo_Bad();
         }
+
     }
 }

@@ -94,19 +94,54 @@ namespace WiseM.Browser
             comboBox_Routing.ValueMember = "Routing";
         }
 
+        private void BindCombo_Owner()
+        {
+            comboBox_Owner.DataSource = null;
+
+            var routing = comboBox_Routing.SelectedValue as string;
+
+            if (string.IsNullOrEmpty(routing)) return;
+
+            var stringBuilder = new StringBuilder();
+
+            stringBuilder.AppendLine(
+                 $@"
+                SELECT DISTINCT WC.Owner
+                    FROM WorkCenter WC
+                   WHERE WC.Routing = '{routing}'
+                ;
+                "
+            );
+
+            var dataTable = DbAccess.Default.GetDataTable(stringBuilder.ToString());
+
+            dataTable.Rows.InsertAt(dataTable.NewRow(), 0);
+            comboBox_Owner.DataSource = dataTable;
+            comboBox_Owner.DisplayMember = "Owner";
+            comboBox_Owner.ValueMember = "Owner";
+        }
+
         private void BindCombo_Line()
         {
             comboBox_WorkCenter.DataSource = null;
+
             var routing = comboBox_Routing.SelectedValue as string;
+            var owner = comboBox_Owner.SelectedValue as string;
+
             if (string.IsNullOrEmpty(routing)) return;
+            if (string.IsNullOrEmpty(owner)) return;
+
             var stringBuilder = new StringBuilder();
+
             stringBuilder.AppendLine(
                 $@"
                 SELECT WC.WorkCenter
                      , WC.Text
+                     , WC.Owner
                   FROM WorkCenter WC
                  WHERE COALESCE(WC.ERP_WC_CD, '') NOT IN ('C0010', 'C0058')
                    AND WC.Routing = '{routing}'
+                   AND WC.Owner = '{owner}'
                 ;
                 "
             );
@@ -311,6 +346,12 @@ namespace WiseM.Browser
                 return false;
             }
 
+            if (0 > comboBox_Owner.SelectedIndex)
+            {
+                MessageBox.Show("Vui lòng chọn Owner。(Please select Owner.)", "Không chọn(Not Select)", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return false;
+            }
+
             if (0 > comboBox_WorkCenter.SelectedIndex)
             {
                 MessageBox.Show("Vui lòng chọn Line。(Please select Line.)", "Không chọn(Not Select)", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -484,7 +525,8 @@ namespace WiseM.Browser
 
                 BindCombo_Routing();
 
-               
+                BindCombo_Owner();
+
                 BindCombo_BadGroup();
 
                 radioButton_Repair.Checked = true;
@@ -496,7 +538,12 @@ namespace WiseM.Browser
             }
         }
 
-        private void comboBox_Dept_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox_Routing_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            BindCombo_Owner();
+        }
+
+        private void comboBox_Owner_SelectedIndexChanged(object sender, EventArgs e)
         {
             BindCombo_Line();
         }

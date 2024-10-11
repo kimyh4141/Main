@@ -103,9 +103,9 @@
             this.label_Storage.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_Storage.AutoSize = true;
             this.label_Storage.Font = new System.Drawing.Font("Microsoft YaHei", 18F);
-            this.label_Storage.Location = new System.Drawing.Point(133, 207);
+            this.label_Storage.Location = new System.Drawing.Point(121, 203);
             this.label_Storage.Name = "label_Storage";
-            this.label_Storage.Size = new System.Drawing.Size(103, 31);
+            this.label_Storage.Size = new System.Drawing.Size(128, 39);
             this.label_Storage.TabIndex = 52;
             this.label_Storage.Text = "Storage";
             this.label_Storage.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -128,9 +128,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 29);
+            this.label1.Location = new System.Drawing.Point(21, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(334, 31);
+            this.label1.Size = new System.Drawing.Size(328, 78);
             this.label1.TabIndex = 49;
             this.label1.Text = "  Ngày bắt đầu (Begin Date)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -142,9 +142,9 @@
             this.dtpEndDate.CustomFormat = "yyyy-MM-dd";
             this.dtpEndDate.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dtpEndDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpEndDate.Location = new System.Drawing.Point(456, 115);
+            this.dtpEndDate.Location = new System.Drawing.Point(456, 111);
             this.dtpEndDate.Name = "dtpEndDate";
-            this.dtpEndDate.Size = new System.Drawing.Size(198, 36);
+            this.dtpEndDate.Size = new System.Drawing.Size(198, 44);
             this.dtpEndDate.TabIndex = 50;
             // 
             // dtpBeginDate
@@ -153,9 +153,9 @@
             this.dtpBeginDate.CustomFormat = "yyyy-MM-dd";
             this.dtpBeginDate.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dtpBeginDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpBeginDate.Location = new System.Drawing.Point(456, 26);
+            this.dtpBeginDate.Location = new System.Drawing.Point(456, 22);
             this.dtpBeginDate.Name = "dtpBeginDate";
-            this.dtpBeginDate.Size = new System.Drawing.Size(198, 36);
+            this.dtpBeginDate.Size = new System.Drawing.Size(198, 44);
             this.dtpBeginDate.TabIndex = 48;
             // 
             // label2
@@ -163,9 +163,9 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 18F);
-            this.label2.Location = new System.Drawing.Point(33, 118);
+            this.label2.Location = new System.Drawing.Point(40, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(303, 31);
+            this.label2.Size = new System.Drawing.Size(289, 78);
             this.label2.TabIndex = 51;
             this.label2.Text = "Ngày kết thúc (End Date)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -189,14 +189,14 @@
             this.comboBox_Storage.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox_Storage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_Storage.FormattingEnabled = true;
-            this.comboBox_Storage.Location = new System.Drawing.Point(454, 209);
+            this.comboBox_Storage.Location = new System.Drawing.Point(454, 211);
             this.comboBox_Storage.Name = "comboBox_Storage";
-            this.comboBox_Storage.Size = new System.Drawing.Size(202, 27);
+            this.comboBox_Storage.Size = new System.Drawing.Size(202, 32);
             this.comboBox_Storage.TabIndex = 53;
             // 
             // PI_frmMain20
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(741, 359);
@@ -214,6 +214,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         private System.Windows.Forms.Label label_Storage;

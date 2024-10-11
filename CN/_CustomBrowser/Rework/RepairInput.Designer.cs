@@ -321,7 +321,7 @@
             "10",
             "SMT",
             "UT-SMT",
-            "UT-AI" });
+            "UT-AI"});
             this.ComboBox_Worker.Location = new System.Drawing.Point(288, 40);
             this.ComboBox_Worker.Name = "ComboBox_Worker";
             this.ComboBox_Worker.Size = new System.Drawing.Size(510, 27);

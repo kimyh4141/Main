@@ -330,7 +330,7 @@ namespace WiseM.Browser.WMS
                      UNION
                     SELECT SL_CD
                          , SL_NM
-                      FROM Y2sVn1Mes3.dbo.GetRawMaterialStorage({type})
+                      FROM Y2sVn1Mes3.dbo.GetRawMaterialStorage(0,{type})
                     ;
                     "
                 );
