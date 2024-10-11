@@ -168,13 +168,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>if not exist "$(SolutionDir)Reference" mkdir "$(SolutionDir)Reference"
-if not exist "$(OutDir)Reference" mkdir "$(OutDir)Reference"
-copy "$(SolutionDir)Reference\*.*" "$(OutDir)Reference"</PreBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>if not exist "$(SolutionDir)CN\Output\Driver" mkdir "$(SolutionDir)CN\Output\Driver"
-copy "$(TargetDir)*.*" "$(SolutionDir)CN\Output\Driver\"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -305,8 +305,8 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>if not exist "$(SolutionDir)CN\Output\Client" mkdir "$(SolutionDir)CN\Output\Client"
-copy "$(TargetDir)$(TargetFileName)" "$(SolutionDir)CN\Output\Client\"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
