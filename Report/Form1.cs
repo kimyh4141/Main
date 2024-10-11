@@ -14,10 +14,7 @@ namespace Report
     {
         public Form1()
         {
-            //ABC
             InitializeComponent();
         }
-
-
     }
 }

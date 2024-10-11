@@ -45,34 +45,6 @@ namespace MES_Monitoring.Classes
         }
 
         /// <summary>
-        /// 쿼리를 이용하여 데이터 테이블 을 가져 옵니다.
-        /// </summary>
-        /// <param name="query">Sql Query</param>
-        /// <returns>DataTable</returns>
-        public static DataTable GetDt(string query)
-        {
-            var conn = new SqlConnection(ConnectionString);
-
-            var dt = new DataTable();
-            try
-            {
-                conn.Open();
-                var comm = new SqlCommand(query, conn);
-                var da = new SqlDataAdapter(comm);
-                da.Fill(dt);
-            }
-            catch
-            {
-            }
-            finally
-            {
-                if (conn.State == ConnectionState.Open) conn.Close();
-            }
-
-            return dt;
-        }
-
-        /// <summary>
         ///     쿼리를 이용하여 데이터셋 을 가져 옵니다.
         /// </summary>
         /// <param name="query">Sql Query</param>
