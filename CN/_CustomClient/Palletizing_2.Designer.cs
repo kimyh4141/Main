@@ -96,7 +96,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tb_scan, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel5, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.33709F));
@@ -104,7 +104,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.37936F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.85356F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.137405F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1499, 885);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1501, 887);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // panel4
@@ -112,10 +112,10 @@
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.splitContainer1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 434);
+            this.panel4.Location = new System.Drawing.Point(3, 436);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(10);
-            this.panel4.Size = new System.Drawing.Size(1493, 400);
+            this.panel4.Size = new System.Drawing.Size(1495, 401);
             this.panel4.TabIndex = 23;
             // 
             // splitContainer1
@@ -131,8 +131,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.rTB_log);
-            this.splitContainer1.Size = new System.Drawing.Size(1473, 380);
-            this.splitContainer1.SplitterDistance = 895;
+            this.splitContainer1.Size = new System.Drawing.Size(1475, 381);
+            this.splitContainer1.SplitterDistance = 896;
             this.splitContainer1.TabIndex = 0;
             // 
             // dgv_List
@@ -160,7 +160,7 @@
             this.dgv_List.RowHeadersVisible = false;
             this.dgv_List.RowTemplate.Height = 23;
             this.dgv_List.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_List.Size = new System.Drawing.Size(895, 380);
+            this.dgv_List.Size = new System.Drawing.Size(896, 381);
             this.dgv_List.TabIndex = 8;
             // 
             // No
@@ -199,7 +199,7 @@
             this.rTB_log.Location = new System.Drawing.Point(0, 0);
             this.rTB_log.Name = "rTB_log";
             this.rTB_log.ReadOnly = true;
-            this.rTB_log.Size = new System.Drawing.Size(574, 380);
+            this.rTB_log.Size = new System.Drawing.Size(575, 381);
             this.rTB_log.TabIndex = 0;
             this.rTB_log.Text = "";
             // 
@@ -209,10 +209,10 @@
             this.lbl_Error.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_Error.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Error.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Error.Location = new System.Drawing.Point(3, 837);
+            this.lbl_Error.Location = new System.Drawing.Point(3, 840);
             this.lbl_Error.Name = "lbl_Error";
             this.lbl_Error.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbl_Error.Size = new System.Drawing.Size(1493, 48);
+            this.lbl_Error.Size = new System.Drawing.Size(1495, 47);
             this.lbl_Error.TabIndex = 18;
             this.lbl_Error.Text = "Error Code";
             this.lbl_Error.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -222,9 +222,9 @@
             this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 254);
+            this.panel1.Location = new System.Drawing.Point(3, 256);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1493, 174);
+            this.panel1.Size = new System.Drawing.Size(1495, 174);
             this.panel1.TabIndex = 17;
             // 
             // groupBox3
@@ -234,7 +234,7 @@
             this.groupBox3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(0, 69);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1493, 105);
+            this.groupBox3.Size = new System.Drawing.Size(1495, 105);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "[当前的] Current";
@@ -245,11 +245,11 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Controls.Add(this.lbl_Current, 0, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 23);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 19);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1487, 79);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1489, 83);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // lbl_Current
@@ -261,7 +261,7 @@
             this.lbl_Current.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.lbl_Current.Location = new System.Drawing.Point(3, 0);
             this.lbl_Current.Name = "lbl_Current";
-            this.lbl_Current.Size = new System.Drawing.Size(1481, 79);
+            this.lbl_Current.Size = new System.Drawing.Size(1483, 83);
             this.lbl_Current.TabIndex = 20;
             this.lbl_Current.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -272,7 +272,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1493, 69);
+            this.groupBox1.Size = new System.Drawing.Size(1495, 69);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "[以前的]  Prev. ";
@@ -284,11 +284,11 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.lbl_prev, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 23);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 19);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1487, 43);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1489, 47);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // lbl_prev
@@ -300,7 +300,7 @@
             this.lbl_prev.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbl_prev.Location = new System.Drawing.Point(3, 0);
             this.lbl_prev.Name = "lbl_prev";
-            this.lbl_prev.Size = new System.Drawing.Size(1481, 43);
+            this.lbl_prev.Size = new System.Drawing.Size(1483, 47);
             this.lbl_prev.TabIndex = 16;
             this.lbl_prev.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -308,9 +308,9 @@
             // 
             this.tb_scan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tb_scan.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_scan.Location = new System.Drawing.Point(3, 209);
+            this.tb_scan.Location = new System.Drawing.Point(3, 210);
             this.tb_scan.Name = "tb_scan";
-            this.tb_scan.Size = new System.Drawing.Size(1493, 46);
+            this.tb_scan.Size = new System.Drawing.Size(1495, 39);
             this.tb_scan.TabIndex = 0;
             this.tb_scan.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tb_scan_KeyUp);
             // 
@@ -326,7 +326,7 @@
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1493, 200);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1495, 201);
             this.tableLayoutPanel5.TabIndex = 25;
             // 
             // panel2
@@ -334,10 +334,10 @@
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(824, 3);
+            this.panel2.Location = new System.Drawing.Point(825, 3);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
-            this.panel2.Size = new System.Drawing.Size(666, 194);
+            this.panel2.Size = new System.Drawing.Size(667, 195);
             this.panel2.TabIndex = 18;
             // 
             // panel7
@@ -347,7 +347,7 @@
             this.panel7.Location = new System.Drawing.Point(10, 10);
             this.panel7.Name = "panel7";
             this.panel7.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.panel7.Size = new System.Drawing.Size(646, 174);
+            this.panel7.Size = new System.Drawing.Size(647, 175);
             this.panel7.TabIndex = 0;
             // 
             // groupBox4
@@ -358,7 +358,7 @@
             this.groupBox4.Location = new System.Drawing.Point(5, 0);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox4.Size = new System.Drawing.Size(641, 174);
+            this.groupBox4.Size = new System.Drawing.Size(642, 175);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = " [ Q\'ty (Actual / Planned) ] ";
@@ -369,9 +369,9 @@
             this.lbl_Qty.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_Qty.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_Qty.Font = new System.Drawing.Font("Tahoma", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Qty.Location = new System.Drawing.Point(5, 25);
+            this.lbl_Qty.Location = new System.Drawing.Point(5, 21);
             this.lbl_Qty.Name = "lbl_Qty";
-            this.lbl_Qty.Size = new System.Drawing.Size(631, 144);
+            this.lbl_Qty.Size = new System.Drawing.Size(632, 149);
             this.lbl_Qty.TabIndex = 16;
             this.lbl_Qty.Text = "5555 / 5555";
             this.lbl_Qty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -383,7 +383,7 @@
             this.panel8.Location = new System.Drawing.Point(3, 3);
             this.panel8.Name = "panel8";
             this.panel8.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.panel8.Size = new System.Drawing.Size(815, 194);
+            this.panel8.Size = new System.Drawing.Size(816, 195);
             this.panel8.TabIndex = 10;
             // 
             // groupBox2
@@ -394,7 +394,7 @@
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox2.Size = new System.Drawing.Size(810, 194);
+            this.groupBox2.Size = new System.Drawing.Size(811, 195);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "[工单信息] WorkOrder Info.";
@@ -409,12 +409,12 @@
             this.tableLayoutPanel3.Controls.Add(this.lbl_item, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.lbl_workorder, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 25);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 21);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(800, 164);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(801, 169);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // label1
@@ -424,7 +424,7 @@
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 82);
+            this.label1.Size = new System.Drawing.Size(154, 84);
             this.label1.TabIndex = 0;
             this.label1.Text = "工作指示(W/O)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -434,9 +434,9 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 82);
+            this.label2.Location = new System.Drawing.Point(3, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 82);
+            this.label2.Size = new System.Drawing.Size(154, 85);
             this.label2.TabIndex = 1;
             this.label2.Text = "生产品(Material)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -447,9 +447,9 @@
             this.lbl_item.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_item.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_item.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_item.Location = new System.Drawing.Point(163, 82);
+            this.lbl_item.Location = new System.Drawing.Point(163, 84);
             this.lbl_item.Name = "lbl_item";
-            this.lbl_item.Size = new System.Drawing.Size(634, 82);
+            this.lbl_item.Size = new System.Drawing.Size(635, 85);
             this.lbl_item.TabIndex = 16;
             this.lbl_item.Text = "P123456 / SMPS FOR LG PLAT LED TELEVISION";
             this.lbl_item.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -462,14 +462,14 @@
             this.lbl_workorder.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_workorder.Location = new System.Drawing.Point(163, 0);
             this.lbl_workorder.Name = "lbl_workorder";
-            this.lbl_workorder.Size = new System.Drawing.Size(634, 82);
+            this.lbl_workorder.Size = new System.Drawing.Size(635, 84);
             this.lbl_workorder.TabIndex = 15;
             this.lbl_workorder.Text = "WO1234-8769876";
             this.lbl_workorder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Palletizing_2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1507, 893);
             this.Name = "Palletizing_2";

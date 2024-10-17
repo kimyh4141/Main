@@ -134,7 +134,7 @@ namespace WiseM.Client
             }
             catch (Exception ex)
             {
-                InsertIntoSysLog("Palletizing.Init", ex.Message);
+                InsertIntoSysLog("Palletizing.ClearForm", ex.Message);
                 System.Windows.Forms.MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Close();
             }

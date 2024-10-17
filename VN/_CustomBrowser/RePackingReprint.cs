@@ -139,13 +139,13 @@ SELECT DISTINCT Material
                             dataRow = DbAccess.Default.GetDataRow(query);
                             bcdData = DbAccess.Default.ExecuteScalar($"SELECT BcdData FROM BcdLblFmtr WHERE BcdName='Label_Box'");
                             clsBarcode.LoadFromXml(bcdData.ToString());
-                            clsBarcode.Data.SetText("PARTNO", dataRow["LG_PartNo"] as string);
-                            clsBarcode.Data.SetText("QTY", dataRow["Qty"] + " EA");
-                            clsBarcode.Data.SetText("DESC", dataRow["Description"] as string);
-                            clsBarcode.Data.SetText("SPEC", dataRow["Spec"] as string);
+                            clsBarcode.Data.SetText("PARTNO", $"{dataRow["LG_PartNo"]}");
+                            clsBarcode.Data.SetText("QTY", $"{dataRow["Qty"]}");
+                            clsBarcode.Data.SetText("DESC", $"{dataRow["Description"]}");
+                            clsBarcode.Data.SetText("SPEC", $"{dataRow["Spec"]}");
                             clsBarcode.Data.SetText("DATE", $"{dataRow["ProductionDate"]:yyyy. MM. dd}");
-                            clsBarcode.Data.SetText("BARCODE1", $"{dataRow["BoxBarcode_1"] as string}");
-                            clsBarcode.Data.SetText("BARCODE2", $"{dataRow["BoxBarcode_2"] as string}");
+                            clsBarcode.Data.SetText("BARCODE1", $"{dataRow["BoxBarcode_1"]}");
+                            clsBarcode.Data.SetText("BARCODE2", $"{dataRow["BoxBarcode_2"]}");
                             //gmryu 2023-10-10 일반라인/영문 라인 구분
                             char lineCheck = barcode[barcode.Length - 13];
                             clsBarcode.Data.SetText("Y2SOLUTION", $"Y2 SOLUTION{(char.IsDigit(lineCheck) ? "(VN)" : "")}");

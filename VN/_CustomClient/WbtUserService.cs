@@ -286,21 +286,25 @@ namespace WiseM.Client
                             }
                             catch (Exception)
                             {
-                               
                             }
                         }
                     }
                     catch (Exception)
                     {
                     }
+
                     break;
                 case "RePrint_Box":
-                    Reprint_Box rb = new Reprint_Box();
-                    rb.ShowDialog();
+                {
+                    var productBarcodeReprint = new ProductBarcodeReprint("ProductBox");
+                    productBarcodeReprint.ShowDialog();
+                }
                     break;
                 case "RePrint_Pallet":
-                    Reprint_Pallet rp = new Reprint_Pallet();
-                    rp.ShowDialog();
+                {
+                    var productBarcodeReprint = new ProductBarcodeReprint("Pallet");
+                    productBarcodeReprint.ShowDialog();
+                }
                     break;
                 case "Daily_Output":
                     Daily_Output daily_output = new Daily_Output();
@@ -347,10 +351,10 @@ namespace WiseM.Client
 
         private bool ChangeFeederWipStatus(CustomEnum.MountingChangeCaseType mountingChangeCaseType, string previousWorkOrder = "", string thresholdQty = "0")
         {
-                var query = new StringBuilder();
-                query.AppendLine
-                    (
-                     $@"
+            var query = new StringBuilder();
+            query.AppendLine
+            (
+                $@"
                     DECLARE @WorkOrder NVARCHAR(50) = '{ActiveValues.WorkOrder}'
                     ;
 
@@ -366,16 +370,16 @@ namespace WiseM.Client
                     DECLARE @MountingWorkCenter NVARCHAR(50) = dbo.GetLinkWorkCenter(@WorkCenter)
                     ;
                     "
-                    );
-                switch (mountingChangeCaseType)
-                {
-                    /*
-                     *
-                     */
-                    case CustomEnum.MountingChangeCaseType.Create:
-                        query.AppendLine
-                            (
-                             $@"
+            );
+            switch (mountingChangeCaseType)
+            {
+                /*
+                 *
+                 */
+                case CustomEnum.MountingChangeCaseType.Create:
+                    query.AppendLine
+                    (
+                        $@"
                             UPDATE MountingInputHist
                                SET IsPrevious = 0
                              WHERE IsPrevious = 1
@@ -409,12 +413,12 @@ namespace WiseM.Client
                                AND WorkCenter = @MountingWorkCenter
                             ;
                             "
-                            );
-                        break;
-                    case CustomEnum.MountingChangeCaseType.Continue:
-                        query.AppendLine
-                            (
-                             $@" 
+                    );
+                    break;
+                case CustomEnum.MountingChangeCaseType.Continue:
+                    query.AppendLine
+                    (
+                        $@" 
                             IF (@PreviousWorkOrder <> @WorkOrder)
                               BEGIN
                                 DELETE
@@ -471,12 +475,12 @@ namespace WiseM.Client
                                AND WorkCenter = @MountingWorkCenter
                             ;
                             "
-                            );
-                        break;
-                    case CustomEnum.MountingChangeCaseType.Import:
-                        query.AppendLine
-                            (
-                             $@"
+                    );
+                    break;
+                case CustomEnum.MountingChangeCaseType.Import:
+                    query.AppendLine
+                    (
+                        $@"
                             UPDATE MountingInputHist
                                SET IsPrevious = 0
                              WHERE IsPrevious = 1
@@ -491,12 +495,12 @@ namespace WiseM.Client
                                AND WorkCenter = @MountingWorkCenter
                             ;
                             "
-                            );
-                        break;
-                    case CustomEnum.MountingChangeCaseType.Stop:
-                        query.AppendLine
-                            (
-                             $@"
+                    );
+                    break;
+                case CustomEnum.MountingChangeCaseType.Stop:
+                    query.AppendLine
+                    (
+                        $@"
                             UPDATE MountingInputHist
                                SET Status     = 0
                                  , IsPrevious = 1
@@ -506,12 +510,12 @@ namespace WiseM.Client
                                AND WorkCenter = @MountingWorkCenter
                             ;
                             "
-                            );
-                        break;
-                    case CustomEnum.MountingChangeCaseType.ReCreate:
-                        query.AppendLine
-                            (
-                             $@"
+                    );
+                    break;
+                case CustomEnum.MountingChangeCaseType.ReCreate:
+                    query.AppendLine
+                    (
+                        $@"
                             DELETE
                               FROM FeederWip
                              WHERE 1 = 1
@@ -519,11 +523,12 @@ namespace WiseM.Client
                                AND WorkCenter = @MountingWorkCenter
                             ;
                             "
-                            );
-                        goto case CustomEnum.MountingChangeCaseType.Create;
-                    default:
-                        throw new ArgumentOutOfRangeException(nameof(mountingChangeCaseType), mountingChangeCaseType, null);
-                }
+                    );
+                    goto case CustomEnum.MountingChangeCaseType.Create;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(mountingChangeCaseType), mountingChangeCaseType, null);
+            }
+
             int executeRowCount = 0;
             var connectionString = DbAccess.Default.ConnectionString;
             //System.Data.SqlClient.SqlConnection connection = null;
@@ -567,6 +572,7 @@ namespace WiseM.Client
                 }
             }
         }
+
         /// <summary>
         /// 작업지시를 검증
         /// 1. 작업지시의 작업장과 현재 작업장과 같은 Owner인지 검증
@@ -574,7 +580,7 @@ namespace WiseM.Client
         /// <returns></returns>
         private bool VerifyWorkOrder(string workOrder)
         {
-            string query = 
+            string query =
                 $@"
                 IF (
                   EXISTS
@@ -690,7 +696,7 @@ namespace WiseM.Client
                                 // }
 
                                 //동일라인에서 이전에 작업한 작업지시의 경우(FeederWip 유무)
-                                if (DbAccess.Default.IsExist( "FeederWip", $@"1 = 1 AND WorkOrder = '{ActiveValues.WorkOrder}' AND WorkCenter = dbo.GetLinkWorkCenter('{ActiveValues.Workcenter}')") > 0)
+                                if (DbAccess.Default.IsExist("FeederWip", $@"1 = 1 AND WorkOrder = '{ActiveValues.WorkOrder}' AND WorkCenter = dbo.GetLinkWorkCenter('{ActiveValues.Workcenter}')") > 0)
                                 {
                                     // e.PassUserConfirm = true;
                                     // //수삽일 경우
@@ -763,6 +769,7 @@ namespace WiseM.Client
                                         e.Cancel = true;
                                         break;
                                 }
+
                                 return;
                             case "Pk_Boxing":
                                 query = $@"
@@ -855,6 +862,7 @@ namespace WiseM.Client
                                         e.Cancel = true;
                                         break;
                                 }
+
                                 return;
                             case "Pk_Boxing":
                                 query =
@@ -974,9 +982,9 @@ namespace WiseM.Client
         {
             strMsg = strMsg.Replace("'", "\x07");
             DbAccess.Default.ExecuteQuery
-                (
-                 $"INSERT INTO SysLog (type, category, source, message, [user], updated) VALUES ('{type}',  'Client', '{WiseApp.Id}', LEFT(ISNULL(N'{strMsg}',''),3000), '{strWorkCenter}', GetDate())"
-                );
+            (
+                $"INSERT INTO SysLog (type, category, source, message, [user], updated) VALUES ('{type}',  'Client', '{WiseApp.Id}', LEFT(ISNULL(N'{strMsg}',''),3000), '{strWorkCenter}', GetDate())"
+            );
         }
     }
 }

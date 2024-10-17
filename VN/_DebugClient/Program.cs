@@ -19,9 +19,7 @@ namespace WiseM.Client
                 WbtUserService service = new WbtUserService();
 
                 //121.126.143.101 192.168.109.3
-                ClientApplication.Start(service, "WpcAL21", "121.126.143.101", "192.168.109.3");
-                //ClientApplication.Start(service, "WpcPBM1", "121.126.143.101", "192.168.109.3");
-                //ClientApplication.Start(service, "WpcAU31", "127.0.0.1", "");
+                ClientApplication.Start(service, "WpcPB11", "192.168.109.3", "");
             }
             catch (Exception ex) 
             {

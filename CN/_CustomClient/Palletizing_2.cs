@@ -92,9 +92,10 @@ namespace WiseM.Client
             lbl_item.Text = _Material + " / " + dtQ.Rows[0]["Spec"];
             OrderQty = dtQ.Rows[0]["OrderQty"].ToString();
 
-            string QtyQuery = $@"Select coalesce(SUM(OutQty), 0) as OutQty FROM OutputHist with(nolock) where WorkOrder = '{_Workorder}'";
+            string QtyQuery = $@"Select coalesce(SUM(OutQty), 0) as OutQty FROM OutputHist where WorkOrder = '{_Workorder}'";
             DataTable dt_Qty = DbAccess.Default.GetDataTable(QtyQuery);
             ini_Qty = dt_Qty.Rows[0]["OutQty"].ToString();
+            CurrentPcbQty = Convert.ToInt32(ini_Qty);
             lbl_Qty.Text = $@"{ini_Qty} / {OrderQty}";
 
             string child_Q = $@"
@@ -299,7 +300,7 @@ namespace WiseM.Client
                     try
                     {
                         var query = new StringBuilder();
-                        query.AppendLine($@"Select coalesce(SUM(OutQty), 0) as OutQty FROM OutputHist with(nolock) where WorkOrder = '{_Workorder}'");
+                        query.AppendLine($@"Select coalesce(SUM(OutQty), 0) as OutQty FROM OutputHist where WorkOrder = '{_Workorder}'");
                         var dataTable = DbAccess.Default.GetDataTable(query.ToString());
 
                         var query1 = new StringBuilder();

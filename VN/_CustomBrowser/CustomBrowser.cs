@@ -13,6 +13,7 @@ using WiseM.Forms;
 using System.IO;
 using System.Data.SqlClient;
 using WiseM.Browser.Rework;
+using WiseM.Client;
 
 namespace WiseM.Browser
 {
@@ -1609,7 +1610,7 @@ namespace WiseM.Browser
                 case "wms001":
                     if (e.Link.ToLower() == "barcodeprint")
                     {
-                        WMS.NewBarcode nb = new WMS.NewBarcode();
+                        WMS.BarcodeGenerator nb = new WMS.BarcodeGenerator();
                         nb.ShowDialog();
                     }
                     else if (e.Link.ToLower() == "barcodereturn")
@@ -2170,10 +2171,17 @@ namespace WiseM.Browser
                             e.AfterRefresh = WeRefreshPanel.Current;
                             break;
                         }
-                        case "reprint":
+                        case "reprintbox":
                         {
-                            RepackingReprint repackingReprint = new RepackingReprint();
-                            repackingReprint.ShowDialog();
+                            var productBarcodeReprint = new ProductBarcodeReprint("ProductBox", "Repacking");
+                            productBarcodeReprint.ShowDialog();
+                            e.AfterRefresh = WeRefreshPanel.Current;
+                            break;
+                        }
+                        case "reprintpallet":
+                        {
+                            var productBarcodeReprint = new ProductBarcodeReprint("Pallet", "Repacking");
+                            productBarcodeReprint.ShowDialog();
                             e.AfterRefresh = WeRefreshPanel.Current;
                             break;
                         }

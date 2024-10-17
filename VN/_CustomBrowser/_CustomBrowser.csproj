@@ -327,6 +327,12 @@
     <Compile Include="PI\PI_frmMain30.Designer.cs">
       <DependentUpon>PI_frmMain30.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductBarcodeReprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductBarcodeReprint.Designer.cs">
+      <DependentUpon>ProductBarcodeReprint.cs</DependentUpon>
+    </Compile>
     <Compile Include="RePacking.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -425,23 +431,23 @@
     <Compile Include="WMS\DerivedProduct_frmMain01.designer.cs">
       <DependentUpon>DerivedProduct_frmMain01.cs</DependentUpon>
     </Compile>
-    <Compile Include="WMS\NewBarcode.cs">
+    <Compile Include="WMS\BarcodeGenerator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WMS\NewBarcode.Designer.cs">
-      <DependentUpon>NewBarcode.cs</DependentUpon>
+    <Compile Include="WMS\BarcodeGenerator.Designer.cs">
+      <DependentUpon>BarcodeGenerator.cs</DependentUpon>
     </Compile>
-    <Compile Include="WMS\NewBarcodeSupplierSearch.cs">
+    <Compile Include="WMS\BarcodeGeneratorSupplierSearch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WMS\NewBarcodeSupplierSearch.Designer.cs">
-      <DependentUpon>NewBarcodeSupplierSearch.cs</DependentUpon>
+    <Compile Include="WMS\BarcodeGeneratorSupplierSearch.Designer.cs">
+      <DependentUpon>BarcodeGeneratorSupplierSearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="WMS\NewBarcodeTestPrint.cs">
+    <Compile Include="WMS\BarcodeGeneratorTestPrint.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WMS\NewBarcodeTestPrint.Designer.cs">
-      <DependentUpon>NewBarcodeTestPrint.cs</DependentUpon>
+    <Compile Include="WMS\BarcodeGeneratorTestPrint.Designer.cs">
+      <DependentUpon>BarcodeGeneratorTestPrint.cs</DependentUpon>
     </Compile>
     <Compile Include="WMS\Print_PCB_V2.cs">
       <SubType>Form</SubType>
@@ -724,6 +730,9 @@
     <EmbeddedResource Include="PI\PI_frmMain30.resx">
       <DependentUpon>PI_frmMain30.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProductBarcodeReprint.resx">
+      <DependentUpon>ProductBarcodeReprint.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RePacking.resx">
       <DependentUpon>RePacking.cs</DependentUpon>
     </EmbeddedResource>
@@ -773,14 +782,14 @@
     <EmbeddedResource Include="WMS\DerivedProduct_frmMain01.resx">
       <DependentUpon>DerivedProduct_frmMain01.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WMS\NewBarcode.resx">
-      <DependentUpon>NewBarcode.cs</DependentUpon>
+    <EmbeddedResource Include="WMS\BarcodeGenerator.resx">
+      <DependentUpon>BarcodeGenerator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WMS\NewBarcodeSupplierSearch.resx">
-      <DependentUpon>NewBarcodeSupplierSearch.cs</DependentUpon>
+    <EmbeddedResource Include="WMS\BarcodeGeneratorSupplierSearch.resx">
+      <DependentUpon>BarcodeGeneratorSupplierSearch.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WMS\NewBarcodeTestPrint.resx">
-      <DependentUpon>NewBarcodeTestPrint.cs</DependentUpon>
+    <EmbeddedResource Include="WMS\BarcodeGeneratorTestPrint.resx">
+      <DependentUpon>BarcodeGeneratorTestPrint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WMS\Print_PCB_V2.resx">
       <DependentUpon>Print_PCB_V2.cs</DependentUpon>

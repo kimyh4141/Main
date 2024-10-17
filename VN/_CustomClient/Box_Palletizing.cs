@@ -62,7 +62,7 @@ namespace WiseM.Client
         bool boolIgnoreDataFromSerialPort2; // true:IgnoreTimer가 가동중이므로, 이때 수신되는 데이터 무시.
         bool boolIgnoreDataFromSerialPort3;
 
-        int int1stLabelFlag; // 0:Init  1:OK  2:NG
+        int int1stLabelFlag; // 0:ClearForm  1:OK  2:NG
         int int2ndLabelFlag;
 
         string str1stLabel = ""; // 1st Scanner 값
@@ -371,7 +371,7 @@ namespace WiseM.Client
                 }
                 catch (Exception ex)
                 {
-                    InsertIntoSysLog("init", ex.Message);
+                    InsertIntoSysLog("ClearForm", ex.Message);
                     System.Windows.Forms.MessageBox.Show($"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Close();
                 }
@@ -497,7 +497,7 @@ namespace WiseM.Client
             }
             catch (Exception ex)
             {
-                InsertIntoSysLog("init(2)", ex.Message);
+                InsertIntoSysLog("ClearForm(2)", ex.Message);
                 System.Windows.Forms.MessageBox.Show($"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Close();
                                     

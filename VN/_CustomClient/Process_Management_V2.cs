@@ -81,7 +81,7 @@ namespace WiseM.Client
 
         private bool _boolIgnoreDataFromSerialPort3;
 
-        int int1stLabelFlag = 0; // 0:Init  1:OK  2:NG
+        int int1stLabelFlag = 0; // 0:ClearForm  1:OK  2:NG
         int int2ndLabelFlag = 0;
 
         string str1stLabel = ""; // 1st Scanner 값
@@ -284,7 +284,7 @@ namespace WiseM.Client
                 }
                 catch (Exception ex)
                 {
-                    InsertIntoSysLog("Process_Management.init", ex.Message);
+                    InsertIntoSysLog("Process_Management.ClearForm", ex.Message);
                     System.Windows.Forms.MessageBox.Show($"Đã xảy ra sự cố khi truy xuất thông tin cơ bản。\r\nA problem occurred while retrieving baseline information.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Close();
                     return;
