@@ -351,23 +351,22 @@
     <Compile Include="RePackingReprint.Designer.cs">
       <DependentUpon>RePackingReprint.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigSpec.cs">
+    <Compile Include="Jig\JigSpec.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="JigSpec.Designer.cs">
+    <Compile Include="Jig\JigSpec.Designer.cs">
       <DependentUpon>JigSpec.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigSpecItem.cs">
+    <Compile Include="Jig\JigSpecItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="JigSpecItem.Designer.cs">
+    <Compile Include="Jig\JigSpecItem.Designer.cs">
       <DependentUpon>JigSpecItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="MessageBoxManager.cs" />
-    <Compile Include="JigPeriodMsg.cs">
+    <Compile Include="Jig\JigPeriodMsg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigPeriodMsg.Designer.cs">
+    <Compile Include="Jig\JigPeriodMsg.Designer.cs">
       <DependentUpon>JigPeriodMsg.cs</DependentUpon>
     </Compile>
     <Compile Include="Rework\BadEdit.cs">
@@ -417,6 +416,12 @@
     </Compile>
     <Compile Include="Edit_Worker.Designer.cs">
       <DependentUpon>Edit_Worker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMS\RawMaterialBlocking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\RawMaterialBlocking.Designer.cs">
+      <DependentUpon>RawMaterialBlocking.cs</DependentUpon>
     </Compile>
     <Compile Include="WMS\RawPrinterHelper.cs" />
     <Compile Include="WMS\DerivedProduct_frmMain00.cs">
@@ -516,68 +521,62 @@
     <Compile Include="IDM_EditForm.Designer.cs">
       <DependentUpon>IDM_EditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigBasisManagement.cs">
+    <Compile Include="Jig\JigBasisManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigBasisManagement.Designer.cs">
+    <Compile Include="Jig\JigBasisManagement.Designer.cs">
       <DependentUpon>JigBasisManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigBasisManagementUpdate.cs">
+    <Compile Include="Jig\JigBasisManagementUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigBasisManagementUpdate.Designer.cs">
+    <Compile Include="Jig\JigBasisManagementUpdate.Designer.cs">
       <DependentUpon>JigBasisManagementUpdate.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigConfirm.cs">
+    <Compile Include="Jig\JigConfirm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigConfirm.Designer.cs">
+    <Compile Include="Jig\JigConfirm.Designer.cs">
       <DependentUpon>JigConfirm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigConfirmProcess.cs" />
-    <Compile Include="JigDelete.cs" />
-    <Compile Include="JigRepairConfirm.cs">
+    <Compile Include="Jig\JigConfirmProcess.cs" />
+    <Compile Include="Jig\JigDelete.cs" />
+    <Compile Include="Jig\JigRepairConfirm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigRepairConfirm.Designer.cs">
+    <Compile Include="Jig\JigRepairConfirm.Designer.cs">
       <DependentUpon>JigRepairConfirm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigRepairInsert.cs">
+    <Compile Include="Jig\JigRepairInsert.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigRepairInsert.Designer.cs">
+    <Compile Include="Jig\JigRepairInsert.Designer.cs">
       <DependentUpon>JigRepairInsert.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigRepairStart.cs">
+    <Compile Include="Jig\JigRepairStart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigRepairStart.Designer.cs">
+    <Compile Include="Jig\JigRepairStart.Designer.cs">
       <DependentUpon>JigRepairStart.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigStockIn.cs" />
-    <Compile Include="JigstockOut.cs">
+    <Compile Include="Jig\JigStockIn.cs" />
+    <Compile Include="Jig\JigstockOut.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigstockOut.Designer.cs">
+    <Compile Include="Jig\JigstockOut.Designer.cs">
       <DependentUpon>JigstockOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigSearch.cs">
+    <Compile Include="Jig\JigSearch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigSearch.Designer.cs">
+    <Compile Include="Jig\JigSearch.Designer.cs">
       <DependentUpon>JigSearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigWareHouseIn.cs">
+    <Compile Include="Jig\JigWareHouseIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigWareHouseIn.Designer.cs">
+    <Compile Include="Jig\JigWareHouseIn.Designer.cs">
       <DependentUpon>JigWareHouseIn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Recipient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Recipient.Designer.cs">
-      <DependentUpon>Recipient.cs</DependentUpon>
     </Compile>
     <Compile Include="RepairStart.cs" />
     <Compile Include="SPCDataManagement.cs">
@@ -742,13 +741,13 @@
     <EmbeddedResource Include="RePackingReprint.resx">
       <DependentUpon>RePackingReprint.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigSpec.resx">
+    <EmbeddedResource Include="Jig\JigSpec.resx">
       <DependentUpon>JigSpec.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigSpecItem.resx">
+    <EmbeddedResource Include="Jig\JigSpecItem.resx">
       <DependentUpon>JigSpecItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigPeriodMsg.resx">
+    <EmbeddedResource Include="Jig\JigPeriodMsg.resx">
       <DependentUpon>JigPeriodMsg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rework\BadEdit.resx">
@@ -797,6 +796,9 @@
     <EmbeddedResource Include="WMS\Print_PCB.resx">
       <DependentUpon>Print_PCB.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WMS\RawMaterialBlocking.resx">
+      <DependentUpon>RawMaterialBlocking.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WMS\Reprint_PCB_Master.resx">
       <DependentUpon>Reprint_PCB_Master.cs</DependentUpon>
     </EmbeddedResource>
@@ -825,44 +827,41 @@
     <EmbeddedResource Include="IDM_EditForm.resx">
       <DependentUpon>IDM_EditForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigBasisManagement.resx">
+    <EmbeddedResource Include="Jig\JigBasisManagement.resx">
       <DependentUpon>JigBasisManagement.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigBasisManagementUpdate.resx">
+    <EmbeddedResource Include="Jig\JigBasisManagementUpdate.resx">
       <DependentUpon>JigBasisManagementUpdate.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigConfirm.resx">
+    <EmbeddedResource Include="Jig\JigConfirm.resx">
       <DependentUpon>JigConfirm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigRepairConfirm.resx">
+    <EmbeddedResource Include="Jig\JigRepairConfirm.resx">
       <DependentUpon>JigRepairConfirm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigRepairInsert.resx">
+    <EmbeddedResource Include="Jig\JigRepairInsert.resx">
       <DependentUpon>JigRepairInsert.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigRepairStart.resx">
+    <EmbeddedResource Include="Jig\JigRepairStart.resx">
       <DependentUpon>JigRepairStart.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigstockOut.resx">
+    <EmbeddedResource Include="Jig\JigstockOut.resx">
       <DependentUpon>JigstockOut.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigSearch.resx">
+    <EmbeddedResource Include="Jig\JigSearch.resx">
       <DependentUpon>JigSearch.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigWareHouseIn.resx">
+    <EmbeddedResource Include="Jig\JigWareHouseIn.resx">
       <DependentUpon>JigWareHouseIn.cs</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Recipient.resx">
-      <DependentUpon>Recipient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SPCDataManagement.resx">
       <DependentUpon>SPCDataManagement.cs</DependentUpon>
@@ -904,15 +903,15 @@
       <DependentUpon>WipInfo.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigRepairsearch.resx">
+    <EmbeddedResource Include="Jig\JigRepairsearch.resx">
       <DependentUpon>JigRepairsearch.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigWarehouseSearch.resx">
+    <EmbeddedResource Include="Jig\JigWarehouseSearch.resx">
       <DependentUpon>JigWarehouseSearch.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="JigRepairInsert1.resx">
+    <EmbeddedResource Include="Jig\JigRepairInsert1.resx">
       <DependentUpon>JigRepairInsert1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -956,22 +955,22 @@
     <Compile Include="WipInfo.Designer.cs">
       <DependentUpon>WipInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigRepairsearch.cs">
+    <Compile Include="Jig\JigRepairsearch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigRepairsearch.Designer.cs">
+    <Compile Include="Jig\JigRepairsearch.Designer.cs">
       <DependentUpon>JigRepairsearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigWarehouseSearch.cs">
+    <Compile Include="Jig\JigWarehouseSearch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigWarehouseSearch.Designer.cs">
+    <Compile Include="Jig\JigWarehouseSearch.Designer.cs">
       <DependentUpon>JigWarehouseSearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="JigRepairInsert1.cs">
+    <Compile Include="Jig\JigRepairInsert1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JigRepairInsert1.Designer.cs">
+    <Compile Include="Jig\JigRepairInsert1.Designer.cs">
       <DependentUpon>JigRepairInsert1.cs</DependentUpon>
     </Compile>
   </ItemGroup>

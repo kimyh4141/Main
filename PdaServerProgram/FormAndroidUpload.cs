@@ -22,11 +22,12 @@ namespace PdaServerProgram
             InitializeComponent();
             //string ip = "123.235.1.131";
             //string ip = "121.126.143.101";
-            string ip = "192.168.109.3";
+            string ip = "192.168.169.3";
+            //string ip = "192.168.109.3";
             string uid = "wisem2";
             string pwd = "wisem2608";
-            //string database = "Y2sCn1Mes3";
-            string database = "Y2sVn1Mes3";
+            string database = "Y2sCn1Mes3";
+            //string database = "Y2sVn1Mes3";
             connectionString = $"server = {ip};uid = {uid};pwd = {pwd};database = {database};Connection Timeout=30";
             lb_IP.Text = ip;
         }

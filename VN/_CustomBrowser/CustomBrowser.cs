@@ -13,7 +13,7 @@ using WiseM.Forms;
 using System.IO;
 using System.Data.SqlClient;
 using WiseM.Browser.Rework;
-using WiseM.Client;
+using WiseM.Browser.WMS;
 
 namespace WiseM.Browser
 {
@@ -53,18 +53,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T08"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T08"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T08"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T09" when (Convert.ToDouble(e.Values["T09"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T09"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T09"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T09"].BackColor = Color.Red;
                                 break;
                             case "T09" when (Convert.ToDouble(e.Values["T09"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T09"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T09"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T09"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T09"].BackColor = Color.Orange;
                                 break;
                             case "T09":
                             {
@@ -72,18 +72,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T09"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T09"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T09"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T10" when (Convert.ToDouble(e.Values["T10"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T10"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T10"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T10"].BackColor = Color.Red;
                                 break;
                             case "T10" when (Convert.ToDouble(e.Values["T10"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T10"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T10"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T10"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T10"].BackColor = Color.Orange;
                                 break;
                             case "T10":
                             {
@@ -91,36 +91,36 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T10"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T10"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T10"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T11" when (Convert.ToDouble(e.Values["T11"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T11"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T11"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T11"].BackColor = Color.Red;
                                 break;
                             case "T11" when (Convert.ToDouble(e.Values["T11"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T11"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T11"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T11"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T11"].BackColor = Color.Orange;
                                 break;
                             case "T11":
                             {
                                 if ((Convert.ToDouble(e.Values["T11"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 95)
                                 {
                                     e.Values["T11"].ApplyColor = WeFilterColor.BackColor;
-                                    e.Values["T11"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T11"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T12" when (Convert.ToDouble(e.Values["T12"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T12"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T12"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T12"].BackColor = Color.Red;
                                 break;
                             case "T12" when (Convert.ToDouble(e.Values["T12"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T12"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T12"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T12"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T12"].BackColor = Color.Orange;
                                 break;
                             case "T12":
                             {
@@ -128,18 +128,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T12"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T12"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T12"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T13" when (Convert.ToDouble(e.Values["T13"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T13"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T13"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T13"].BackColor = Color.Red;
                                 break;
                             case "T13" when (Convert.ToDouble(e.Values["T13"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T13"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T13"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T13"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T13"].BackColor = Color.Orange;
                                 break;
                             case "T13":
                             {
@@ -147,18 +147,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T13"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T13"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T13"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T14" when (Convert.ToDouble(e.Values["T14"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T14"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T14"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T14"].BackColor = Color.Red;
                                 break;
                             case "T14" when (Convert.ToDouble(e.Values["T14"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T14"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T14"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T14"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T14"].BackColor = Color.Orange;
                                 break;
                             case "T14":
                             {
@@ -166,18 +166,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T14"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T14"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T14"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T15" when (Convert.ToDouble(e.Values["T15"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T15"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T15"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T15"].BackColor = Color.Red;
                                 break;
                             case "T15" when (Convert.ToDouble(e.Values["T15"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T15"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T15"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T15"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T15"].BackColor = Color.Orange;
                                 break;
                             case "T15":
                             {
@@ -185,18 +185,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T15"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T15"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T15"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T16" when (Convert.ToDouble(e.Values["T16"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T16"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T16"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T16"].BackColor = Color.Red;
                                 break;
                             case "T16" when (Convert.ToDouble(e.Values["T16"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T16"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T16"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T16"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T16"].BackColor = Color.Orange;
                                 break;
                             case "T16":
                             {
@@ -204,18 +204,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T16"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T16"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T16"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T17" when (Convert.ToDouble(e.Values["T17"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T17"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T17"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T17"].BackColor = Color.Red;
                                 break;
                             case "T17" when (Convert.ToDouble(e.Values["T17"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T17"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T17"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T17"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T17"].BackColor = Color.Orange;
                                 break;
                             case "T17":
                             {
@@ -223,18 +223,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T17"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T17"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T17"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T18" when (Convert.ToDouble(e.Values["T18"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T18"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T18"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T18"].BackColor = Color.Red;
                                 break;
                             case "T18" when (Convert.ToDouble(e.Values["T18"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T18"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T18"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T18"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T18"].BackColor = Color.Orange;
                                 break;
                             case "T18":
                             {
@@ -242,18 +242,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T18"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T18"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T18"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T19" when (Convert.ToDouble(e.Values["T19"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T19"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T19"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T19"].BackColor = Color.Red;
                                 break;
                             case "T19" when (Convert.ToDouble(e.Values["T19"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T19"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T19"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T19"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T19"].BackColor = Color.Orange;
                                 break;
                             case "T19":
                             {
@@ -261,18 +261,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T19"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T19"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T19"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T20" when (Convert.ToDouble(e.Values["T20"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T20"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T20"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T20"].BackColor = Color.Red;
                                 break;
                             case "T20" when (Convert.ToDouble(e.Values["T20"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T20"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T20"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T20"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T20"].BackColor = Color.Orange;
                                 break;
                             case "T20":
                             {
@@ -280,18 +280,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T20"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T20"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T20"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T21" when (Convert.ToDouble(e.Values["T21"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T21"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T21"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T21"].BackColor = Color.Red;
                                 break;
                             case "T21" when (Convert.ToDouble(e.Values["T21"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T21"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T21"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T21"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T21"].BackColor = Color.Orange;
                                 break;
                             case "T21":
                             {
@@ -299,18 +299,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T21"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T21"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T21"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T22" when (Convert.ToDouble(e.Values["T22"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T22"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T22"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T22"].BackColor = Color.Red;
                                 break;
                             case "T22" when (Convert.ToDouble(e.Values["T22"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T22"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T22"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T22"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T22"].BackColor = Color.Orange;
                                 break;
                             case "T22":
                             {
@@ -318,18 +318,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T22"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T22"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T22"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T23" when (Convert.ToDouble(e.Values["T23"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T23"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T23"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T23"].BackColor = Color.Red;
                                 break;
                             case "T23" when (Convert.ToDouble(e.Values["T23"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T23"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T23"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T23"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T23"].BackColor = Color.Orange;
                                 break;
                             case "T23":
                             {
@@ -337,18 +337,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T23"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T23"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T23"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T00" when (Convert.ToDouble(e.Values["T00"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T00"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T00"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T00"].BackColor = Color.Red;
                                 break;
                             case "T00" when (Convert.ToDouble(e.Values["T00"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T00"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T00"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T00"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T00"].BackColor = Color.Orange;
                                 break;
                             case "T00":
                             {
@@ -356,18 +356,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T00"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T00"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T00"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T01" when (Convert.ToDouble(e.Values["T01"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T01"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T01"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T01"].BackColor = Color.Red;
                                 break;
                             case "T01" when (Convert.ToDouble(e.Values["T01"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T01"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T01"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T01"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T01"].BackColor = Color.Orange;
                                 break;
                             case "T01":
                             {
@@ -375,18 +375,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T01"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T01"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T01"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T02" when (Convert.ToDouble(e.Values["T02"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T02"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T02"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T02"].BackColor = Color.Red;
                                 break;
                             case "T02" when (Convert.ToDouble(e.Values["T02"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T02"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T02"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T02"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T02"].BackColor = Color.Orange;
                                 break;
                             case "T02":
                             {
@@ -394,18 +394,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T02"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T02"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T02"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T03" when (Convert.ToDouble(e.Values["T03"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T03"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T03"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T03"].BackColor = Color.Red;
                                 break;
                             case "T03" when (Convert.ToDouble(e.Values["T03"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T03"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T03"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T03"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T03"].BackColor = Color.Orange;
                                 break;
                             case "T03":
                             {
@@ -413,18 +413,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T03"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T03"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T03"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T04" when (Convert.ToDouble(e.Values["T04"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T04"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T04"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T04"].BackColor = Color.Red;
                                 break;
                             case "T04" when (Convert.ToDouble(e.Values["T04"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T04"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T04"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T04"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T04"].BackColor = Color.Orange;
                                 break;
                             case "T04":
                             {
@@ -432,18 +432,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T04"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T04"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T04"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T05" when (Convert.ToDouble(e.Values["T05"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T05"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T05"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T05"].BackColor = Color.Red;
                                 break;
                             case "T05" when (Convert.ToDouble(e.Values["T05"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T05"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T05"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T05"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T05"].BackColor = Color.Orange;
                                 break;
                             case "T05":
                             {
@@ -451,18 +451,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T05"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T05"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T05"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T06" when (Convert.ToDouble(e.Values["T06"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T06"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T06"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T06"].BackColor = Color.Red;
                                 break;
                             case "T06" when (Convert.ToDouble(e.Values["T06"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T06"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T06"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T06"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T06"].BackColor = Color.Orange;
                                 break;
                             case "T06":
                             {
@@ -470,18 +470,18 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T06"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T06"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T06"].BackColor = Color.Green;
                                 }
 
                                 break;
                             }
                             case "T07" when (Convert.ToDouble(e.Values["T07"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 90:
                                 e.Values["T07"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T07"].BackColor = System.Drawing.Color.Red;
+                                e.Values["T07"].BackColor = Color.Red;
                                 break;
                             case "T07" when (Convert.ToDouble(e.Values["T07"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 > 90 && (Convert.ToDouble(e.Values["T07"].Value) / Convert.ToDouble(e.Values["Avg"].Value)) * 100 <= 95:
                                 e.Values["T07"].ApplyColor = WeFilterColor.BackColor;
-                                e.Values["T07"].BackColor = System.Drawing.Color.Orange;
+                                e.Values["T07"].BackColor = Color.Orange;
                                 break;
                             case "T07":
                             {
@@ -489,7 +489,7 @@ namespace WiseM.Browser
                                 {
                                     e.Values["T07"].ApplyColor = WeFilterColor.BackColor;
 
-                                    e.Values["T07"].BackColor = System.Drawing.Color.Green;
+                                    e.Values["T07"].BackColor = Color.Green;
                                 }
 
                                 break;
@@ -514,15 +514,15 @@ namespace WiseM.Browser
                         e.Values["RepairLossQty"].ApplyColor = WeFilterColor.ForeColor;
                         e.Values["ResultPPM"].ApplyColor = WeFilterColor.ForeColor;
 
-                        e.Values["Line"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["Routing"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["BadName"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["BadQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["OutQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["OrderQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["RepairQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["RepairLossQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["ResultPPM"].ForeColor = System.Drawing.Color.Red;
+                        e.Values["Line"].ForeColor = Color.Red;
+                        e.Values["Routing"].ForeColor = Color.Red;
+                        e.Values["BadName"].ForeColor = Color.Red;
+                        e.Values["BadQty"].ForeColor = Color.Red;
+                        e.Values["OutQty"].ForeColor = Color.Red;
+                        e.Values["OrderQty"].ForeColor = Color.Red;
+                        e.Values["RepairQty"].ForeColor = Color.Red;
+                        e.Values["RepairLossQty"].ForeColor = Color.Red;
+                        e.Values["ResultPPM"].ForeColor = Color.Red;
                     }
 
                     break;
@@ -543,15 +543,15 @@ namespace WiseM.Browser
                         e.Values["RepairLossQty"].ApplyColor = WeFilterColor.ForeColor;
                         e.Values["ResultPPM"].ApplyColor = WeFilterColor.ForeColor;
 
-                        e.Values["Material"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["MaterialName"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["BadName"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["BadQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["OutQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["OrderQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["RepairQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["RepairLossQty"].ForeColor = System.Drawing.Color.Red;
-                        e.Values["ResultPPM"].ForeColor = System.Drawing.Color.Red;
+                        e.Values["Material"].ForeColor = Color.Red;
+                        e.Values["MaterialName"].ForeColor = Color.Red;
+                        e.Values["BadName"].ForeColor = Color.Red;
+                        e.Values["BadQty"].ForeColor = Color.Red;
+                        e.Values["OutQty"].ForeColor = Color.Red;
+                        e.Values["OrderQty"].ForeColor = Color.Red;
+                        e.Values["RepairQty"].ForeColor = Color.Red;
+                        e.Values["RepairLossQty"].ForeColor = Color.Red;
+                        e.Values["ResultPPM"].ForeColor = Color.Red;
                     }
 
                     break;
@@ -565,11 +565,13 @@ namespace WiseM.Browser
                             e.Values["Aging_4"].ApplyColor = WeFilterColor.BackColor;
                             e.Values["Aging_4"].BackColor = Color.Green;
                         }
+
                         if (Convert.ToDouble(e.Values["Aging_5"].Value) != 0)
                         {
                             e.Values["Aging_5"].ApplyColor = WeFilterColor.BackColor;
                             e.Values["Aging_5"].BackColor = Color.Orange;
                         }
+
                         if (Convert.ToDouble(e.Values["Aging_6"].Value) != 0)
                         {
                             e.Values["Aging_6"].ApplyColor = WeFilterColor.BackColor;
@@ -636,7 +638,7 @@ namespace WiseM.Browser
                             Shipping_Process.Show();
                             break;
                         case "movingprocessing":
-                          
+
                             var MovingProcessing = new MovingProcessing();
                             MovingProcessing.Show();
                             break;
@@ -674,23 +676,23 @@ namespace WiseM.Browser
                                     if (dataGridViewRow == null) return;
                                     if (DialogResult.Yes
                                         == System.Windows.Forms.MessageBox.Show
-                                            (
-                                             $"Are you sure?"
-                                           , "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk
-                                            ))
+                                        (
+                                            $"Are you sure?"
+                                            , "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk
+                                        ))
                                     {
                                         var query = new StringBuilder();
 
                                         query.AppendLine
-                                            (
-                                             $@"
+                                        (
+                                            $@"
                                                 DELETE
                                                   FROM FeederInfo
                                                  WHERE 1 = 1
                                                    AND Material = '{dataGridViewRow.Cells["Material"].Value}'
                                                    AND WorkCenter = '{dataGridViewRow.Cells["WorkCenter"].Value}'
                                             "
-                                            );
+                                        );
                                         try
                                         {
                                             DbAccess.Default.ExecuteQuery(query.ToString());
@@ -698,29 +700,29 @@ namespace WiseM.Browser
                                         catch (Exception ex)
                                         {
                                             MessageBox.Show
-                                                (
-                                                 $"Deleted Error.\r\n{ex.Message}", "Error"
-                                               , MessageBoxIcon.Error
-                                                );
+                                            (
+                                                $"Deleted Error.\r\n{ex.Message}", "Error"
+                                                , MessageBoxIcon.Error
+                                            );
                                         }
                                         finally
                                         {
                                             e.AfterRefresh = WeRefreshPanel.Current;
                                             MessageBox.Show
-                                                (
-                                                 "Deleted Completed.", "Information"
-                                               , MessageBoxIcon.Information
-                                                );
+                                            (
+                                                "Deleted Completed.", "Information"
+                                                , MessageBoxIcon.Information
+                                            );
                                         }
                                     }
 
                                     break;
                                 case "ChangeFeeder":
                                     var feederInfoChangeFeeder = new FeederInfoChangeFeeder
-                                        (
-                                         dataGridViewRow.Cells["WorkCenter"].Value.ToString()
-                                       , dataGridViewRow.Cells["Material"].Value.ToString()
-                                        );
+                                    (
+                                        dataGridViewRow.Cells["WorkCenter"].Value.ToString()
+                                        , dataGridViewRow.Cells["Material"].Value.ToString()
+                                    );
                                     feederInfoChangeFeeder.Show();
                                     feederInfoChangeFeeder.FormClosing += (sender, args) => { e.AfterRefresh = WeRefreshPanel.Current; };
                                     break;
@@ -739,16 +741,16 @@ namespace WiseM.Browser
                                     if (dataGridViewRow == null) return;
                                     if (DialogResult.Yes
                                         == System.Windows.Forms.MessageBox.Show
-                                            (
-                                             $"Are you sure?"
-                                           , "Asterisk", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk
-                                            ))
+                                        (
+                                            $"Are you sure?"
+                                            , "Asterisk", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk
+                                        ))
                                     {
                                         var query = new StringBuilder();
 
                                         query.AppendLine
-                                            (
-                                             $@"
+                                        (
+                                            $@"
                                             DELETE
                                               FROM FeederInfo
                                              WHERE 1 = 1
@@ -758,7 +760,7 @@ namespace WiseM.Browser
                                                AND RawMaterial = '{dataGridViewRow.Cells["RawMaterial"].Value}'
                                             ;
                                             "
-                                            );
+                                        );
                                         try
                                         {
                                             DbAccess.Default.ExecuteQuery(query.ToString());
@@ -766,19 +768,19 @@ namespace WiseM.Browser
                                         catch (Exception ex)
                                         {
                                             MessageBox.Show
-                                                (
-                                                 $"Deleted Error.\r\n{ex.Message}", "Error"
-                                               , MessageBoxIcon.Error
-                                                );
+                                            (
+                                                $"Deleted Error.\r\n{ex.Message}", "Error"
+                                                , MessageBoxIcon.Error
+                                            );
                                         }
                                         finally
                                         {
                                             e.AfterRefresh = WeRefreshPanel.Current;
                                             MessageBox.Show
-                                                (
-                                                 "Deleted Completed.", "Information"
-                                               , MessageBoxIcon.Information
-                                                );
+                                            (
+                                                "Deleted Completed.", "Information"
+                                                , MessageBoxIcon.Information
+                                            );
                                         }
                                     }
 
@@ -818,27 +820,27 @@ namespace WiseM.Browser
 
                     if (e.Link.ToLower() == "delete")
                     {
-                        if (WiseApp.CurrentUserLevel.Name.Equals("Developer") == true
-                            || WiseApp.CurrentUserLevel.Name.Equals("Manager") == true)
+                        if (WiseApp.CurrentUserLevel.Name.Equals("Developer")
+                            || WiseApp.CurrentUserLevel.Name.Equals("Manager"))
                         {
                             string currentJig = e.DataGridView.SelectedCells[0].OwningRow.Cells["Jig"].Value.ToString();
                             string messageStr = "선택한 Jig 데이터를 삭제합니다. Jig Information = " + currentJig + "' ";
                             if (DialogResult.Yes
                                 == WiseM.MessageBox.Show
-                                    (
-                                     messageStr, "Delete", MessageBoxButtons.YesNo
-                                   , MessageBoxIcon.Question
-                                    ))
+                                (
+                                    messageStr, "Delete", MessageBoxButtons.YesNo
+                                    , MessageBoxIcon.Question
+                                ))
                             {
                                 DataTable dt
                                     = DbAccess.Default.GetDataTable("Select * From JigMaintHist where Jig = '" + currentJig + "' ");
                                 if (dt.Rows.Count > 0)
                                 {
                                     WiseM.MessageBox.Show
-                                        (
-                                         "입출고, 보수 이력이 존재 함으로 삭제 할 수 없습니다.", "Information"
-                                       , MessageBoxIcon.None
-                                        );
+                                    (
+                                        "입출고, 보수 이력이 존재 함으로 삭제 할 수 없습니다.", "Information"
+                                        , MessageBoxIcon.None
+                                    );
                                     return;
                                 }
 
@@ -890,19 +892,19 @@ namespace WiseM.Browser
                             string messageStr = "선택한 Jig 데이터를 삭제합니다. Jig Information = " + currentJig + "' ";
                             if (DialogResult.Yes
                                 == WiseM.MessageBox.Show
-                                    (
-                                     messageStr, "Delete", MessageBoxButtons.YesNo
-                                   , MessageBoxIcon.Question
-                                    ))
+                                (
+                                    messageStr, "Delete", MessageBoxButtons.YesNo
+                                    , MessageBoxIcon.Question
+                                ))
                             {
                                 DataTable dt = e.DbAccess.GetDataTable($"Select * From JigMaintHist where Jig = '{currentJig}' ");
                                 if (dt.Rows.Count > 0)
                                 {
                                     WiseM.MessageBox.Show
-                                        (
-                                         "입출고, 보수 이력이 존재 함으로 삭제 할 수 없습니다.", "Information"
-                                       , MessageBoxIcon.None
-                                        );
+                                    (
+                                        "입출고, 보수 이력이 존재 함으로 삭제 할 수 없습니다.", "Information"
+                                        , MessageBoxIcon.None
+                                    );
                                     return;
                                 }
 
@@ -924,10 +926,10 @@ namespace WiseM.Browser
                         }
                         case "delete":
                             WiseM.MessageBox.Show
-                                (
-                                 "해당 기능은 관리자 이외에 다른사람이 이용할 수 없습니다.", "Information"
-                               , MessageBoxIcon.None
-                                );
+                            (
+                                "해당 기능은 관리자 이외에 다른사람이 이용할 수 없습니다.", "Information"
+                                , MessageBoxIcon.None
+                            );
                             return;
                     }
 
@@ -996,10 +998,10 @@ namespace WiseM.Browser
                             else
                             {
                                 MessageBox.Show
-                                    (
-                                     "Error! You don't have enough permissions.", "Error"
-                                   , MessageBoxIcon.Error
-                                    );
+                                (
+                                    "Error! You don't have enough permissions.", "Error"
+                                    , MessageBoxIcon.Error
+                                );
                                 return;
                             }
 
@@ -1041,7 +1043,7 @@ namespace WiseM.Browser
                     if (e.Link.ToLower() == "start")
                     {
                         int[] selectCells = e.DataGridView.SelectedCells.Cast<DataGridViewCell>()
-                                             .Select(cell => cell.RowIndex).Distinct().ToArray();
+                            .Select(cell => cell.RowIndex).Distinct().ToArray();
 
                         foreach (var selectCell in selectCells)
                         {
@@ -1068,7 +1070,7 @@ namespace WiseM.Browser
                         }
 
                         int[] selectedCells = e.DataGridView.SelectedCells.Cast<DataGridViewCell>()
-                                               .Select(cell => cell.RowIndex).Distinct().ToArray();
+                            .Select(cell => cell.RowIndex).Distinct().ToArray();
 
                         foreach (var index in selectedCells)
                         {
@@ -1087,10 +1089,10 @@ namespace WiseM.Browser
                             catch
                             {
                                 MessageBox.Show
-                                    (
-                                     JigCode + " : It is a jig that does not start maintenance.", "Warining"
-                                   , MessageBoxIcon.None
-                                    );
+                                (
+                                    JigCode + " : It is a jig that does not start maintenance.", "Warining"
+                                    , MessageBoxIcon.None
+                                );
                             }
                         }
 
@@ -1108,17 +1110,17 @@ namespace WiseM.Browser
                         {
                             string path = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\Elentec_INDIA_OCV_RawData_" + DateTime.Now.ToString("yyyMMdd") + "0000_" + e.DataGridView.Rows[0].Cells["MODELNAME"].Value.ToString() + ".CSV";
                             StreamWriter sw = new StreamWriter
-                                (
-                                 path,
-                                 true, System.Text.Encoding.Default
-                                );
+                            (
+                                path,
+                                true, System.Text.Encoding.Default
+                            );
                             ToCSV.WriteToStream(sw, (e.DataGridView.DataSource as DataTable), true, false);
 
                             if (MessageBox.ShowCaption
-                                    (
-                                     "Open the file?", "", MessageBoxButtons.YesNo
-                                   , MessageBoxIcon.Question, null
-                                    )
+                                (
+                                    "Open the file?", "", MessageBoxButtons.YesNo
+                                    , MessageBoxIcon.Question, null
+                                )
                                 == DialogResult.Yes)
                             {
                                 System.Diagnostics.Process.Start(path);
@@ -1177,17 +1179,17 @@ namespace WiseM.Browser
 
                             string path = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\" + e.Program + " " + DateTime.Now.ToString("yyyMMddHHmmss") + ".CSV";
                             StreamWriter sw = new StreamWriter
-                                (
-                                 path,
-                                 true, System.Text.Encoding.Default
-                                );
+                            (
+                                path,
+                                true, System.Text.Encoding.Default
+                            );
                             ToCSV.WriteToStream(sw, (e.DataGridView.DataSource as DataTable), true, false);
 
                             if (MessageBox.ShowCaption
-                                    (
-                                     "Open the file?", "", MessageBoxButtons.YesNo
-                                   , MessageBoxIcon.Question, null
-                                    )
+                                (
+                                    "Open the file?", "", MessageBoxButtons.YesNo
+                                    , MessageBoxIcon.Question, null
+                                )
                                 == DialogResult.Yes)
                             {
                                 System.Diagnostics.Process.Start(path);
@@ -1216,17 +1218,17 @@ namespace WiseM.Browser
 
                             string path = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\" + e.Program + " " + DateTime.Now.ToString("yyyMMddHHmmss") + ".CSV";
                             StreamWriter sw = new StreamWriter
-                                (
-                                 path,
-                                 true, System.Text.Encoding.Default
-                                );
+                            (
+                                path,
+                                true, System.Text.Encoding.Default
+                            );
                             ToCSV.WriteToStream(sw, (e.DataGridView.DataSource as DataTable), true, false);
 
                             if (MessageBox.ShowCaption
-                                    (
-                                     "Open the file?", "", MessageBoxButtons.YesNo
-                                   , MessageBoxIcon.Question, null
-                                    )
+                                (
+                                    "Open the file?", "", MessageBoxButtons.YesNo
+                                    , MessageBoxIcon.Question, null
+                                )
                                 == DialogResult.Yes)
                             {
                                 System.Diagnostics.Process.Start(path);
@@ -1250,19 +1252,19 @@ namespace WiseM.Browser
                         {
                             //선택 행 없음
                             System.Windows.Forms.MessageBox.Show
-                                (
-                                 "Không có tệp nào được chọn để lưu。\r\nNo Files have been selected to save."
-                               , "", MessageBoxButtons.OK, MessageBoxIcon.Warning
-                                );
+                            (
+                                "Không có tệp nào được chọn để lưu。\r\nNo Files have been selected to save."
+                                , "", MessageBoxButtons.OK, MessageBoxIcon.Warning
+                            );
                             return;
                         }
 
                         if (DialogResult.Yes
                             == System.Windows.Forms.MessageBox.Show
-                                (
-                                 "Bạn có muốn tải xuống tệp đã chọn không?\r\nWould you like to download the selected file?", ""
-                               , MessageBoxButtons.YesNo
-                                ))
+                            (
+                                "Bạn có muốn tải xuống tệp đã chọn không?\r\nWould you like to download the selected file?", ""
+                                , MessageBoxButtons.YesNo
+                            ))
                         {
                             var folderBrowserDialog = new FolderBrowserDialog();
                             if (folderBrowserDialog.ShowDialog() != DialogResult.OK) return;
@@ -1278,15 +1280,15 @@ namespace WiseM.Browser
                                 string tested = dataGridViewSelectedRow.Cells["Tested"].Value.ToString();
 
                                 query.AppendLine
-                                    (
-                                     $@"
+                                (
+                                    $@"
                                 SELECT RIGHT([Source], CHARINDEX('\', REVERSE([Source]))-1) AS Filename
                                  , E_RawData
                                   FROM Y2sVn1iData.dbo.ICT_Test
                                  WHERE PcbId = '{pcbId}' AND Tested = '{tested}'
                                 ;
                                "
-                                    );
+                                );
                             }
 
                             try
@@ -1311,12 +1313,12 @@ namespace WiseM.Browser
                                     foreach (DataRow dataRow in dataTable.Rows)
                                     {
                                         var fileName = dataRow["FileName"].ToString();
-                                        var dataBytes = (byte[]) dataRow["E_RawData"];
+                                        var dataBytes = (byte[])dataRow["E_RawData"];
                                         using (var fileStream = new FileStream
-                                                   (
-                                                    $"{selectedPath}/{fileName}"
-                                                  , FileMode.Create
-                                                   ))
+                                               (
+                                                   $"{selectedPath}/{fileName}"
+                                                   , FileMode.Create
+                                               ))
                                         {
                                             fileStream.Write(dataBytes, 0, dataBytes.Length);
                                             fileStream.Close();
@@ -1357,19 +1359,19 @@ namespace WiseM.Browser
                         {
                             //선택 행 없음
                             System.Windows.Forms.MessageBox.Show
-                                (
-                                 "Không có tệp nào được chọn để lưu。\r\nNo Files have been selected to save."
-                               , "", MessageBoxButtons.OK, MessageBoxIcon.Warning
-                                );
+                            (
+                                "Không có tệp nào được chọn để lưu。\r\nNo Files have been selected to save."
+                                , "", MessageBoxButtons.OK, MessageBoxIcon.Warning
+                            );
                             return;
                         }
 
                         if (DialogResult.Yes
                             == System.Windows.Forms.MessageBox.Show
-                                (
-                                 "Bạn có muốn tải xuống tệp đã chọn không?\r\nWould you like to download the selected file?", ""
-                               , MessageBoxButtons.YesNo
-                                ))
+                            (
+                                "Bạn có muốn tải xuống tệp đã chọn không?\r\nWould you like to download the selected file?", ""
+                                , MessageBoxButtons.YesNo
+                            ))
                         {
                             var folderBrowserDialog = new FolderBrowserDialog();
                             if (folderBrowserDialog.ShowDialog() != DialogResult.OK) return;
@@ -1385,15 +1387,15 @@ namespace WiseM.Browser
                                 string tested = dataGridViewSelectedRow.Cells["Tested"].Value.ToString();
 
                                 query.AppendLine
-                                    (
-                                     $@"
+                                (
+                                    $@"
                                 SELECT RIGHT([Source], CHARINDEX('\', REVERSE([Source]))-1) AS Filename
                                  , E_RawData
                                   FROM Y2sVn1iData.dbo.First_Func_Test
                                  WHERE PcbId = '{pcbId}' AND Tested = '{tested}'
                                 ;
                                "
-                                    );
+                                );
                             }
 
                             try
@@ -1418,12 +1420,12 @@ namespace WiseM.Browser
                                     foreach (DataRow dataRow in dataTable.Rows)
                                     {
                                         var fileName = dataRow["FileName"].ToString();
-                                        var dataBytes = (byte[]) dataRow["E_RawData"];
+                                        var dataBytes = (byte[])dataRow["E_RawData"];
                                         using (var fileStream = new FileStream
-                                                   (
-                                                    $"{selectedPath}/{fileName}"
-                                                  , FileMode.Create
-                                                   ))
+                                               (
+                                                   $"{selectedPath}/{fileName}"
+                                                   , FileMode.Create
+                                               ))
                                         {
                                             fileStream.Write(dataBytes, 0, dataBytes.Length);
                                             fileStream.Close();
@@ -1466,19 +1468,19 @@ namespace WiseM.Browser
                         {
                             //선택 행 없음
                             System.Windows.Forms.MessageBox.Show
-                                (
-                                 "Không có tệp nào được chọn để lưu。\r\nNo Files have been selected to save."
-                               , "", MessageBoxButtons.OK, MessageBoxIcon.Warning
-                                );
+                            (
+                                "Không có tệp nào được chọn để lưu。\r\nNo Files have been selected to save."
+                                , "", MessageBoxButtons.OK, MessageBoxIcon.Warning
+                            );
                             return;
                         }
 
                         if (DialogResult.Yes
                             == System.Windows.Forms.MessageBox.Show
-                                (
-                                 "Bạn có muốn tải xuống tệp đã chọn không?\r\nWould you like to download the selected file?", ""
-                               , MessageBoxButtons.YesNo
-                                ))
+                            (
+                                "Bạn có muốn tải xuống tệp đã chọn không?\r\nWould you like to download the selected file?", ""
+                                , MessageBoxButtons.YesNo
+                            ))
                         {
                             var folderBrowserDialog = new FolderBrowserDialog();
                             if (folderBrowserDialog.ShowDialog() != DialogResult.OK) return;
@@ -1494,15 +1496,15 @@ namespace WiseM.Browser
                                 string tested = dataGridViewSelectedRow.Cells["Tested"].Value.ToString();
 
                                 query.AppendLine
-                                    (
-                                     $@"
+                                (
+                                    $@"
                                 SELECT RIGHT([Source], CHARINDEX('\', REVERSE([Source]))-1) AS Filename
                                  , E_RawData
                                   FROM Y2sVn1iData.dbo.Second_Func_Test
                                  WHERE PcbId = '{pcbId}' AND Tested = '{tested}'
                                 ;
                                "
-                                    );
+                                );
                             }
 
                             try
@@ -1527,12 +1529,12 @@ namespace WiseM.Browser
                                     foreach (DataRow dataRow in dataTable.Rows)
                                     {
                                         var fileName = dataRow["FileName"].ToString();
-                                        var dataBytes = (byte[]) dataRow["E_RawData"];
+                                        var dataBytes = (byte[])dataRow["E_RawData"];
                                         using (var fileStream = new FileStream
-                                                   (
-                                                    $"{selectedPath}/{fileName}"
-                                                  , FileMode.Create
-                                                   ))
+                                               (
+                                                   $"{selectedPath}/{fileName}"
+                                                   , FileMode.Create
+                                               ))
                                         {
                                             fileStream.Write(dataBytes, 0, dataBytes.Length);
                                             fileStream.Close();
@@ -1606,6 +1608,7 @@ namespace WiseM.Browser
 
                     break;
 
+                #region WMS
 
                 case "wms001":
                     if (e.Link.ToLower() == "barcodeprint")
@@ -1646,13 +1649,13 @@ namespace WiseM.Browser
                             break;
                         }
                         case "reprint_master":
-                            {
-                                WMS.Reprint_PCB_M rpp_M = new WMS.Reprint_PCB_M();
-                                rpp_M.Text = "PCB Barcode Reprint Program Master";
-                                rpp_M.ShowDialog();
-                                e.AfterRefresh = WeRefreshPanel.Current;
-                                break;
-                            }
+                        {
+                            WMS.Reprint_PCB_M rpp_M = new WMS.Reprint_PCB_M();
+                            rpp_M.Text = "PCB Barcode Reprint Program Master";
+                            rpp_M.ShowDialog();
+                            e.AfterRefresh = WeRefreshPanel.Current;
+                            break;
+                        }
                     }
 
                     break;
@@ -1672,18 +1675,19 @@ namespace WiseM.Browser
 
                     break;
 
-                case "jig000":
-                    switch (e.Link.ToLower())
+                case "wms101":
+                    switch (e.Link)
                     {
-                        case "recipient":
-                        {
-                            Recipient Recipient = new Recipient();
-                            Recipient.ShowDialog();
+                        case "Blocking":
+                            var rawMaterialBlocking = new RawMaterialBlocking();
+                            rawMaterialBlocking.ShowDialog();
                             break;
-                        }
                     }
-
                     break;
+
+                #endregion
+
+
                 case "prm001":
                     switch (e.Link.ToLower())
                     {
@@ -1716,83 +1720,85 @@ namespace WiseM.Browser
                             break;
                         }
                         case "printpalletlocation":
+                        {
+                            var selectRowIndexList = new List<DataGridViewRow>();
+                            foreach (DataGridViewRow row in e.DataGridView.Rows)
                             {
-                                var selectRowIndexList = new List<DataGridViewRow>();
-                                foreach (DataGridViewRow row in e.DataGridView.Rows)
+                                foreach (DataGridViewCell cell in row.Cells)
                                 {
-                                    foreach (DataGridViewCell cell in row.Cells)
-                                    {
-                                        if (!cell.Selected) continue;
-                                        selectRowIndexList.Add(row);
-                                        break;
-                                    }
-                                }
-
-                                if (selectRowIndexList.Count == 0)
-                                {
-                                    return;
-                                }
-
-                                if (DialogResult.Yes != System.Windows.Forms.MessageBox.Show($"Are you sure?", "Asterisk", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk))
-                                {
+                                    if (!cell.Selected) continue;
+                                    selectRowIndexList.Add(row);
                                     break;
                                 }
+                            }
 
-                                var cBarcode = new clsBarcode.clsBarcode();
-                                var bcdName = "PalletLocationLabel";
-                                var bcdData = DbAccess.Default.ExecuteScalar($"SELECT BcdData FROM BcdLblFmtr WHERE BcdName='{bcdName}'");
-                                cBarcode.LoadFromXml(bcdData.ToString());
-                                var labelCount = 6;
-                                for (var i = 0; i < selectRowIndexList.Count / labelCount + 1; i++)
-                                {
-                                    for (var j = 1; j <= labelCount; j++)
-                                    {
-                                        var index = i * labelCount + j - 1;
-                                        var value = index < selectRowIndexList.Count ? selectRowIndexList[index].Cells["Location"].Value.ToString() : string.Empty;
-                                        cBarcode.Data.SetText($"BARCODE{j}", value);
-                                    }
-                                    cBarcode.Data.AddLabel();
-                                }
-                                cBarcode.Print(false);
+                            if (selectRowIndexList.Count == 0)
+                            {
+                                return;
+                            }
+
+                            if (DialogResult.Yes != System.Windows.Forms.MessageBox.Show($"Are you sure?", "Asterisk", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk))
+                            {
                                 break;
                             }
+
+                            var cBarcode = new clsBarcode.clsBarcode();
+                            var bcdName = "PalletLocationLabel";
+                            var bcdData = DbAccess.Default.ExecuteScalar($"SELECT BcdData FROM BcdLblFmtr WHERE BcdName='{bcdName}'");
+                            cBarcode.LoadFromXml(bcdData.ToString());
+                            var labelCount = 6;
+                            for (var i = 0; i < selectRowIndexList.Count / labelCount + 1; i++)
+                            {
+                                for (var j = 1; j <= labelCount; j++)
+                                {
+                                    var index = i * labelCount + j - 1;
+                                    var value = index < selectRowIndexList.Count ? selectRowIndexList[index].Cells["Location"].Value.ToString() : string.Empty;
+                                    cBarcode.Data.SetText($"BARCODE{j}", value);
+                                }
+
+                                cBarcode.Data.AddLabel();
+                            }
+
+                            cBarcode.Print(false);
+                            break;
+                        }
                         case "printlocation":
+                        {
+                            var selectRowIndexList = new List<DataGridViewRow>();
+                            foreach (DataGridViewRow row in e.DataGridView.Rows)
                             {
-                                var selectRowIndexList = new List<DataGridViewRow>();
-                                foreach (DataGridViewRow row in e.DataGridView.Rows)
+                                foreach (DataGridViewCell cell in row.Cells)
                                 {
-                                    foreach (DataGridViewCell cell in row.Cells)
-                                    {
-                                        if (!cell.Selected) continue;
-                                        selectRowIndexList.Add(row);
-                                        break;
-                                    }
-                                }
-
-                                if (selectRowIndexList.Count == 0)
-                                {
-                                    return;
-                                }
-
-                                if (DialogResult.Yes != System.Windows.Forms.MessageBox.Show($"Are you sure?", "Asterisk", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk))
-                                {
+                                    if (!cell.Selected) continue;
+                                    selectRowIndexList.Add(row);
                                     break;
                                 }
+                            }
 
-                                var cBarcode = new clsBarcode.clsBarcode();
-                                var bcdName = "LocationLabel";
-                                var bcdData = DbAccess.Default.ExecuteScalar($"SELECT BcdData FROM BcdLblFmtr WHERE BcdName='{bcdName}'");
-                                cBarcode.LoadFromXml(bcdData.ToString());
-                                foreach (var row in selectRowIndexList)
-                                {
-                                    cBarcode.Data.SetText("BARCODE", row.Cells["Location"].Value.ToString());
-                                    cBarcode.Data.SetText("BARCODETEXT", row.Cells["Location"].Value.ToString());
-                                    cBarcode.Data.AddLabel();
-                                }
+                            if (selectRowIndexList.Count == 0)
+                            {
+                                return;
+                            }
 
-                                cBarcode.Print(false);
+                            if (DialogResult.Yes != System.Windows.Forms.MessageBox.Show($"Are you sure?", "Asterisk", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk))
+                            {
                                 break;
                             }
+
+                            var cBarcode = new clsBarcode.clsBarcode();
+                            var bcdName = "LocationLabel";
+                            var bcdData = DbAccess.Default.ExecuteScalar($"SELECT BcdData FROM BcdLblFmtr WHERE BcdName='{bcdName}'");
+                            cBarcode.LoadFromXml(bcdData.ToString());
+                            foreach (var row in selectRowIndexList)
+                            {
+                                cBarcode.Data.SetText("BARCODE", row.Cells["Location"].Value.ToString());
+                                cBarcode.Data.SetText("BARCODETEXT", row.Cells["Location"].Value.ToString());
+                                cBarcode.Data.AddLabel();
+                            }
+
+                            cBarcode.Print(false);
+                            break;
+                        }
                     }
 
                     break;
@@ -2040,12 +2046,12 @@ namespace WiseM.Browser
                             break;
                         }
                         case "edit":
-                            {
-                                WiseMEdit.EditForm wom001_Edit_Process = new WiseMEdit.EditForm("Workorder", e);
-                                wom001_Edit_Process.ShowDialog();
-                                e.AfterRefresh = WeRefreshPanel.Current;
-                                break;
-                            }
+                        {
+                            WiseMEdit.EditForm wom001_Edit_Process = new WiseMEdit.EditForm("Workorder", e);
+                            wom001_Edit_Process.ShowDialog();
+                            e.AfterRefresh = WeRefreshPanel.Current;
+                            break;
+                        }
                     }
 
                     break;
@@ -2108,6 +2114,7 @@ namespace WiseM.Browser
                                     e.AfterRefresh = WeRefreshPanel.Current;
                                     break;
                             }
+
                             break;
                         case "Panel1":
                             switch (e.Link.ToLower())
@@ -2118,8 +2125,10 @@ namespace WiseM.Browser
                                     e.AfterRefresh = WeRefreshPanel.Current;
                                     break;
                             }
+
                             break;
                     }
+
                     break;
 
                 case "wpm001":
@@ -2222,10 +2231,10 @@ namespace WiseM.Browser
                     if (e.Link.ToLower().Equals("spc_test"))
                     {
                         System.Diagnostics.Process.Start
-                            (
-                             "SPC_ChartFX7.exe"
-                           , System.Windows.Forms.Application.StartupPath
-                            );
+                        (
+                            "SPC_ChartFX7.exe"
+                            , System.Windows.Forms.Application.StartupPath
+                        );
                     }
                     else
                     {
@@ -2293,10 +2302,10 @@ namespace WiseM.Browser
                         else
                         {
                             DialogResult dr = MessageBox.Show
-                                (
-                                 "Check input 'CL' last month data. ", "Warning"
-                               , MessageBoxButtons.OK, MessageBoxIcon.Warning
-                                );
+                            (
+                                "Check input 'CL' last month data. ", "Warning"
+                                , MessageBoxButtons.OK, MessageBoxIcon.Warning
+                            );
                             if (dr == DialogResult.OK)
                             {
                                 SPC.Spc005 spc005 = new SPC.Spc005(e, tempString);
@@ -2468,10 +2477,10 @@ namespace WiseM.Browser
                         }
                         case "insert":
                             MessageBox.Show
-                                (
-                                 "Please select after search parent panel.", "Not Valid"
-                               , MessageBoxButtons.OK, MessageBoxIcon.Information
-                                );
+                            (
+                                "Please select after search parent panel.", "Not Valid"
+                                , MessageBoxButtons.OK, MessageBoxIcon.Information
+                            );
                             break;
                         case "update":
                         {
@@ -2530,13 +2539,13 @@ namespace WiseM.Browser
                                                   + "'"
                                                   + " Where CsDate='"
                                                   + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                     .Substring(0, 10) //"yyyy-MM-dd"
+                                                      .Substring(0, 10) //"yyyy-MM-dd"
                                                   + "' and Line ='"
                                                   + e.DataGridView.CurrentRow.Cells["Line"].Value
-                                                     .ToString()
+                                                      .ToString()
                                                   + "' and CsShift ='"
                                                   + e.DataGridView.CurrentRow.Cells["CsShift"].Value
-                                                     .ToString()
+                                                      .ToString()
                                                   + "' and (Confirmer='' or Confirmer is null)";
 
                             e.DbAccess.ExecuteQuery(UpdatetQuery);
@@ -2550,10 +2559,10 @@ namespace WiseM.Browser
                             string DeleteQuery = "Delete From CsDailyHist "
                                                  + " Where CsDate='"
                                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                    .Substring(0, 10) //"yyyy-MM-dd"
+                                                     .Substring(0, 10) //"yyyy-MM-dd"
                                                  + "' and Line ='"
                                                  + e.DataGridView.CurrentRow.Cells["Line"].Value
-                                                    .ToString()
+                                                     .ToString()
                                                  + "' and CsShift ='"
                                                  + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString()
                                                  + "'";
@@ -2658,10 +2667,10 @@ namespace WiseM.Browser
                                                   + "'"
                                                   + " Where CsDate='"
                                                   + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                     .Substring(0, 10) //"yyyy-MM-dd"
+                                                      .Substring(0, 10) //"yyyy-MM-dd"
                                                   + "' and Line ='"
                                                   + e.DataGridView.CurrentRow.Cells["Line"].Value
-                                                     .ToString()
+                                                      .ToString()
                                                   + "' and  (Confirmer='' or Confirmer is null)";
 
                             e.DbAccess.ExecuteQuery(UpdatetQuery);
@@ -2675,7 +2684,7 @@ namespace WiseM.Browser
                             string DeleteQuery = "Delete From Cs3c5sHist "
                                                  + " Where CsDate='"
                                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                    .Substring(0, 10) //"yyyy-MM-dd"
+                                                     .Substring(0, 10) //"yyyy-MM-dd"
                                                  + "' and Line ='"
                                                  + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString()
                                                  + "'";
@@ -2991,10 +3000,10 @@ namespace WiseM.Browser
                                                   + "'"
                                                   + " Where CsDate='"
                                                   + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                     .Substring(0, 10) //"yyyy-MM-dd"
+                                                      .Substring(0, 10) //"yyyy-MM-dd"
                                                   + "' and CsCode ='"
                                                   + e.DataGridView.CurrentRow.Cells["CsCode"].Value
-                                                     .ToString()
+                                                      .ToString()
                                                   + "' and (Confirmer='' or Confirmer is null)";
 
                             e.DbAccess.ExecuteQuery(UpdatetQuery);
@@ -3010,7 +3019,7 @@ namespace WiseM.Browser
                             string DeleteQuery = "Delete From CsParameterCheckHist "
                                                  + " Where CsDate='"
                                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                    .Substring(0, 10) //"yyyy-MM-dd"
+                                                     .Substring(0, 10) //"yyyy-MM-dd"
                                                  + "' and CsCode ='"
                                                  + e.DataGridView.CurrentRow.Cells["CsCode"].Value.ToString()
                                                  + "'";

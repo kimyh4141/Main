@@ -69,11 +69,7 @@ SELECT SEQ
          WHEN PrefixSumRemainQty - RemainQty < UsedQty AND PrefixSumRemainQty >= UsedQty
            THEN UsedQty - (PrefixSumRemainQty - RemainQty)
          WHEN PrefixSumRemainQty < UsedQty
-           THEN CASE
-                  WHEN PrefixSumRemainQty = GroupRemainQty AND RemainQty <> 0
-                    THEN UsedQty - (PrefixSumRemainQty - RemainQty)
-                    ELSE RemainQty
-                END
+           THEN IIF(PrefixSumRemainQty = GroupRemainQty AND RemainQty <> 0, UsedQty - (PrefixSumRemainQty - RemainQty), RemainQty)
        END     AS CurrentUsedQty
      , GroupStockOutQty
      , StockOutQty
@@ -104,19 +100,18 @@ SELECT SEQ
                        , EPIRBO.KEY_ITEM
                        , EPIRBO.CHILD_ITEM_CD
                        , EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
-                       , CONVERT(INT, EPIRBO.CAVITY_QTY)                                        AS CAVITY_QTY
+                       , CONVERT(INT, EPIRBO.CAVITY_QTY)                                                AS CAVITY_QTY
                        --그룹별 총 출고수량
                        , CONVERT(INT, COALESCE(CASE EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
                                                  WHEN N'N'
-                                                   THEN SUM(RSH.StockOutQty) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ)
+                                                   THEN SUM(COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ)
                                                  WHEN N'Y'
-                                                   THEN SUM(RSH.StockOutQty) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP)
-                                               END, 0), 0)                                      AS GroupStockOutQty
-                       , SUM(StockOutQty) OVER ( PARTITION BY ALT_GROUP, KEY_ITEM ORDER BY SEQ) AS PrefixSumStockOutQty
+                                                   THEN SUM(COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP)
+                                               END, 0), 0)                                              AS GroupStockOutQty
                        --출고수량
-                       , CONVERT(INT, COALESCE(RSH.StockOutQty, 0))                             AS StockOutQty
-                       , CONVERT(INT, COALESCE(EPIRBO.GroupReportedQty, 0))                     AS GroupReportedQty
-                       , CONVERT(INT, EPIRBO.ReportedQty)                                       AS ReportedQty
+                       , CONVERT(INT, COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0)) AS StockOutQty
+                       , CONVERT(INT, COALESCE(EPIRBO.GroupReportedQty, 0))                             AS GroupReportedQty
+                       , CONVERT(INT, EPIRBO.ReportedQty)                                               AS ReportedQty
                     FROM (
                            SELECT EPPO.PRODT_ORDER_NO
                                 , EPPO.ORDER_QTY
@@ -208,6 +203,21 @@ SELECT SEQ
                                          ON EPIRBO.PRODT_ORDER_NO = RSH.Rm_Order
                                            AND EPIRBO.SEQ = RSH.Rm_OrderSeq
                                            AND EPIRBO.CHILD_ITEM_CD = RSH.Rm_Material
+                         LEFT OUTER JOIN (
+                                           SELECT RSH.Rm_Order
+                                                , RSH.Rm_OrderSeq
+                                                , RSH.Rm_Material
+                                                , SUM(RSH.Rm_StockQty) AS StockReturnQty
+                                             FROM Rm_StockHist AS RSH WITH (NOLOCK)
+                                            WHERE RSH.Rm_IO_Type = 'IN'
+                                              AND RSH.Rm_Bunch = 'RETURN'
+                                            GROUP BY RSH.Rm_Order
+                                                   , RSH.Rm_OrderSeq
+                                                   , RSH.Rm_Material
+                                         ) AS RSH_R
+                                         ON EPIRBO.PRODT_ORDER_NO = RSH_R.Rm_Order
+                                           AND EPIRBO.SEQ = RSH_R.Rm_OrderSeq
+                                           AND EPIRBO.CHILD_ITEM_CD = RSH_R.Rm_Material
                 ) AS T
        ) AS T
  ORDER BY SEQ

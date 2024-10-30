@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
 using WiseM.Data;
 using System.Windows.Forms;
 
@@ -309,130 +306,129 @@ namespace WiseM.Browser.WMS
             try
             {
                 string query = $@"					  
-      SELECT ROW_NUMBER() OVER (ORDER BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ, EPIRBO.ITEM_SEQ)                                                AS No
-    
-     , EPIRBO.CHILD_ITEM_CD                                                                                                           AS Material
-
-     , EPIRBO.KEY_ITEM  as KEY_ITEM
-	 , EPIRBO.ALT_GROUP as ALT_GROUP
-	 , EPIRBO.SEQ       as ORDER_SEQ_NO
-     , convert(int,EPIRBO.GROUP_QTY  )                                                                                                       AS GroupQty
-
-     , COALESCE(RSH.OUT_QTY , 0)                                                                                                       AS ScanQty
-	  , COALESCE(RSH_R.OUT_QTY_R , 0)                                                                                                       AS ReturnQty
-     , EPIRBO.GROUP_QTY  - SUM(COALESCE(RSH.OUT_QTY , 0)  -  COALESCE(RSH_R.OUT_QTY_R , 0)   )  OVER ( PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP) AS RemainQty
-	      
-     , RM.Spec                                                                                                                        AS Spec
-    
+SELECT ROW_NUMBER() OVER (ORDER BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ, EPIRBO.ITEM_SEQ)                                                                               AS No
+     , EPIRBO.CHILD_ITEM_CD                                                                                                                                          AS Material
+     , EPIRBO.KEY_ITEM                                                                                                                                               AS KEY_ITEM
+     , EPIRBO.ALT_GROUP                                                                                                                                              AS ALT_GROUP
+     , EPIRBO.SEQ                                                                                                                                                    AS ORDER_SEQ_NO
+     , CONVERT(INT, EPIRBO.GROUP_QTY)                                                                                                                                AS GroupQty
+     , COALESCE(RSH.OUT_QTY, 0)                                                                                                                                      AS ScanQty
+     , COALESCE(RSH_R.OUT_QTY_R, 0)                                                                                                                                  AS ReturnQty
+     , EPIRBO.GROUP_QTY - SUM(COALESCE(RSH.OUT_QTY, 0) - COALESCE(RSH_R.OUT_QTY_R, 0)) OVER ( PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP) AS RemainQty
+     , RM.Spec                                                                                                                                                       AS Spec
   FROM (
-           SELECT EPPO.PRODT_ORDER_NO AS ORDER_NO
-                , EPPO.ROUT_SEQ
-                , EPPO.ROUT_SEQ_NM
-                , EPPO.ORDER_QTY
-                , EPPO.PLAN_START_DT  AS ORDER_DT
-                , EPPO.ITEM_CD
-				, EPPO.REMARK
-             FROM (
-                      SELECT ROW_NUMBER() OVER (PARTITION BY EPPO.PRODT_ORDER_NO ORDER BY EPPO.IF_TIME DESC) AS RowNumber
-                           , EPPO.PRODT_ORDER_NO
-                           , EPPO.ITEM_CD
-                           , EPPO.ROUT_SEQ
-                           , EPPO.ROUT_SEQ_NM
-                           , EPPO.ORDER_QTY
-                           , EPPO.PLAN_START_DT
-                           , EPPO.I_PROC_STEP
-						   , EPPO.REMARK
-                        FROM MES_IF_CN.dbo.ETM_P_PROD_ORDER AS EPPO
-                       WHERE 1 = 1
-                  ) AS EPPO
-            WHERE EPPO.RowNumber = 1
-              AND EPPO.I_PROC_STEP IN ('C', 'U')
-              AND EPPO.PLAN_START_DT between '{dateTimePicker_Start.Value:yyyy-MM-dd}' and '{dateTimePicker_End.Value:yyyy-MM-dd}'
-              AND  EPPO.PRODT_ORDER_NO LIKE '%{orderNo}%'
-       ) AS EPPO
+         SELECT EPPO.PRODT_ORDER_NO AS ORDER_NO
+              , EPPO.ROUT_SEQ
+              , EPPO.ROUT_SEQ_NM
+              , EPPO.ORDER_QTY
+              , EPPO.PLAN_START_DT  AS ORDER_DT
+              , EPPO.ITEM_CD
+              , EPPO.REMARK
+           FROM (
+                  SELECT ROW_NUMBER() OVER (PARTITION BY EPPO.PRODT_ORDER_NO ORDER BY EPPO.IF_TIME DESC) AS RowNumber
+                       , EPPO.PRODT_ORDER_NO
+                       , EPPO.ITEM_CD
+                       , EPPO.ROUT_SEQ
+                       , EPPO.ROUT_SEQ_NM
+                       , EPPO.ORDER_QTY
+                       , EPPO.PLAN_START_DT
+                       , EPPO.I_PROC_STEP
+                       , EPPO.REMARK
+                    FROM MES_IF_CN.dbo.ETM_P_PROD_ORDER AS EPPO
+                   WHERE 1 = 1
+                ) AS EPPO
+          WHERE EPPO.RowNumber = 1
+            AND EPPO.I_PROC_STEP IN ('C', 'U')
+            AND EPPO.PLAN_START_DT BETWEEN '{dateTimePicker_Start.Value:yyyy-MM-dd}' AND '{dateTimePicker_End.Value:yyyy-MM-dd}'
+            AND EPPO.PRODT_ORDER_NO LIKE '%{orderNo}%'
+       )                        AS EPPO
        INNER JOIN
                        (
-                           SELECT EPIRBO.IF_ID
-                                , EPIRBO.PRODT_ORDER_NO
-                                , EPIRBO.SEQ
-                                , EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
-                                , CASE EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
-                                      WHEN N'N'
-                                          THEN EPIRBO.CHILD_ITEM_CD
-                                      WHEN N'Y'
-                                          THEN EPIRBO.KEY_ITEM
-                                  END            AS KEY_ITEM
-                                , EPIRBO.CHILD_ITEM_CD
-                                , EPIRBO.BASE_UNIT
-                                , EPIRBO.ALT_GROUP
-                                , EPIRBO.ITEM_SEQ
-                                , CASE
-                                      WHEN EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG = N'N'
-                                          THEN EPIRBO.REQ_QTY
-                                      ELSE SUM(EPIRBO.REQ_QTY) OVER ( PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP)
-                                  END            AS GROUP_QTY
-                                , EPIRBO.REQ_QTY AS ORDER_QTY
-                                , EPIRBO.SL_CD
-                                , EPIRBO.I_PROC_STEP
-                                , EPIRBO.I_APPLY_STATUS
-                                , EPIRBO.APPLY_FLAG
-                                , EPIRBO.REQ_DT
-                             FROM (
-                                      SELECT ROW_NUMBER() OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ ORDER BY EPIRBO.IF_TIME DESC) AS RowNumber
-                                           , EPIRBO.IF_ID
-                                           , EPIRBO.PRODT_ORDER_NO
-                                           , EPIRBO.SEQ
-                                           , EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
-                                           , EPIRBO.KEY_ITEM
-                                           , EPIRBO.CHILD_ITEM_CD
-                                           , EPIRBO.BASE_UNIT
-                                           , EPIRBO.ALT_GROUP
-                                           , EPIRBO.ITEM_SEQ
-                                           , EPIRBO.REQ_QTY
-                                           , EPIRBO.SL_CD
-                                           , EPIRBO.I_PROC_STEP
-                                           , EPIRBO.I_APPLY_STATUS
-                                           , EPIRBO.APPLY_FLAG
-                                           , EPIRBO.REQ_DT
-                                        FROM MES_IF_CN.dbo.ETM_P_ISSUE_REQ_BY_ORDER AS EPIRBO
-                                  ) AS EPIRBO
-                            WHERE EPIRBO.RowNumber = 1
-                              AND EPIRBO.I_PROC_STEP IN ('C', 'U')
-                              AND EPIRBO.I_APPLY_STATUS IN ('R')
-                       ) AS EPIRBO
+                         SELECT EPIRBO.IF_ID
+                              , EPIRBO.PRODT_ORDER_NO
+                              , EPIRBO.SEQ
+                              , EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+                              , CASE EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+                                  WHEN N'N'
+                                    THEN EPIRBO.CHILD_ITEM_CD
+                                  WHEN N'Y'
+                                    THEN EPIRBO.KEY_ITEM
+                                END            AS KEY_ITEM
+                              , EPIRBO.CHILD_ITEM_CD
+                              , EPIRBO.BASE_UNIT
+                              , EPIRBO.ALT_GROUP
+                              , EPIRBO.ITEM_SEQ
+                              , CASE
+                                  WHEN EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG = N'N'
+                                    THEN EPIRBO.REQ_QTY
+                                    ELSE SUM(EPIRBO.REQ_QTY) OVER ( PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP)
+                                END            AS GROUP_QTY
+                              , EPIRBO.REQ_QTY AS ORDER_QTY
+                              , EPIRBO.SL_CD
+                              , EPIRBO.I_PROC_STEP
+                              , EPIRBO.I_APPLY_STATUS
+                              , EPIRBO.APPLY_FLAG
+                              , EPIRBO.REQ_DT
+                           FROM (
+                                  SELECT ROW_NUMBER() OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ ORDER BY EPIRBO.IF_TIME DESC) AS RowNumber
+                                       , EPIRBO.IF_ID
+                                       , EPIRBO.PRODT_ORDER_NO
+                                       , EPIRBO.SEQ
+                                       , EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+                                       , EPIRBO.KEY_ITEM
+                                       , EPIRBO.CHILD_ITEM_CD
+                                       , EPIRBO.BASE_UNIT
+                                       , EPIRBO.ALT_GROUP
+                                       , EPIRBO.ITEM_SEQ
+                                       , EPIRBO.REQ_QTY
+                                       , EPIRBO.SL_CD
+                                       , EPIRBO.I_PROC_STEP
+                                       , EPIRBO.I_APPLY_STATUS
+                                       , EPIRBO.APPLY_FLAG
+                                       , EPIRBO.REQ_DT
+                                    FROM MES_IF_CN.dbo.ETM_P_ISSUE_REQ_BY_ORDER AS EPIRBO
+                                ) AS EPIRBO
+                          WHERE EPIRBO.RowNumber = 1
+                            AND EPIRBO.I_PROC_STEP IN ('C', 'U')
+                            AND EPIRBO.I_APPLY_STATUS IN ('R')
+                       )        AS EPIRBO
                        ON EPPO.ORDER_NO = EPIRBO.PRODT_ORDER_NO
        LEFT OUTER JOIN (
-                           SELECT RSH.Rm_Order
-                                , RSH.Rm_OrderSeq
-                                , RSH.Rm_Material
-                                , SUM(RSH.Rm_StockQty)            AS OUT_QTY
-                              
-                             FROM Rm_StockHist RSH
-                            WHERE RSH.Rm_IO_Type = 'OUT'
-						
-                            GROUP BY RSH.Rm_Order
-                                   , RSH.Rm_OrderSeq
-                                   , RSH.Rm_Material
-                       ) RSH
-                       ON EPIRBO.PRODT_ORDER_NO = RSH.Rm_Order AND EPIRBO.SEQ = COALESCE(RSH.Rm_OrderSeq, EPIRBO.SEQ) AND EPIRBO.CHILD_ITEM_CD = RSH.Rm_Material
-					     LEFT OUTER JOIN (
-                           SELECT RSH_R.Rm_Order
-                                , RSH_R.Rm_OrderSeq
-                                , RSH_R.Rm_Material
-                                , SUM(RSH_R.Rm_StockQty)            AS OUT_QTY_R
-                             FROM Rm_StockHist RSH_R
-                            WHERE RSH_R.Rm_Bunch = 'RETURN' and RSH_R.Rm_IO_Type = 'IN'
-                            GROUP BY RSH_R.Rm_Order
-                                   , RSH_R.Rm_OrderSeq
-                                   , RSH_R.Rm_Material
-                       ) RSH_R
-                       ON EPIRBO.PRODT_ORDER_NO = RSH_R.Rm_Order AND EPIRBO.SEQ = COALESCE(RSH_R.Rm_OrderSeq, EPIRBO.SEQ) AND EPIRBO.CHILD_ITEM_CD = RSH_R.Rm_Material
+                         SELECT RSH.Rm_Order
+                              , RSH.Rm_OrderSeq
+                              , RSH.Rm_Material
+                              , SUM(RSH.Rm_StockQty) AS OUT_QTY
+
+                           FROM Rm_StockHist RSH
+                          WHERE RSH.Rm_IO_Type = 'OUT'
+
+                          GROUP BY RSH.Rm_Order
+                                 , RSH.Rm_OrderSeq
+                                 , RSH.Rm_Material
+                       )           RSH
+                       ON EPIRBO.PRODT_ORDER_NO = RSH.Rm_Order
+                         AND EPIRBO.SEQ = COALESCE(RSH.Rm_OrderSeq, EPIRBO.SEQ)
+                         AND EPIRBO.CHILD_ITEM_CD = RSH.Rm_Material
+       LEFT OUTER JOIN (
+                         SELECT RSH_R.Rm_Order
+                              , RSH_R.Rm_OrderSeq
+                              , RSH_R.Rm_Material
+                              , SUM(RSH_R.Rm_StockQty) AS OUT_QTY_R
+                           FROM Rm_StockHist RSH_R
+                          WHERE RSH_R.Rm_Bunch = 'RETURN'
+                            AND RSH_R.Rm_IO_Type = 'IN'
+                          GROUP BY RSH_R.Rm_Order
+                                 , RSH_R.Rm_OrderSeq
+                                 , RSH_R.Rm_Material
+                       )           RSH_R
+                       ON EPIRBO.PRODT_ORDER_NO = RSH_R.Rm_Order
+                         AND EPIRBO.SEQ = COALESCE(RSH_R.Rm_OrderSeq, EPIRBO.SEQ)
+                         AND EPIRBO.CHILD_ITEM_CD = RSH_R.Rm_Material
        LEFT OUTER JOIN Material AS M
                        ON EPPO.ITEM_CD = M.Material
        LEFT OUTER JOIN RawMaterial RM
                        ON EPIRBO.CHILD_ITEM_CD = RM.RawMaterial
  WHERE RM.Bunch NOT IN ('10', '25')
-   
  ORDER BY SEQ
 ;
 ";
@@ -789,23 +785,23 @@ namespace WiseM.Browser.WMS
                                                     , Rm_Created
                                                     , Rm_Updated 
                                                     )
-                                SELECT TOP 1 '{dataGridView_ScanList.Rows[i].Cells["Rm_BarCode"].Value.ToString()}'
+                                SELECT TOP 1 '{dataGridView_ScanList.Rows[i].Cells["Rm_BarCode"].Value}'
                                            , 'IN'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Material"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Supplier"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_ProdDate"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_QtyinBox"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_BoxSeq"].Value.ToString()}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Material"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Supplier"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_ProdDate"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_QtyinBox"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_BoxSeq"].Value}'
                                            , 'RETURN'
                                            , '{QtyinBox}'
                                            , 1
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_LocationGroup"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Location"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Order"].Value.ToString()}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_LocationGroup"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Location"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Order"].Value}'
                                            , 0
-                                           , '{dataGridView_ScanList.Rows[i].Cells["ERP_SL_CD_FROM"].Value.ToString()}'
-                                           , 'VP30'
-                                           , '{dataGridView_RawMaterial.SelectedRows[0].Cells["ORDER_SEQ_NO"].Value.ToString()}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["ERP_SL_CD_FROM"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["ERP_SL_CD_TO"].Value}'
+                                           , '{dataGridView_RawMaterial.SelectedRows[0].Cells["ORDER_SEQ_NO"].Value}'
                                            , @TimeStamp
                                            , @TimeStamp
                                            ;
@@ -827,19 +823,19 @@ namespace WiseM.Browser.WMS
                                                 , Rm_Created
                                                 , Rm_Updated
                                                  )
-                                SELECT TOP 1 '{dataGridView_ScanList.Rows[i].Cells["Rm_BarCode"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Material"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Supplier"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_ProdDate"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_QtyinBox"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_BoxSeq"].Value.ToString()}'
+                                SELECT TOP 1 '{dataGridView_ScanList.Rows[i].Cells["Rm_BarCode"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Material"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Supplier"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_ProdDate"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_QtyinBox"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_BoxSeq"].Value}'
                                            , 'RETURN'
                                            , '{QtyinBox}'
                                            , 0
                                            , 1
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_LocationGroup"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Location"].Value.ToString()}'
-                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Order"].Value.ToString()}' 
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_LocationGroup"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Location"].Value}'
+                                           , '{dataGridView_ScanList.Rows[i].Cells["Rm_Order"].Value}' 
                                            , @TimeStamp
                                            , @TimeStamp
                                            ; ";             

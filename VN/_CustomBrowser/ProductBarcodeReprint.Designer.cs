@@ -1,4 +1,4 @@
-﻿namespace WiseM.Client
+﻿namespace WiseM.Browser
 {
     partial class ProductBarcodeReprint
     {
@@ -348,7 +348,7 @@
             // 
             // button_Search
             // 
-            this.button_Search.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.button_Search.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button_Search.BackColor = System.Drawing.Color.White;
             this.button_Search.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold);

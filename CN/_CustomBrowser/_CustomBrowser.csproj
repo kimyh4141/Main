@@ -404,6 +404,12 @@
     <Compile Include="JigPeriodMsg.Designer.cs">
       <DependentUpon>JigPeriodMsg.cs</DependentUpon>
     </Compile>
+    <Compile Include="WMS\RawMaterialBlocking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\RawMaterialBlocking.Designer.cs">
+      <DependentUpon>RawMaterialBlocking.cs</DependentUpon>
+    </Compile>
     <Compile Include="WMS\ReturnBarcodeHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -768,6 +774,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JigPeriodMsg.resx">
       <DependentUpon>JigPeriodMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\RawMaterialBlocking.resx">
+      <DependentUpon>RawMaterialBlocking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WMS\ReturnBarcodeHistory.resx">
       <DependentUpon>ReturnBarcodeHistory.cs</DependentUpon>

@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using WiseM.Data;
 
-namespace WiseM.Client
+namespace WiseM.Browser
 {
     public partial class ProductBarcodeReprint : Form
     {
@@ -104,7 +104,7 @@ namespace WiseM.Client
                         clsBarcode.Data.SetText("DESC", $"{dataTable.Rows[0]["Description"]}");
                         clsBarcode.Data.SetText("SPEC", $"{dataTable.Rows[0]["Spec"]}");
                         //clsBarcode.Data.SetText("DATE", $"{productionDate.Substring(0, 4)}. {productionDate.Substring(5, 2)}. {productionDate.Substring(8, 2)}");
-                        clsBarcode.Data.SetText("DATE", $"{dataTable.Rows[0]["ProductionDate"]:YYYY. MM. DD}");
+                        clsBarcode.Data.SetText("DATE", $"{dataTable.Rows[0]["ProductionDate"]:yyyy. MM. dd}");
                         clsBarcode.Data.SetText("BARCODE1", $"{dataTable.Rows[0]["BoxBarcode_1"]}");
                         clsBarcode.Data.SetText("BARCODE2", $"{dataTable.Rows[0]["BoxBarcode_2"]}");
                         //gmryu 2023-10-10 일반라인/영문 라인 구분

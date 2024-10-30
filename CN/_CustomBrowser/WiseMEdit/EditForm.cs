@@ -9,17 +9,17 @@ namespace WiseM.Browser.WiseMEdit
 {
     public partial class EditForm : SkinForm
     {
-        private WiseM.Browser.CustomPanelLinkEventArgs e = null;
+        private CustomPanelLinkEventArgs e;
 
-        private DataTable dtPKColumnName = null;
-        private DataTable dtFKColumnName = null;
-        private DataTable dtEditInfoKeyCheck = null;
+        private DataTable dtPKColumnName;
+        private DataTable dtFKColumnName;
+        private DataTable dtEditInfoKeyCheck;
 
         private Dictionary<string, DataGridViewComboBoxCell> dicCell = new Dictionary<string, DataGridViewComboBoxCell>();
 
         private string tableName = string.Empty;
 
-        public EditForm(string tableName, WiseM.Browser.CustomPanelLinkEventArgs e)
+        public EditForm(string tableName, CustomPanelLinkEventArgs e)
         {
             InitializeComponent();
 
@@ -27,7 +27,7 @@ namespace WiseM.Browser.WiseMEdit
 
             this.tableName = tableName;
 
-            this.Text = "(" + tableName + ") 수정 / 추가 / 삭제";
+            Text = "(" + tableName + ") 수정 / 추가 / 삭제";
         }
 
         private void EditForm_Load(object sender, EventArgs e)
@@ -35,26 +35,26 @@ namespace WiseM.Browser.WiseMEdit
             try
             {
                 // 기본키 컬럼 조회
-                this.dtPKColumnName = this.SearchPKColumn();
+                dtPKColumnName = SearchPKColumn();
 
                 // 외래키 컬럼 조회
-                this.dtFKColumnName = this.SearchFKColumn();
+                dtFKColumnName = SearchFKColumn();
 
-                if (this.dtFKColumnName != null && this.dtFKColumnName.Rows.Count > 0)
+                if (dtFKColumnName != null && dtFKColumnName.Rows.Count > 0)
                 {
                     // 외래키 참조 테이블 조회
-                    this.dtEditInfoKeyCheck = this.EditInfoTB_Name_Column();
+                    dtEditInfoKeyCheck = EditInfoTB_Name_Column();
                 }
 
                 // Binding Grid
-                this.BindDataGridView();
+                BindDataGridView();
 
-                this.Translation();
+                Translation();
             }
             catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show($"Failed to find information.\r\n{ex.Message}", "Fail", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                this.Close();
+                Close();
             }
         }
 
@@ -72,10 +72,10 @@ namespace WiseM.Browser.WiseMEdit
             query += "\r\n JOIN     INFORMATION_SCHEMA.KEY_COLUMN_USAGE B ";
             query += "\r\n      ON  A.TABLE_NAME = B.TABLE_NAME ";
             query += "\r\n      AND A.CONSTRAINT_NAME = B.CONSTRAINT_NAME ";
-            query += "\r\n WHERE    A.TABLE_NAME = '" + this.tableName + "' ";
+            query += "\r\n WHERE    A.TABLE_NAME = '" + tableName + "' ";
             query += "\r\n      AND A.CONSTRAINT_TYPE = 'PRIMARY KEY' ";
 
-            return this.e.DbAccess.GetDataTable(query);
+            return e.DbAccess.GetDataTable(query);
         }
 
         /// <summary>
@@ -91,11 +91,11 @@ namespace WiseM.Browser.WiseMEdit
             query += "\r\n JOIN     INFORMATION_SCHEMA.KEY_COLUMN_USAGE B ";
             query += "\r\n      ON  A.TABLE_NAME = B.TABLE_NAME ";
             query += "\r\n      AND A.CONSTRAINT_NAME = B.CONSTRAINT_NAME ";
-            query += "\r\n WHERE    A.TABLE_NAME = '" + this.tableName + "' ";
+            query += "\r\n WHERE    A.TABLE_NAME = '" + tableName + "' ";
             query += "\r\n      AND A.CONSTRAINT_TYPE = 'FOREIGN KEY' " ;
             query += "\r\n      AND B.COLUMN_NAME IN ('Division', 'Material', 'Routing', 'WorkCenter', 'Common', 'Category', 'Parent', 'Child',' ') ";
 
-            return this.e.DbAccess.GetDataTable(query);
+            return e.DbAccess.GetDataTable(query);
         }
 
         /// <summary>
@@ -112,7 +112,7 @@ namespace WiseM.Browser.WiseMEdit
             query += "\r\n FROM     sys.foreign_Keys F ";
             query += "\r\n JOIN     sys.foreign_Key_columns FC ";
             query += "\r\n      ON  F.OBJECT_ID = FC.constraint_object_id ";
-            query += "\r\n WHERE    OBJECT_NAME(f.parent_object_id) = '" + this.tableName + "' ";
+            query += "\r\n WHERE    OBJECT_NAME(f.parent_object_id) = '" + tableName + "' ";
             query += "\r\n ORDER BY KEY_NAME ";
 
             return this.e.DbAccess.GetDataTable(query);
@@ -129,17 +129,15 @@ namespace WiseM.Browser.WiseMEdit
                 {
                     DataTable dtForeignTable = SearchTable_OfForeignKey(i);
 
-                    if (dtForeignTable != null)
+                    if (dtForeignTable == null) continue;
+                    DataGridViewComboBoxCell comboBoxCell = new DataGridViewComboBoxCell();
+
+                    foreach (DataRow row in dtForeignTable.Rows)
                     {
-                        DataGridViewComboBoxCell comboBoxCell = new DataGridViewComboBoxCell();
-
-                        foreach (DataRow row in dtForeignTable.Rows)
-                        {
-                            comboBoxCell.Items.Add(row["COLUMN_NAME"]);
-                        }
-
-                        dicCell.Add(dtFKColumnName.Rows[i]["COLUMN_NAME"].ToString(), comboBoxCell);
+                        comboBoxCell.Items.Add(row["COLUMN_NAME"]);
                     }
+
+                    dicCell.Add(dtFKColumnName.Rows[i]["COLUMN_NAME"].ToString(), comboBoxCell);
                 }
             }
 
@@ -147,7 +145,7 @@ namespace WiseM.Browser.WiseMEdit
             {
                 int cCell_count_num = dicCell.Count;
 
-                this.dataGridViewResult.Rows.Add();
+                dataGridViewResult.Rows.Add();
 
                 for (int j = 0; j < dtPKColumnName.Rows.Count; j++)
                 {
@@ -200,15 +198,15 @@ namespace WiseM.Browser.WiseMEdit
 
 
             // 브라우저 패널에서 선택한 데이터가 있다면 데이터 할당
-            if (this.e.DataGridView.CurrentRow == null) return;
+            if (e.DataGridView.CurrentRow == null) return;
             {
-                foreach (DataGridViewColumn column in this.e.DataGridView.Columns)
+                foreach (DataGridViewColumn column in e.DataGridView.Columns)
                 {
                     for (int i = 0; i < dtBind.Rows.Count; i++)
                     {
-                        if (this.dataGridViewResult.Rows[i].Cells["ColumnId"].Value.ToString().ToUpper().Equals(column.Name.ToString().ToUpper()))
+                        if (dataGridViewResult.Rows[i].Cells["ColumnId"].Value.ToString().ToUpper().Equals(column.Name.ToUpper()))
                         {
-                            this.dataGridViewResult.Rows[i].Cells["ColumnValue"].Value = this.e.DataGridView.CurrentRow.Cells[column.Name].Value;
+                            dataGridViewResult.Rows[i].Cells["ColumnValue"].Value = e.DataGridView.CurrentRow.Cells[column.Name].Value;
                         }
                     }
                 }
@@ -218,9 +216,9 @@ namespace WiseM.Browser.WiseMEdit
         //EditInfo테이블에 정의된 테이블 중 상태 값이 1인 것들만 조회 
         private DataTable SearchColumn()
         {
-            string query = "SELECT * FROM EditInfo WHERE EditTableName = '" + this.tableName + "' AND Status = 1 ORDER BY LEN(Seq) ASC, Seq ASC";
+            string query = "SELECT * FROM EditInfo WHERE EditTableName = '" + tableName + "' AND Status = 1 ORDER BY LEN(Seq) ASC, Seq ASC";
 
-            return this.e.DbAccess.GetDataTable(query);
+            return e.DbAccess.GetDataTable(query);
         }
 
         /// <summary>
@@ -235,34 +233,34 @@ namespace WiseM.Browser.WiseMEdit
 
             string query = $"SELECT {colName} AS COLUMN_NAME FROM {from}";
 
-            return this.e.DbAccess.GetDataTable(query);
+            return e.DbAccess.GetDataTable(query);
         }
 
         // 번역
         private void Translation()
         {
-            this.btn_Edit.Text = WiseM.Global.Globalizer.ConvertTo(WiseM.Global.WeLangSubType.Label, this.btn_Edit.Text);
-            this.btn_Delete.Text = WiseM.Global.Globalizer.ConvertTo(WiseM.Global.WeLangSubType.Label, this.btn_Delete.Text);
-            this.btn_Insert.Text = WiseM.Global.Globalizer.ConvertTo(WiseM.Global.WeLangSubType.Label, this.btn_Insert.Text);
-            this.btn_Clear.Text = WiseM.Global.Globalizer.ConvertTo(WiseM.Global.WeLangSubType.Label, this.btn_Clear.Text);
-            this.btn_Close.Text = WiseM.Global.Globalizer.ConvertTo(WiseM.Global.WeLangSubType.Label, this.btn_Close.Text);
+            btn_Edit.Text = Global.Globalizer.ConvertTo(Global.WeLangSubType.Label, btn_Edit.Text);
+            btn_Delete.Text = Global.Globalizer.ConvertTo(Global.WeLangSubType.Label, btn_Delete.Text);
+            btn_Insert.Text = Global.Globalizer.ConvertTo(Global.WeLangSubType.Label, btn_Insert.Text);
+            btn_Clear.Text = Global.Globalizer.ConvertTo(Global.WeLangSubType.Label, btn_Clear.Text);
+            btn_Close.Text = Global.Globalizer.ConvertTo(Global.WeLangSubType.Label, btn_Close.Text);
 
-            foreach(DataGridViewColumn col in this.dataGridViewResult.Columns)
+            foreach(DataGridViewColumn col in dataGridViewResult.Columns)
             {
-                col.HeaderText = WiseM.Global.Globalizer.ConvertTo(WiseM.Global.WeLangSubType.Column, col.Name);
+                col.HeaderText = Global.Globalizer.ConvertTo(Global.WeLangSubType.Column, col.Name);
             }
 
-            if (this.dataGridViewResult.Rows.Count <= 0) return;
-            foreach(DataGridViewRow row in this.dataGridViewResult.Rows)
+            if (dataGridViewResult.Rows.Count <= 0) return;
+            foreach(DataGridViewRow row in dataGridViewResult.Rows)
             {
-                string text = WiseM.Global.Globalizer.ConvertTo(WiseM.Global.WeLangSubType.Column, row.Cells["ColumnId"].Value.ToString());
+                string text = Global.Globalizer.ConvertTo(Global.WeLangSubType.Column, row.Cells["ColumnId"].Value.ToString());
                 row.Cells["ColumnName"].Value = text;
             }
         }
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            this.EditProcess();
+            EditProcess();
         }
 
         private void EditProcess()
@@ -270,13 +268,13 @@ namespace WiseM.Browser.WiseMEdit
             try
             {
                 string[,] pkValue = new string[10, 2];
-                if (this.CheckPKData(out pkValue) == false)
+                if (CheckPKData(out pkValue) == false)
                 {
                     string pkColumnNameStr = null;
-                    DataTable pkColumnNameDt = this.dtPKColumnName;
+                    DataTable pkColumnNameDt = dtPKColumnName;
                     for (int i = 0; i < pkColumnNameDt.Rows.Count; i++)
                     {
-                        pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"].ToString() + " , ";
+                        pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"] + " , ";
                     }
                     pkColumnNameStr = pkColumnNameStr.Remove(pkColumnNameStr.Length - 3, 3);
                     MessageBox.Show("You can edit and enter key Value(" + pkColumnNameStr + ")", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -312,25 +310,23 @@ namespace WiseM.Browser.WiseMEdit
         {
             try
             {
-                if (System.Windows.Forms.MessageBox.Show(" 데이터를 삭제 하시겠습니까?    ", "삭제 확인", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (System.Windows.Forms.MessageBox.Show(" 데이터를 삭제 하시겠습니까?    ", "삭제 확인", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+                string[,] pkValue = new string[10, 2];
+                string pkColumnNameStr = null;
+                DataTable pkColumnNameDt = dtPKColumnName;
+                for (int i = 0; i < pkColumnNameDt.Rows.Count; i++)
                 {
-                    string[,] pkValue = new string[10, 2];
-                    string pkColumnNameStr = null;
-                    DataTable pkColumnNameDt = this.dtPKColumnName;
-                    for (int i = 0; i < pkColumnNameDt.Rows.Count; i++)
-                    {
-                        pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"].ToString() + " , ";
-                    }
-                    pkColumnNameStr = pkColumnNameStr.Remove(pkColumnNameStr.Length - 3, 3);
-                    if (this.CheckPKData(out pkValue) == false)
-                    {
-                        MessageBox.Show("You can delete and enter key Value(" + pkColumnNameStr + ")", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    }
-                    else
-                    {
-                        if (this.DeleteProcess(pkValue) == 1)
-                            MessageBox.Show("Has been deleted.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
+                    pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"] + " , ";
+                }
+                pkColumnNameStr = pkColumnNameStr.Remove(pkColumnNameStr.Length - 3, 3);
+                if (CheckPKData(out pkValue) == false)
+                {
+                    MessageBox.Show("You can delete and enter key Value(" + pkColumnNameStr + ")", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    if (DeleteProcess(pkValue) == 1)
+                        MessageBox.Show("Has been deleted.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
@@ -345,13 +341,13 @@ namespace WiseM.Browser.WiseMEdit
             pkValue = new string[10, 2];
 
             int rowCount = 0;
-            foreach (DataGridViewRow dr in this.dataGridViewResult.Rows)
+            foreach (DataGridViewRow dr in dataGridViewResult.Rows)
             {
                 if (!"PK".Equals(dr.Cells["Check"].Value) && !"FK".Equals(dr.Cells["Check"].Value)) continue;
                 for (int i = 0; i < dtPKColumnName.Rows.Count; i++)
                 {
                     if (dr.Cells["ColumnId"].Value.ToString() != dtPKColumnName.Rows[i]["COLUMN_NAME"].ToString()) continue;
-                    if (dr.Cells["ColumnValue"].Value == null || string.IsNullOrEmpty(dr.Cells["ColumnValue"].Value.ToString()) == true)
+                    if (dr.Cells["ColumnValue"].Value == null || string.IsNullOrEmpty(dr.Cells["ColumnValue"].Value.ToString()))
                     {
                     }
                     else
@@ -377,9 +373,9 @@ namespace WiseM.Browser.WiseMEdit
             }
             whereQuery = whereQuery.Remove(whereQuery.Length - 4, 4);
 
-            string query = "Delete From " + this.tableName + " Where " + whereQuery;
+            string query = "Delete From " + tableName + " Where " + whereQuery;
 
-            return this.e.DbAccess.ExecuteQuery(query);
+            return e.DbAccess.ExecuteQuery(query);
 
 
             //MessageBox.Show(e.ToString());
@@ -438,8 +434,8 @@ namespace WiseM.Browser.WiseMEdit
 
         private void buttonClose_Click(object sender, EventArgs e)
         {
-            this.Close();
-            this.e.AfterRefresh = WiseM.Browser.WeRefreshPanel.Current;
+            Close();
+            this.e.AfterRefresh = WeRefreshPanel.Current;
         }
 
         // PK셀 더블 클릭시 메세지 박스

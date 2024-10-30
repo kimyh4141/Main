@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data;
-using System.Drawing;
 using System.Windows.Forms;
 using WiseM.Forms;
 using System.Collections.Generic;
@@ -9,17 +8,17 @@ namespace WiseM.Browser.WiseMEdit
 {
     public partial class EditForm : SkinForm
     {
-        private WiseM.Browser.CustomPanelLinkEventArgs e = null;
+        private CustomPanelLinkEventArgs e;
 
-        private DataTable dtPKColumnName = null;
-        private DataTable dtFKColumnName = null;
-        private DataTable dtEditInfoKeyCheck = null;
+        private DataTable dtPKColumnName;
+        private DataTable dtFKColumnName;
+        private DataTable dtEditInfoKeyCheck;
 
         private Dictionary<string, DataGridViewComboBoxCell> dicCell = new Dictionary<string, DataGridViewComboBoxCell>();
 
         private string tableName = string.Empty;
 
-        public EditForm(string tableName, WiseM.Browser.CustomPanelLinkEventArgs e)
+        public EditForm(string tableName, CustomPanelLinkEventArgs e)
         {
             InitializeComponent();
 
@@ -34,7 +33,7 @@ namespace WiseM.Browser.WiseMEdit
         {
             try
             {
-                if (this.tableName == "Workorder")
+                if (tableName == "Workorder")
                 {
                     btn_Delete.Enabled = false;
                     btn_Insert.Enabled = false;
@@ -42,7 +41,7 @@ namespace WiseM.Browser.WiseMEdit
 
                 }
                 // 기본키 컬럼 조회
-                this.dtPKColumnName = this.SearchPKColumn();
+                dtPKColumnName = this.SearchPKColumn();
 
                 // 외래키 컬럼 조회
                 this.dtFKColumnName = this.SearchFKColumn();
@@ -329,29 +328,23 @@ namespace WiseM.Browser.WiseMEdit
         {
             try
             {
-                if (System.Windows.Forms.MessageBox.Show(" 데이터를 삭제 하시겠습니까?    ", "삭제 확인", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (System.Windows.Forms.MessageBox.Show(" 데이터를 삭제 하시겠습니까?    ", "삭제 확인", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+                string[,] pkValue = new string[10, 2];
+                string pkColumnNameStr = null;
+                DataTable pkColumnNameDt = dtPKColumnName;
+                for (int i = 0; i < pkColumnNameDt.Rows.Count; i++)
                 {
-                    string[,] pkValue = new string[10, 2];
-                    string pkColumnNameStr = null;
-                    DataTable pkColumnNameDt = this.dtPKColumnName;
-                    for (int i = 0; i < pkColumnNameDt.Rows.Count; i++)
-                    {
-                        pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"].ToString() + " , ";
-                    }
-                    pkColumnNameStr = pkColumnNameStr.Remove(pkColumnNameStr.Length - 3, 3);
-                    if (this.CheckPKData(out pkValue) == false)
-                    {
-                        MessageBox.Show("You can delete and enter key Value(" + pkColumnNameStr + ")", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    }
-                    else
-                    {
-                        if (this.DeleteProcess(pkValue) == 1)
-                            MessageBox.Show("Has been deleted.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
+                    pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"] + " , ";
+                }
+                pkColumnNameStr = pkColumnNameStr.Remove(pkColumnNameStr.Length - 3, 3);
+                if (!CheckPKData(out pkValue))
+                {
+                    MessageBox.Show("You can delete and enter key Value(" + pkColumnNameStr + ")", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-
+                    if (this.DeleteProcess(pkValue) == 1)
+                        MessageBox.Show("Has been deleted.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
