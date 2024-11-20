@@ -59,7 +59,7 @@
       <HintPath>..\ReferenceDll\BarcodeLib.dll</HintPath>
     </Reference>
     <Reference Include="clsBarcode">
-      <HintPath>..\ReferenceDll\clsBarcode.dll</HintPath>
+      <HintPath>..\..\Reference\clsBarcode.dll</HintPath>
     </Reference>
     <Reference Include="Interop.Excel">
       <HintPath>..\..\Reference\Interop.Excel.dll</HintPath>
@@ -131,9 +131,8 @@
     <Reference Include="Virtual_Keyboard">
       <HintPath>..\..\Reference\Virtual_Keyboard.dll</HintPath>
     </Reference>
-    <Reference Include="wisebase, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\ReferenceDll\wisebase.dll</HintPath>
+    <Reference Include="wisebase">
+      <HintPath>..\..\Reference\wisebase.dll</HintPath>
     </Reference>
     <Reference Include="wiseclient, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>

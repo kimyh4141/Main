@@ -1360,7 +1360,7 @@ DELETE
                      , RM.MSLevel
                      , RS.Rm_Supplier            AS Supplier
                      , S.Text                    AS SupplierName
-                     , RS.Rm_ProdDate            AS Date
+                     , CONVERT(DATE, RS.Rm_ProdDate) AS Date
                      , RS.Rm_StockQty            AS Qty
                   FROM Rm_Stock                    RS
                        LEFT OUTER JOIN RawMaterial RM

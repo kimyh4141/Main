@@ -140,8 +140,8 @@
             this.tableLayoutPanel_Body.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel_Body.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel_Body.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel_Body.Size = new System.Drawing.Size(824, 844);
+            this.tableLayoutPanel_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel_Body.Size = new System.Drawing.Size(942, 1055);
             this.tableLayoutPanel_Body.TabIndex = 3;
             // 
             // textBox_Split
@@ -149,10 +149,10 @@
             this.textBox_Split.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox_Split.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox_Split.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.textBox_Split.Location = new System.Drawing.Point(320, 821);
+            this.textBox_Split.Location = new System.Drawing.Point(415, 1028);
             this.textBox_Split.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Split.Name = "textBox_Split";
-            this.textBox_Split.Size = new System.Drawing.Size(501, 21);
+            this.textBox_Split.Size = new System.Drawing.Size(524, 25);
             this.textBox_Split.TabIndex = 32;
             this.textBox_Split.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_Split_KeyDown);
             // 
@@ -160,10 +160,10 @@
             // 
             this.checkBox_Split.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_Split.AutoSize = true;
-            this.checkBox_Split.Location = new System.Drawing.Point(3, 823);
+            this.checkBox_Split.Location = new System.Drawing.Point(3, 1031);
             this.checkBox_Split.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox_Split.Name = "checkBox_Split";
-            this.checkBox_Split.Size = new System.Drawing.Size(87, 16);
+            this.checkBox_Split.Size = new System.Drawing.Size(101, 19);
             this.checkBox_Split.TabIndex = 28;
             this.checkBox_Split.Text = "Tách(Split)";
             this.checkBox_Split.UseVisualStyleBackColor = true;
@@ -173,11 +173,11 @@
             // 
             this.textBox_Type.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox_Type.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox_Type.Location = new System.Drawing.Point(320, 101);
+            this.textBox_Type.Location = new System.Drawing.Point(415, 116);
             this.textBox_Type.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Type.Name = "textBox_Type";
             this.textBox_Type.ReadOnly = true;
-            this.textBox_Type.Size = new System.Drawing.Size(501, 29);
+            this.textBox_Type.Size = new System.Drawing.Size(524, 34);
             this.textBox_Type.TabIndex = 9;
             this.textBox_Type.TabStop = false;
             this.textBox_Type.WordWrap = false;
@@ -187,9 +187,9 @@
             this.label_Type.AutoSize = true;
             this.label_Type.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_Type.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_Type.Location = new System.Drawing.Point(3, 99);
+            this.label_Type.Location = new System.Drawing.Point(3, 114);
             this.label_Type.Name = "label_Type";
-            this.label_Type.Size = new System.Drawing.Size(311, 33);
+            this.label_Type.Size = new System.Drawing.Size(406, 38);
             this.label_Type.TabIndex = 8;
             this.label_Type.Text = "Hình thái(Type)";
             this.label_Type.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -198,7 +198,7 @@
             // 
             this.numericUpDown_QtyperBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown_QtyperBox.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.numericUpDown_QtyperBox.Location = new System.Drawing.Point(320, 238);
+            this.numericUpDown_QtyperBox.Location = new System.Drawing.Point(415, 278);
             this.numericUpDown_QtyperBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown_QtyperBox.Maximum = new decimal(new int[] {
             9999999,
@@ -211,7 +211,7 @@
             0,
             0});
             this.numericUpDown_QtyperBox.Name = "numericUpDown_QtyperBox";
-            this.numericUpDown_QtyperBox.Size = new System.Drawing.Size(501, 29);
+            this.numericUpDown_QtyperBox.Size = new System.Drawing.Size(524, 34);
             this.numericUpDown_QtyperBox.TabIndex = 17;
             this.numericUpDown_QtyperBox.Value = new decimal(new int[] {
             1,
@@ -224,11 +224,11 @@
             // 
             this.textBox_SupplierName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox_SupplierName.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox_SupplierName.Location = new System.Drawing.Point(320, 172);
+            this.textBox_SupplierName.Location = new System.Drawing.Point(415, 202);
             this.textBox_SupplierName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_SupplierName.Name = "textBox_SupplierName";
             this.textBox_SupplierName.ReadOnly = true;
-            this.textBox_SupplierName.Size = new System.Drawing.Size(501, 29);
+            this.textBox_SupplierName.Size = new System.Drawing.Size(524, 34);
             this.textBox_SupplierName.TabIndex = 13;
             this.textBox_SupplierName.TabStop = false;
             this.textBox_SupplierName.WordWrap = false;
@@ -238,9 +238,9 @@
             this.label_SupplierNameText.AutoSize = true;
             this.label_SupplierNameText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_SupplierNameText.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_SupplierNameText.Location = new System.Drawing.Point(3, 170);
+            this.label_SupplierNameText.Location = new System.Drawing.Point(3, 200);
             this.label_SupplierNameText.Name = "label_SupplierNameText";
-            this.label_SupplierNameText.Size = new System.Drawing.Size(311, 33);
+            this.label_SupplierNameText.Size = new System.Drawing.Size(406, 38);
             this.label_SupplierNameText.TabIndex = 12;
             this.label_SupplierNameText.Text = "Tên nhà cung cấp(SupplierName)";
             this.label_SupplierNameText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -252,22 +252,22 @@
             this.dateTimePicker_Date.Enabled = false;
             this.dateTimePicker_Date.Font = new System.Drawing.Font("맑은 고딕", 12F);
             this.dateTimePicker_Date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker_Date.Location = new System.Drawing.Point(319, 205);
+            this.dateTimePicker_Date.Location = new System.Drawing.Point(414, 240);
             this.dateTimePicker_Date.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker_Date.Name = "dateTimePicker_Date";
             this.dateTimePicker_Date.ShowUpDown = true;
-            this.dateTimePicker_Date.Size = new System.Drawing.Size(503, 29);
+            this.dateTimePicker_Date.Size = new System.Drawing.Size(526, 34);
             this.dateTimePicker_Date.TabIndex = 15;
             // 
             // textBox_Spec
             // 
             this.textBox_Spec.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox_Spec.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox_Spec.Location = new System.Drawing.Point(320, 68);
+            this.textBox_Spec.Location = new System.Drawing.Point(415, 78);
             this.textBox_Spec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Spec.Name = "textBox_Spec";
             this.textBox_Spec.ReadOnly = true;
-            this.textBox_Spec.Size = new System.Drawing.Size(501, 29);
+            this.textBox_Spec.Size = new System.Drawing.Size(524, 34);
             this.textBox_Spec.TabIndex = 7;
             this.textBox_Spec.TabStop = false;
             this.textBox_Spec.WordWrap = false;
@@ -277,9 +277,9 @@
             this.label_Spec.AutoSize = true;
             this.label_Spec.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_Spec.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_Spec.Location = new System.Drawing.Point(3, 66);
+            this.label_Spec.Location = new System.Drawing.Point(3, 76);
             this.label_Spec.Name = "label_Spec";
-            this.label_Spec.Size = new System.Drawing.Size(311, 33);
+            this.label_Spec.Size = new System.Drawing.Size(406, 38);
             this.label_Spec.TabIndex = 6;
             this.label_Spec.Text = "Quy cách(Spec.)";
             this.label_Spec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -288,10 +288,10 @@
             // 
             this.checkBox_RePrint.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_RePrint.AutoSize = true;
-            this.checkBox_RePrint.Location = new System.Drawing.Point(3, 773);
+            this.checkBox_RePrint.Location = new System.Drawing.Point(3, 973);
             this.checkBox_RePrint.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox_RePrint.Name = "checkBox_RePrint";
-            this.checkBox_RePrint.Size = new System.Drawing.Size(99, 16);
+            this.checkBox_RePrint.Size = new System.Drawing.Size(116, 19);
             this.checkBox_RePrint.TabIndex = 26;
             this.checkBox_RePrint.Text = "In lại(RePrint)";
             this.checkBox_RePrint.UseVisualStyleBackColor = true;
@@ -302,9 +302,9 @@
             this.label_totalQty.AutoSize = true;
             this.label_totalQty.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_totalQty.Font = new System.Drawing.Font("맑은 고딕", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_totalQty.Location = new System.Drawing.Point(320, 335);
+            this.label_totalQty.Location = new System.Drawing.Point(415, 390);
             this.label_totalQty.Name = "label_totalQty";
-            this.label_totalQty.Size = new System.Drawing.Size(501, 30);
+            this.label_totalQty.Size = new System.Drawing.Size(524, 38);
             this.label_totalQty.TabIndex = 23;
             this.label_totalQty.Text = "0";
             this.label_totalQty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -314,9 +314,9 @@
             this.label_SupplierText.AutoSize = true;
             this.label_SupplierText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_SupplierText.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_SupplierText.Location = new System.Drawing.Point(3, 132);
+            this.label_SupplierText.Location = new System.Drawing.Point(3, 152);
             this.label_SupplierText.Name = "label_SupplierText";
-            this.label_SupplierText.Size = new System.Drawing.Size(311, 38);
+            this.label_SupplierText.Size = new System.Drawing.Size(406, 48);
             this.label_SupplierText.TabIndex = 10;
             this.label_SupplierText.Text = "Code nhà cung cấp(SupplierCode)";
             this.label_SupplierText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -326,9 +326,9 @@
             this.label_DateText.AutoSize = true;
             this.label_DateText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_DateText.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_DateText.Location = new System.Drawing.Point(3, 203);
+            this.label_DateText.Location = new System.Drawing.Point(3, 238);
             this.label_DateText.Name = "label_DateText";
-            this.label_DateText.Size = new System.Drawing.Size(311, 33);
+            this.label_DateText.Size = new System.Drawing.Size(406, 38);
             this.label_DateText.TabIndex = 14;
             this.label_DateText.Text = "Ngày tồn kho(Stock Date)";
             this.label_DateText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -338,9 +338,9 @@
             this.label_QtyText.AutoSize = true;
             this.label_QtyText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_QtyText.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_QtyText.Location = new System.Drawing.Point(3, 302);
+            this.label_QtyText.Location = new System.Drawing.Point(3, 352);
             this.label_QtyText.Name = "label_QtyText";
-            this.label_QtyText.Size = new System.Drawing.Size(311, 33);
+            this.label_QtyText.Size = new System.Drawing.Size(406, 38);
             this.label_QtyText.TabIndex = 20;
             this.label_QtyText.Text = "Số lượng(Q\'ty)";
             this.label_QtyText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -349,11 +349,11 @@
             // 
             this.textBox_Qty.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox_Qty.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox_Qty.Location = new System.Drawing.Point(320, 304);
+            this.textBox_Qty.Location = new System.Drawing.Point(415, 354);
             this.textBox_Qty.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Qty.Name = "textBox_Qty";
             this.textBox_Qty.ReadOnly = true;
-            this.textBox_Qty.Size = new System.Drawing.Size(501, 29);
+            this.textBox_Qty.Size = new System.Drawing.Size(524, 34);
             this.textBox_Qty.TabIndex = 21;
             this.textBox_Qty.TabStop = false;
             // 
@@ -362,9 +362,9 @@
             this.label_BoxCountText.AutoSize = true;
             this.label_BoxCountText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_BoxCountText.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label_BoxCountText.Location = new System.Drawing.Point(3, 269);
+            this.label_BoxCountText.Location = new System.Drawing.Point(3, 314);
             this.label_BoxCountText.Name = "label_BoxCountText";
-            this.label_BoxCountText.Size = new System.Drawing.Size(311, 33);
+            this.label_BoxCountText.Size = new System.Drawing.Size(406, 38);
             this.label_BoxCountText.TabIndex = 18;
             this.label_BoxCountText.Text = "Số lượng Box(Box Count)";
             this.label_BoxCountText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -373,7 +373,7 @@
             // 
             this.numericUpDown_BoxCount.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown_BoxCount.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.numericUpDown_BoxCount.Location = new System.Drawing.Point(320, 271);
+            this.numericUpDown_BoxCount.Location = new System.Drawing.Point(415, 316);
             this.numericUpDown_BoxCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown_BoxCount.Maximum = new decimal(new int[] {
             999,
@@ -386,7 +386,7 @@
             0,
             0});
             this.numericUpDown_BoxCount.Name = "numericUpDown_BoxCount";
-            this.numericUpDown_BoxCount.Size = new System.Drawing.Size(501, 29);
+            this.numericUpDown_BoxCount.Size = new System.Drawing.Size(524, 34);
             this.numericUpDown_BoxCount.TabIndex = 19;
             this.numericUpDown_BoxCount.Value = new decimal(new int[] {
             1,
@@ -400,9 +400,9 @@
             this.label_QtyperBoxText.AutoSize = true;
             this.label_QtyperBoxText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_QtyperBoxText.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label_QtyperBoxText.Location = new System.Drawing.Point(3, 236);
+            this.label_QtyperBoxText.Location = new System.Drawing.Point(3, 276);
             this.label_QtyperBoxText.Name = "label_QtyperBoxText";
-            this.label_QtyperBoxText.Size = new System.Drawing.Size(311, 33);
+            this.label_QtyperBoxText.Size = new System.Drawing.Size(406, 38);
             this.label_QtyperBoxText.TabIndex = 16;
             this.label_QtyperBoxText.Text = "Số lượng tích lũy Box(Qty per Box)";
             this.label_QtyperBoxText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -414,7 +414,7 @@
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(311, 33);
+            this.label2.Size = new System.Drawing.Size(406, 38);
             this.label2.TabIndex = 2;
             this.label2.Text = "Code hàng(Material)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -424,11 +424,11 @@
             this.textBox_Material.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox_Material.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox_Material.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox_Material.Location = new System.Drawing.Point(320, 2);
+            this.textBox_Material.Location = new System.Drawing.Point(415, 2);
             this.textBox_Material.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Material.Name = "textBox_Material";
             this.textBox_Material.ReadOnly = true;
-            this.textBox_Material.Size = new System.Drawing.Size(501, 29);
+            this.textBox_Material.Size = new System.Drawing.Size(524, 34);
             this.textBox_Material.TabIndex = 3;
             this.textBox_Material.WordWrap = false;
             this.textBox_Material.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_Material_KeyDown);
@@ -438,9 +438,9 @@
             this.label_totalQtyText.AutoSize = true;
             this.label_totalQtyText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label_totalQtyText.Font = new System.Drawing.Font("맑은 고딕", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_totalQtyText.Location = new System.Drawing.Point(3, 335);
+            this.label_totalQtyText.Location = new System.Drawing.Point(3, 390);
             this.label_totalQtyText.Name = "label_totalQtyText";
-            this.label_totalQtyText.Size = new System.Drawing.Size(311, 30);
+            this.label_totalQtyText.Size = new System.Drawing.Size(406, 38);
             this.label_totalQtyText.TabIndex = 22;
             this.label_totalQtyText.Text = "Tổng số lượng(TotalQty)";
             this.label_totalQtyText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -450,9 +450,9 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(3, 33);
+            this.label3.Location = new System.Drawing.Point(3, 38);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(311, 33);
+            this.label3.Size = new System.Drawing.Size(406, 38);
             this.label3.TabIndex = 4;
             this.label3.Text = "Tên hàng(MaterialName)";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -461,11 +461,11 @@
             // 
             this.textBox_MaterialName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox_MaterialName.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox_MaterialName.Location = new System.Drawing.Point(320, 35);
+            this.textBox_MaterialName.Location = new System.Drawing.Point(415, 40);
             this.textBox_MaterialName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_MaterialName.Name = "textBox_MaterialName";
             this.textBox_MaterialName.ReadOnly = true;
-            this.textBox_MaterialName.Size = new System.Drawing.Size(501, 29);
+            this.textBox_MaterialName.Size = new System.Drawing.Size(524, 34);
             this.textBox_MaterialName.TabIndex = 5;
             this.textBox_MaterialName.TabStop = false;
             this.textBox_MaterialName.WordWrap = false;
@@ -474,10 +474,10 @@
             // 
             this.button_Print.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button_Print.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_Print.Location = new System.Drawing.Point(320, 672);
+            this.button_Print.Location = new System.Drawing.Point(415, 849);
             this.button_Print.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Print.Name = "button_Print";
-            this.button_Print.Size = new System.Drawing.Size(501, 70);
+            this.button_Print.Size = new System.Drawing.Size(524, 88);
             this.button_Print.TabIndex = 24;
             this.button_Print.Text = "In\r\n(PRINT)";
             this.button_Print.UseVisualStyleBackColor = true;
@@ -497,7 +497,7 @@
             this.tableLayoutPanel_ListView.Controls.Add(this.textBox_SplitScanBarcode, 0, 2);
             this.tableLayoutPanel_ListView.Controls.Add(this.dataGridView_ScanList, 0, 3);
             this.tableLayoutPanel_ListView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel_ListView.Location = new System.Drawing.Point(3, 367);
+            this.tableLayoutPanel_ListView.Location = new System.Drawing.Point(3, 430);
             this.tableLayoutPanel_ListView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel_ListView.Name = "tableLayoutPanel_ListView";
             this.tableLayoutPanel_ListView.RowCount = 4;
@@ -505,17 +505,17 @@
             this.tableLayoutPanel_ListView.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tableLayoutPanel_ListView.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel_ListView.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel_ListView.Size = new System.Drawing.Size(818, 301);
+            this.tableLayoutPanel_ListView.Size = new System.Drawing.Size(936, 415);
             this.tableLayoutPanel_ListView.TabIndex = 43;
             // 
             // button_ScanClear
             // 
             this.button_ScanClear.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button_ScanClear.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_ScanClear.Location = new System.Drawing.Point(700, 218);
+            this.button_ScanClear.Location = new System.Drawing.Point(802, 297);
             this.button_ScanClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_ScanClear.Name = "button_ScanClear";
-            this.button_ScanClear.Size = new System.Drawing.Size(115, 81);
+            this.button_ScanClear.Size = new System.Drawing.Size(131, 116);
             this.button_ScanClear.TabIndex = 6;
             this.button_ScanClear.Text = "Loại bỏ tất cả\r\n(Clear)";
             this.button_ScanClear.UseVisualStyleBackColor = true;
@@ -526,10 +526,10 @@
             // 
             this.button_Add.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button_Add.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_Add.Location = new System.Drawing.Point(700, 2);
+            this.button_Add.Location = new System.Drawing.Point(802, 2);
             this.button_Add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Add.Name = "button_Add";
-            this.button_Add.Size = new System.Drawing.Size(115, 80);
+            this.button_Add.Size = new System.Drawing.Size(131, 114);
             this.button_Add.TabIndex = 0;
             this.button_Add.Text = "Thêm(Add)";
             this.button_Add.UseVisualStyleBackColor = true;
@@ -544,7 +544,7 @@
             this.dataGridView_BoxList.Name = "dataGridView_BoxList";
             this.tableLayoutPanel_ListView.SetRowSpan(this.dataGridView_BoxList, 2);
             this.dataGridView_BoxList.RowTemplate.Height = 27;
-            this.dataGridView_BoxList.Size = new System.Drawing.Size(691, 164);
+            this.dataGridView_BoxList.Size = new System.Drawing.Size(793, 232);
             this.dataGridView_BoxList.TabIndex = 2;
             this.dataGridView_BoxList.DataSourceChanged += new System.EventHandler(this.dataGridView_BoxList_DataSourceChanged);
             // 
@@ -552,10 +552,10 @@
             // 
             this.button_Clear.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button_Clear.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_Clear.Location = new System.Drawing.Point(700, 86);
+            this.button_Clear.Location = new System.Drawing.Point(802, 120);
             this.button_Clear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Clear.Name = "button_Clear";
-            this.button_Clear.Size = new System.Drawing.Size(115, 80);
+            this.button_Clear.Size = new System.Drawing.Size(131, 114);
             this.button_Clear.TabIndex = 1;
             this.button_Clear.Text = "Loại bỏ tất cả(Clear)";
             this.button_Clear.UseVisualStyleBackColor = true;
@@ -565,10 +565,10 @@
             // 
             this.button_ScanAdd.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button_ScanAdd.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_ScanAdd.Location = new System.Drawing.Point(700, 170);
+            this.button_ScanAdd.Location = new System.Drawing.Point(802, 238);
             this.button_ScanAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_ScanAdd.Name = "button_ScanAdd";
-            this.button_ScanAdd.Size = new System.Drawing.Size(115, 44);
+            this.button_ScanAdd.Size = new System.Drawing.Size(131, 55);
             this.button_ScanAdd.TabIndex = 3;
             this.button_ScanAdd.Text = "Thêm(Add)";
             this.button_ScanAdd.UseVisualStyleBackColor = true;
@@ -579,9 +579,10 @@
             this.textBox_SplitScanBarcode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_SplitScanBarcode.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox_SplitScanBarcode.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.textBox_SplitScanBarcode.Location = new System.Drawing.Point(3, 177);
+            this.textBox_SplitScanBarcode.Location = new System.Drawing.Point(3, 248);
+            this.textBox_SplitScanBarcode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_SplitScanBarcode.Name = "textBox_SplitScanBarcode";
-            this.textBox_SplitScanBarcode.Size = new System.Drawing.Size(691, 29);
+            this.textBox_SplitScanBarcode.Size = new System.Drawing.Size(793, 34);
             this.textBox_SplitScanBarcode.TabIndex = 4;
             this.textBox_SplitScanBarcode.WordWrap = false;
             this.textBox_SplitScanBarcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_SplitScanBarcode_KeyDown);
@@ -589,11 +590,11 @@
             // dataGridView_ScanList
             // 
             this.dataGridView_ScanList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_ScanList.Location = new System.Drawing.Point(3, 218);
+            this.dataGridView_ScanList.Location = new System.Drawing.Point(3, 297);
             this.dataGridView_ScanList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView_ScanList.Name = "dataGridView_ScanList";
             this.dataGridView_ScanList.RowTemplate.Height = 27;
-            this.dataGridView_ScanList.Size = new System.Drawing.Size(691, 81);
+            this.dataGridView_ScanList.Size = new System.Drawing.Size(790, 72);
             this.dataGridView_ScanList.TabIndex = 5;
             this.dataGridView_ScanList.DataSourceChanged += new System.EventHandler(this.dataGridView_ScanList_DataSourceChanged);
             this.dataGridView_ScanList.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridView_ScanList_DataBindingComplete);
@@ -602,10 +603,10 @@
             // 
             this.checkBox_Change.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_Change.AutoSize = true;
-            this.checkBox_Change.Location = new System.Drawing.Point(3, 748);
+            this.checkBox_Change.Location = new System.Drawing.Point(3, 944);
             this.checkBox_Change.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox_Change.Name = "checkBox_Change";
-            this.checkBox_Change.Size = new System.Drawing.Size(127, 16);
+            this.checkBox_Change.Size = new System.Drawing.Size(146, 19);
             this.checkBox_Change.TabIndex = 25;
             this.checkBox_Change.Text = "Thay đổi(Change)";
             this.checkBox_Change.UseVisualStyleBackColor = true;
@@ -615,10 +616,10 @@
             // 
             this.textBox_Change.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox_Change.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox_Change.Location = new System.Drawing.Point(320, 746);
+            this.textBox_Change.Location = new System.Drawing.Point(415, 941);
             this.textBox_Change.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Change.Name = "textBox_Change";
-            this.textBox_Change.Size = new System.Drawing.Size(501, 21);
+            this.textBox_Change.Size = new System.Drawing.Size(524, 25);
             this.textBox_Change.TabIndex = 29;
             this.textBox_Change.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_Change_KeyDown);
             // 
@@ -626,10 +627,10 @@
             // 
             this.textBox_RePrint.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox_RePrint.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox_RePrint.Location = new System.Drawing.Point(320, 771);
+            this.textBox_RePrint.Location = new System.Drawing.Point(415, 970);
             this.textBox_RePrint.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_RePrint.Name = "textBox_RePrint";
-            this.textBox_RePrint.Size = new System.Drawing.Size(501, 21);
+            this.textBox_RePrint.Size = new System.Drawing.Size(524, 25);
             this.textBox_RePrint.TabIndex = 30;
             this.textBox_RePrint.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_RePrint_KeyDown);
             // 
@@ -637,20 +638,20 @@
             // 
             this.textBox_Remain.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox_Remain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox_Remain.Location = new System.Drawing.Point(320, 796);
+            this.textBox_Remain.Location = new System.Drawing.Point(415, 999);
             this.textBox_Remain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Remain.Name = "textBox_Remain";
-            this.textBox_Remain.Size = new System.Drawing.Size(501, 21);
+            this.textBox_Remain.Size = new System.Drawing.Size(524, 25);
             this.textBox_Remain.TabIndex = 31;
             // 
             // checkBox_Remain
             // 
             this.checkBox_Remain.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox_Remain.AutoSize = true;
-            this.checkBox_Remain.Location = new System.Drawing.Point(3, 798);
+            this.checkBox_Remain.Location = new System.Drawing.Point(3, 1002);
             this.checkBox_Remain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox_Remain.Name = "checkBox_Remain";
-            this.checkBox_Remain.Size = new System.Drawing.Size(116, 16);
+            this.checkBox_Remain.Size = new System.Drawing.Size(133, 19);
             this.checkBox_Remain.TabIndex = 27;
             this.checkBox_Remain.Text = "Còn lại(Remain)";
             this.checkBox_Remain.UseVisualStyleBackColor = true;
@@ -661,10 +662,10 @@
             this.button_TestPrint.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button_TestPrint.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button_TestPrint.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button_TestPrint.Location = new System.Drawing.Point(3, 672);
+            this.button_TestPrint.Location = new System.Drawing.Point(3, 849);
             this.button_TestPrint.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_TestPrint.Name = "button_TestPrint";
-            this.button_TestPrint.Size = new System.Drawing.Size(311, 70);
+            this.button_TestPrint.Size = new System.Drawing.Size(406, 88);
             this.button_TestPrint.TabIndex = 33;
             this.button_TestPrint.Text = "In thử(Test-PRINT)";
             this.button_TestPrint.UseVisualStyleBackColor = false;
@@ -679,12 +680,12 @@
             this.tableLayoutPanel_SupplierCode.Controls.Add(this.textBox_Supplier, 0, 0);
             this.tableLayoutPanel_SupplierCode.Controls.Add(this.button_SupplierSearch, 1, 0);
             this.tableLayoutPanel_SupplierCode.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel_SupplierCode.Location = new System.Drawing.Point(317, 132);
+            this.tableLayoutPanel_SupplierCode.Location = new System.Drawing.Point(412, 152);
             this.tableLayoutPanel_SupplierCode.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel_SupplierCode.Name = "tableLayoutPanel_SupplierCode";
             this.tableLayoutPanel_SupplierCode.RowCount = 1;
             this.tableLayoutPanel_SupplierCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel_SupplierCode.Size = new System.Drawing.Size(507, 38);
+            this.tableLayoutPanel_SupplierCode.Size = new System.Drawing.Size(530, 48);
             this.tableLayoutPanel_SupplierCode.TabIndex = 44;
             // 
             // textBox_Supplier
@@ -695,7 +696,7 @@
             this.textBox_Supplier.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Supplier.Name = "textBox_Supplier";
             this.textBox_Supplier.ReadOnly = true;
-            this.textBox_Supplier.Size = new System.Drawing.Size(411, 29);
+            this.textBox_Supplier.Size = new System.Drawing.Size(421, 34);
             this.textBox_Supplier.TabIndex = 14;
             this.textBox_Supplier.TabStop = false;
             this.textBox_Supplier.WordWrap = false;
@@ -704,10 +705,10 @@
             // 
             this.button_SupplierSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button_SupplierSearch.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold);
-            this.button_SupplierSearch.Location = new System.Drawing.Point(417, 0);
+            this.button_SupplierSearch.Location = new System.Drawing.Point(427, 0);
             this.button_SupplierSearch.Margin = new System.Windows.Forms.Padding(0, 0, 2, 0);
             this.button_SupplierSearch.Name = "button_SupplierSearch";
-            this.button_SupplierSearch.Size = new System.Drawing.Size(88, 38);
+            this.button_SupplierSearch.Size = new System.Drawing.Size(101, 48);
             this.button_SupplierSearch.TabIndex = 0;
             this.button_SupplierSearch.Text = "Search";
             this.button_SupplierSearch.UseVisualStyleBackColor = true;
@@ -715,12 +716,12 @@
             // 
             // BarcodeGenerator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMinSize = new System.Drawing.Size(620, 720);
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(824, 844);
+            this.ClientSize = new System.Drawing.Size(942, 1055);
             this.Controls.Add(this.tableLayoutPanel_Body);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BarcodeGenerator";
