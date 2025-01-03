@@ -117,7 +117,7 @@ namespace WiseM.Browser.WMS
         }
         private void comboBox_location_group_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string query = $@" select Location from Rm_Location where Location_Group  = '{comboBox_location_group.Text}' order by Location ";
+            string query = $@" select Location from Rm_Location where Location_Group  = '{comboBox_location_group.Text}' AND Status = 1  order by Location ";
             DataTable locationTable = DbAccess.Default.GetDataTable(query);
             comboBox_location.DisplayMember = "Location";
             comboBox_location.DataSource = locationTable;
@@ -269,12 +269,13 @@ namespace WiseM.Browser.WMS
                  UNION ALL
                 SELECT DISTINCT Location_Group
                   FROM Rm_Location_Group
+                WHERE Status = 1
                  ORDER BY Location_Group;
 
                 SELECT MBSL.SL_CD
                      , MBSL.SL_CD + ' / ' + MBSL.SL_NM AS Text
                   FROM MES_IF_CN.dbo.M_B_STORAGE_LOC AS MBSL
-                 WHERE MBSL.SL_CD IN ('980328-0', 'C0008', 'C0009', 'C0010', 'C0058', '980318_1')
+                 WHERE MBSL.SL_CD IN ('980318')
                  ORDER BY MBSL.PLANT_CD
                         , MBSL.SL_GROUP_CD
                         , MBSL.SL_CD
@@ -290,7 +291,7 @@ namespace WiseM.Browser.WMS
             comboBox_From.DataSource = dataSet.Tables[1];
 
             comboBox_To.DataSource = null;
-            comboBox_To.Items.Add("980328");
+            comboBox_To.Items.Add("980318-S");
             comboBox_To.SelectedIndex = 0;
             dateTimePicker_Start.Value = DateTime.Now;
             dateTimePicker_End.Value = DateTime.Now;

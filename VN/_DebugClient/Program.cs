@@ -20,7 +20,9 @@ namespace WiseM.Client
 
                 //121.126.143.101 192.168.109.3
                 //ClientApplication.Start(service, "WpcPB11", "192.168.109.3", "");
-                ClientApplication.Start(service, "WcSL41", "127.0.0.1", "");
+                //ClientApplication.Start(service, "WpcML11", "127.0.0.1", "");
+                //ClientApplication.Start(service, "WpcPS11", "127.0.0.1", ""); 
+                ClientApplication.Start(service, "WpcPB21", "127.0.0.1", "");
             }
             catch (Exception ex) 
             {

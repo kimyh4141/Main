@@ -146,67 +146,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BarcodeHist.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BarcodeHist.Designer.cs">
-      <DependentUpon>BarcodeHist.cs</DependentUpon>
-    </Compile>
     <Compile Include="Blocking.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Blocking.designer.cs">
       <DependentUpon>Blocking.cs</DependentUpon>
     </Compile>
-    <Compile Include="Checksheet\CsCheckSheetSpec.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Checksheet\CsCheckSheetSpec.Designer.cs">
-      <DependentUpon>CsCheckSheetSpec.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Checksheet\CsCheckSheetSpecDetail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Checksheet\CsCheckSheetSpecDetail.designer.cs">
-      <DependentUpon>CsCheckSheetSpecDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Checksheet\CsCheckSheetSpec_User.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Checksheet\CsCheckSheetSpec_User.Designer.cs">
-      <DependentUpon>CsCheckSheetSpec_User.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Checksheet\LoginManager.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Checksheet\LoginManager.designer.cs">
-      <DependentUpon>LoginManager.cs</DependentUpon>
-    </Compile>
     <Compile Include="Common\CustomEnum.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCS3c5sSpec.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSCheckSheetSpec.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSDailySpec.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSLineRoute.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSOverhaulSpec.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSParameterCheckSpec.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSPeriodicSpec.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSPreventSpec.cs" />
-    <Compile Include="EditColumn\CheckSheetEdit\EditColumnCSSpec.cs" />
-    <Compile Include="EditColumn\EditColumnFctSpec.cs" />
-    <Compile Include="EditInfo\EditInfo.cs">
+    <Compile Include="FifoStatusChange.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditInfo\EditInfo.designer.cs">
-      <DependentUpon>EditInfo.cs</DependentUpon>
+    <Compile Include="FifoStatusChange.Designer.cs">
+      <DependentUpon>FifoStatusChange.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditInfo\TableList.cs">
+    <Compile Include="ShipBack.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditInfo\TableList.designer.cs">
-      <DependentUpon>TableList.cs</DependentUpon>
+    <Compile Include="ShipBack.Designer.cs">
+      <DependentUpon>ShipBack.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteWorkOrderConfirm.cs" />
-    <Compile Include="EndWorkOrderCancelConfirm.cs" />
+    <Compile Include="WMS\DirectReceiptDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMS\DirectReceiptDelete.Designer.cs">
+      <DependentUpon>DirectReceiptDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WOM001\DeleteWorkOrderConfirm.cs" />
+    <Compile Include="WOM001\EndWorkOrderCancelConfirm.cs" />
     <Compile Include="FeederInfoChangeFeeder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -411,12 +377,6 @@
     <Compile Include="SPC\Spc005.Designer.cs">
       <DependentUpon>Spc005.cs</DependentUpon>
     </Compile>
-    <Compile Include="Edit_Worker.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Edit_Worker.Designer.cs">
-      <DependentUpon>Edit_Worker.cs</DependentUpon>
-    </Compile>
     <Compile Include="WMS\RawMaterialBlocking.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -485,7 +445,6 @@
     <Compile Include="WiseMEdit\EditForm.designer.cs">
       <DependentUpon>EditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="BasicCodeInfo.cs" />
     <Compile Include="ChangeCount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -498,29 +457,7 @@
     <Compile Include="CustomLogin.designer.cs">
       <DependentUpon>CustomLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataSearching.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DataSearching.Designer.cs">
-      <DependentUpon>DataSearching.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Dell_Cab_RawMaterialCheck.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dell_Cab_RawMaterialCheck.Designer.cs">
-      <DependentUpon>Dell_Cab_RawMaterialCheck.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EditColumn\EditColumnFunctionChecked.cs" />
-    <Compile Include="EditColumn\EditColumnRawMaterial.cs" />
-    <Compile Include="EditColumn\EditColumnLocationGroup.cs" />
-    <Compile Include="EditColumn\EditColumnLocation.cs" />
-    <Compile Include="EndWorkOrderConfirm.cs" />
-    <Compile Include="IDM_EditForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IDM_EditForm.Designer.cs">
-      <DependentUpon>IDM_EditForm.cs</DependentUpon>
-    </Compile>
+    <Compile Include="WOM001\EndWorkOrderConfirm.cs" />
     <Compile Include="Jig\JigBasisManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -604,32 +541,6 @@
       <DependentUpon>SPC003.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomBrowser.cs" />
-    <Compile Include="EditColumn\EditColumnBad.cs" />
-    <Compile Include="EditColumn\EditColumnBadHist.cs" />
-    <Compile Include="EditColumn\EditColumnBOM.cs" />
-    <Compile Include="EditColumn\EditColumnDivision.cs" />
-    <Compile Include="EditColumn\EditColumnMaterial.cs" />
-    <Compile Include="EditColumn\EditColumnMaterialRouting.cs" />
-    <Compile Include="EditColumn\EditColumnNotwork.cs" />
-    <Compile Include="EditColumn\EditColumnNotworkHist.cs" />
-    <Compile Include="EditColumn\EditColumnOutputHist.cs" />
-    <Compile Include="EditColumn\EditColumnRouting.cs" />
-    <Compile Include="EditColumn\EditColumnRoutingBad.cs" />
-    <Compile Include="EditColumn\EditColumnRoutingNotWork.cs" />
-    <Compile Include="EditColumn\EditColumnWBTWorker.cs" />
-    <Compile Include="EditColumn\EditColumnWorkCalendarStd.cs" />
-    <Compile Include="EditColumn\EditColumnWorkcenter.cs" />
-    <Compile Include="EditColumn\EditColumnWorker.cs" />
-    <Compile Include="EditColumn\EditColumnWorkTeam.cs" />
-    <Compile Include="EditColumn\EditColumnMaterialMapping.cs" />
-    <Compile Include="EditColumn\EditColumnRepair.cs" />
-    <Compile Include="EditColumn\EditColumnRepairHist.cs" />
-    <Compile Include="EditForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditForm.Designer.cs">
-      <DependentUpon>EditForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="WMS\ReturnBarcodeHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -644,35 +555,17 @@
       <DependentUpon>WorkOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BarcodeHist.resx">
-      <DependentUpon>BarcodeHist.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Blocking.resx">
       <DependentUpon>Blocking.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Checksheet\CsCheckSheetSpec.resx">
-      <DependentUpon>CsCheckSheetSpec.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Checksheet\CsCheckSheetSpecDetail.resx">
-      <DependentUpon>CsCheckSheetSpecDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Checksheet\CsCheckSheetSpec_User.resx">
-      <DependentUpon>CsCheckSheetSpec_User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Checksheet\LoginManager.resx">
-      <DependentUpon>LoginManager.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditInfo\EditInfo.resx">
-      <DependentUpon>EditInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditInfo\TableList.resx">
-      <DependentUpon>TableList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FeederInfoChangeFeeder.resx">
       <DependentUpon>FeederInfoChangeFeeder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FeederInfoUpload.resx">
       <DependentUpon>FeederInfoUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FifoStatusChange.resx">
+      <DependentUpon>FifoStatusChange.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OutSourcing\HS_Receipt_frmMain00.resx">
       <DependentUpon>HS_Receipt_frmMain00.cs</DependentUpon>
@@ -762,6 +655,9 @@
     <EmbeddedResource Include="MovingProcessing.resx">
       <DependentUpon>MovingProcessing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ShipBack.resx">
+      <DependentUpon>ShipBack.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ShippingSelectMaterial.resx">
       <DependentUpon>ShippingSelectMaterial.cs</DependentUpon>
     </EmbeddedResource>
@@ -770,10 +666,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SPC\Spc005.resx">
       <DependentUpon>Spc005.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Edit_Worker.resx">
-      <DependentUpon>Edit_Worker.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="WMS\DerivedProduct_frmMain00.resx">
       <DependentUpon>DerivedProduct_frmMain00.cs</DependentUpon>
@@ -789,6 +681,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WMS\BarcodeGeneratorTestPrint.resx">
       <DependentUpon>BarcodeGeneratorTestPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMS\DirectReceiptDelete.resx">
+      <DependentUpon>DirectReceiptDelete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WMS\Print_PCB_V2.resx">
       <DependentUpon>Print_PCB_V2.cs</DependentUpon>
@@ -815,17 +710,6 @@
     <EmbeddedResource Include="CustomLogin.resx">
       <DependentUpon>CustomLogin.cs</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DataSearching.resx">
-      <DependentUpon>DataSearching.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dell_Cab_RawMaterialCheck.resx">
-      <DependentUpon>Dell_Cab_RawMaterialCheck.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IDM_EditForm.resx">
-      <DependentUpon>IDM_EditForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jig\JigBasisManagement.resx">
       <DependentUpon>JigBasisManagement.cs</DependentUpon>
@@ -875,10 +759,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SPC\SPC003.resx">
       <DependentUpon>SPC003.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditForm.resx">
-      <DependentUpon>EditForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="WMS\ReturnBarcodeHistory.resx">
       <DependentUpon>ReturnBarcodeHistory.cs</DependentUpon>
@@ -1049,6 +929,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

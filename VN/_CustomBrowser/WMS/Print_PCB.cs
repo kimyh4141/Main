@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 using WiseM.Data;
 
@@ -303,6 +304,7 @@ namespace WiseM.Browser.WMS
                                   FROM PcbPrintHist
                                  WHERE Bcd_Info LIKE '%{tempBarcode}%'
                                 ";
+
                 DataRow dr1 = DbAccess.Default.GetDataRow(Query);
 
                 int check_serial = int.Parse(dr1[0].ToString());
@@ -315,8 +317,9 @@ namespace WiseM.Browser.WMS
                 lbl_startPcb.Text = tempBarcode + serialNo;
                 lbl_endPcb.Text = "-";
             }
-            catch
+            catch (SqlException se)
             {
+                MessageBox.Show(se.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
         }

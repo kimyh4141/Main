@@ -428,8 +428,7 @@ namespace WiseM.Browser
         /// <summary>
         /// 재포장
         /// </summary>
-        private string GetProcessQuery(ref StringBuilder query, CustomEnum.RepackingProcessType updateType,
-            string newBarcode, string oldBarcode)
+        private string GetProcessQuery(ref StringBuilder query, CustomEnum.RepackingProcessType updateType, string newBarcode, string oldBarcode)
         {
             var material = textBox_Material.Text.Trim();
             var isReceipt = comboBox_Location.SelectedValue.ToString() == "Warehouse" ? 1 : 0;

@@ -41,6 +41,8 @@ namespace WiseM.Browser
             textBox_OrderNo.Text = string.Empty;
             textBox_OrderSeq.Text = string.Empty;
             label_OrderQtyValue.Text = string.Empty;
+            textBox_BP_CD.Text = string.Empty;
+            textBox_BP_NM.Text = string.Empty;
 
             textBox_Material.Text = string.Empty;
             textBox_MaterialName.Text = string.Empty;
@@ -418,7 +420,6 @@ DELETE
                 textBox_Material.Text = shippingSelectMaterial.material;
                 textBox_MaterialName.Text = shippingSelectMaterial.text;
                 textBox_Spec.Text = shippingSelectMaterial.spec;
-
                 Material = shippingSelectMaterial.material;
             }
         }
@@ -519,25 +520,6 @@ DELETE
 
         #endregion
 
-        private void Clear()
-        {
-            textBox_Material.Text = string.Empty;
-            textBox_MaterialName.Text = string.Empty;
-            textBox_Spec.Text = string.Empty;
-            textBox_OrderNo.Text = string.Empty;
-            textBox_OrderSeq.Text = string.Empty;
-            textBox_BP_CD.Text = string.Empty;
-            textBox_BP_NM.Text = string.Empty;
-            label_OrderQtyValue.Text = "-";
-
-            Id = string.Empty;
-            OrderNo = string.Empty;
-            OrderNoSeq = string.Empty;
-            TotalQty = 0;
-            ScanQty = 0;
-            Material = string.Empty;
-        }
-
         private void checkBox_OrderStatus_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_OrderStatus.Checked)
@@ -553,7 +535,7 @@ DELETE
                 label_OrderQtyValue.Visible = true;
             }
 
-            Clear();
+            Initialize();
         }
 
         private void numericUpDown_AddQty_Leave(object sender, EventArgs e)

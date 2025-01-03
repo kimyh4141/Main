@@ -62,6 +62,7 @@ namespace WiseM.Client
                                                          GROUP BY PH.PalletBcd
                                                         ;
                                                         ";
+
                 return DbAccess.Default.GetDataTable(queryGetPalletListWithWorkOrder);
             }
         }

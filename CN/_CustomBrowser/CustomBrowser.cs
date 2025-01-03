@@ -1108,7 +1108,7 @@ namespace WiseM.Browser
                 case "prm801":
                     if (e.Link.ToLower() == "edit")
                     {
-                        WiseMEdit.EditForm prm801_EditForm = new WiseMEdit.EditForm("LineVoltage", e);
+                        var prm801_EditForm = new WiseMEdit.EditForm("LineVoltage", e);
                         prm801_EditForm.ShowDialog();
                         e.AfterRefresh = WeRefreshPanel.Current;
                     }
@@ -1117,7 +1117,7 @@ namespace WiseM.Browser
                 case "prm802":
                     if (e.Link.ToLower() == "edit")
                     {
-                        WiseMEdit.EditForm prm802_EditForm = new WiseMEdit.EditForm("LineVoltage", e);
+                        var prm802_EditForm = new WiseMEdit.EditForm("LineVoltage", e);
                         prm802_EditForm.ShowDialog();
                         e.AfterRefresh = WeRefreshPanel.Current;
                     }

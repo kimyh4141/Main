@@ -141,7 +141,7 @@ namespace WiseM.Browser.WMS
 
         private void comboBox_location_group_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string query = $@" select Location from Rm_Location where Location_Group  = '{comboBox_location_group.Text}' order by Location ";
+            string query = $@" select Location from Rm_Location where Location_Group  = '{comboBox_location_group.Text}' AND Status = 1  order by Location ";
             DataTable locationTable = DbAccess.Default.GetDataTable(query);
             comboBox_location.DisplayMember = "Location";
             comboBox_location.DataSource = locationTable;
@@ -303,7 +303,7 @@ namespace WiseM.Browser.WMS
         {
             comboBox_location_group.DataSource = null;
             string Query = " select '' as Location_Group union all " +
-                           " select distinct Location_Group from Rm_Location_Group order by Location_Group ";
+                           " select distinct Location_Group from Rm_Location_Group WHERE Status = 1 order by Location_Group ";
             DataTable LocationGroupDataTable = DbAccess.Default.GetDataTable(Query);
             comboBox_location_group.DisplayMember = "Location_Group";
             comboBox_location_group.DataSource = LocationGroupDataTable;

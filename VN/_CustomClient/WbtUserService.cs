@@ -578,8 +578,12 @@ namespace WiseM.Client
         /// 1. 작업지시의 작업장과 현재 작업장과 같은 Owner인지 검증
         /// </summary>
         /// <returns></returns>
-        private bool VerifyWorkOrder(string workOrder)
+        private bool VerifyWorkOrder(string workOrder, string routing)
         {
+            if (routing == "Mi_Load")
+            {
+                if (!CheckOutQtyForMIProcess(workOrder)) return false;
+            }
             string query =
                 $@"
                 IF (
@@ -606,6 +610,182 @@ namespace WiseM.Client
                   END;
                 ";
             return Convert.ToBoolean(DbAccess.Default.ExecuteScalar(query));
+        }
+
+        private bool CheckOutQtyForMIProcess(string workOrder)
+        {
+            try
+            {
+                string query =
+                    $@"
+                IF EXISTS (
+                        SELECT *
+                        FROM (
+                            SELECT EPIRBO.PRODT_ORDER_NO
+                                , EPIRBO.ORDER_QTY
+                                , EPIRBO.ALT_GROUP
+                                , EPIRBO.KEY_ITEM
+                                , EPIRBO.CHILD_ITEM_CD
+                                , EPIRBO.SEQ
+                                , EPIRBO.CAVITY_QTY
+                                , RSH.RowNumber
+                                , RSH.Rm_BarCode
+                                --그룹별 총 출고수량
+                                , CASE EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+                                    WHEN N'N'
+                                    THEN SUM(COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ)
+                                    WHEN N'Y'
+                                    THEN SUM(COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP)
+		                        END                                                              AS GroupTotalStockOutQty
+                                , EPIRBO.GroupTotalReportedQty
+                                , EPIRBO.ReportedQty
+                                --출고누적합 그룹별 수량
+                                , CASE EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+                                    WHEN N'N'
+                                    THEN SUM(COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ ORDER BY RSH.RowNumber)
+                                    WHEN N'Y'
+                                    THEN SUM(COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP ORDER BY RSH.RowNumber)
+                                END                                                              AS PrefixSumGroupStockOutQty
+                                --자재이력 별 출고수량
+                                , COALESCE(RSH.StockOutQty, 0) - COALESCE(RSH_R.StockReturnQty, 0) AS StockOutQty
+                            FROM (
+                                SELECT EPPO.PRODT_ORDER_NO
+                                     , EPPO.ORDER_QTY
+                                     , EPIRBO.ALT_GROUP
+                                     , EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+                                     , EPIRBO.KEY_ITEM
+                                     , EPIRBO.CHILD_ITEM_CD
+                                     , EPIRBO.SEQ
+                                     --그룹별 총 보고된수량
+                                     , CASE EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+					                        WHEN N'N'
+						                        THEN SUM(COALESCE(RMUH.ReportedQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.CHILD_ITEM_CD)
+					                        WHEN N'Y'
+						                        THEN SUM(COALESCE(RMUH.ReportedQty, 0)) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP)
+				                        END                           AS GroupTotalReportedQty
+                                     --자재 별 보고된수량
+                                     , COALESCE(RMUH.ReportedQty, 0) AS ReportedQty
+                                     --단위별 소요수량
+                                     , CASE EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+                                            WHEN N'N'
+                                                THEN EPIRBO.REQ_QTY / EPPO.ORDER_QTY
+                                            WHEN N'Y'
+                                                THEN SUM(EPIRBO.REQ_QTY) OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.KEY_ITEM, EPIRBO.ALT_GROUP) / EPPO.ORDER_QTY
+				                        END                           AS CAVITY_QTY
+			                        FROM 
+				                        (
+				                        SELECT WO.WorkOrder
+					                         , WO.Routing
+					                         , WO.ERP_WorkOrder
+				                        FROM WorkOrder AS WO WITH (NOLOCK)
+				                        WHERE WorkOrder = '{workOrder}'
+			                        ) AS WO
+		                        INNER JOIN
+			                        (
+				                        SELECT RowNumber
+					                         , PRODT_ORDER_NO
+					                         , ORDER_QTY
+					                         , I_PROC_STEP
+				                        FROM (
+					                        SELECT ROW_NUMBER() OVER (PARTITION BY EPPO.PRODT_ORDER_NO ORDER BY EPPO.IF_TIME DESC) AS RowNumber
+						                         , EPPO.PRODT_ORDER_NO
+						                         , EPPO.ORDER_QTY
+						                         , EPPO.I_PROC_STEP
+					                        FROM MES_IF_VN.dbo.ETM_P_PROD_ORDER AS EPPO WITH (NOLOCK)
+					                        WHERE 1 = 1
+				                        ) AS EPPO
+				                        WHERE EPPO.RowNumber = 1
+				                        AND EPPO.I_PROC_STEP IN ('C', 'U')
+		                        ) AS EPPO
+		                        ON WO.ERP_WorkOrder = EPPO.PRODT_ORDER_NO
+		                        INNER JOIN (
+			                        SELECT ROW_NUMBER() OVER (PARTITION BY EPIRBO.PRODT_ORDER_NO, EPIRBO.SEQ ORDER BY EPIRBO.IF_TIME DESC) AS RowNumber
+				                         , EPIRBO.PRODT_ORDER_NO
+				                         , EPIRBO.SEQ
+				                         , EPIRBO.KEY_ITEM_ALTERNATE_ITEM_FLAG
+				                         , EPIRBO.KEY_ITEM
+				                         , EPIRBO.ALT_GROUP
+				                         , EPIRBO.ITEM_RATE
+				                         , EPIRBO.CHILD_ITEM_CD
+				                         , EPIRBO.REQ_QTY
+				                         , EPIRBO.I_PROC_STEP
+				                         , EPIRBO.APPLY_FLAG
+			                        FROM MES_IF_VN.dbo.ETM_P_ISSUE_REQ_BY_ORDER AS EPIRBO WITH (NOLOCK)
+		                        ) AS EPIRBO
+		                        ON EPPO.PRODT_ORDER_NO = EPIRBO.PRODT_ORDER_NO
+			                        AND EPIRBO.RowNumber = 1
+			                        AND EPIRBO.I_PROC_STEP IN ('C', 'U')
+		                        LEFT OUTER JOIN (
+				                        --수삽 BOM은 두개이상의 같은자재인 행이 존재하지 않는다고 함.
+				                        --만약 생길 경우 RawMaterialHist 저장 시에 어떠한 그룹으로 소모되었는지 기록한 다음 남은계산 수량 계산 시에 사용해야함.
+				                        --2023-10-27 확인 시 존재한다고 함. 테이블 변경 및 RawMaterialSeq 추가
+			                        SELECT WO.ERP_WorkOrder
+				                         , RMUH.RawMaterial
+				                         , RMUH.RawMaterialSeq
+				                         , SUM(RMUH.Qty) AS ReportedQty
+			                        FROM RawMaterialUsageHist AS RMUH WITH (NOLOCK)
+			                        INNER JOIN WorkOrder AS WO WITH (NOLOCK)
+				                        ON RMUH.WorkOrder = WO.WorkOrder
+				                        WHERE RMUH.Type = 'MI'
+				                        GROUP BY WO.ERP_WorkOrder, RMUH.RawMaterialSeq, RMUH.RawMaterial
+			                        ) AS RMUH
+			                        ON EPIRBO.PRODT_ORDER_NO = RMUH.ERP_WorkOrder
+			                        AND EPIRBO.SEQ = RMUH.RawMaterialSeq
+			                        AND EPIRBO.CHILD_ITEM_CD = RMUH.RawMaterial
+			                        INNER JOIN      MES_IF_VN.dbo.M_MATERIAL AS MM WITH (NOLOCK)
+							                        ON EPIRBO.CHILD_ITEM_CD = MM.ITEM_CD
+							                        AND MM.ITEM_ACCT <> '25'
+			                        ) AS EPIRBO
+			                        LEFT OUTER JOIN (
+				                        SELECT ROW_NUMBER() OVER (PARTITION BY RSH.Rm_Order ORDER BY RSH.Rm_StockHist) AS RowNumber
+					                         , RSH.Rm_Order
+					                         , RSH.Rm_OrderSeq
+					                         , RSH.Rm_Material
+					                         , RSH.Rm_BarCode
+					                         , RSH.Rm_StockQty                                                         AS StockOutQty
+				                        FROM Rm_StockHist AS RSH WITH (NOLOCK)
+				                        WHERE 
+					                        RSH.Rm_IO_Type = 'OUT'
+					                        AND RSH.Rm_Bunch = 'MOVE'
+				                        ) AS RSH
+				                        ON EPIRBO.PRODT_ORDER_NO = RSH.Rm_Order
+					                        AND EPIRBO.SEQ = RSH.Rm_OrderSeq
+					                        AND EPIRBO.CHILD_ITEM_CD = RSH.Rm_Material
+			                        LEFT OUTER JOIN (
+				                        SELECT ROW_NUMBER() OVER (PARTITION BY RSH.Rm_Order ORDER BY RSH.Rm_StockHist) AS RowNumber
+					                         , RSH.Rm_Order
+					                         , RSH.Rm_OrderSeq
+					                         , RSH.Rm_Material
+					                         , RSH.Rm_BarCode
+					                         , RSH.Rm_StockQty                                                         AS StockReturnQty
+				                        FROM Rm_StockHist AS RSH WITH (NOLOCK)
+				                        WHERE 
+					                        RSH.Rm_IO_Type = 'IN'
+					                        AND RSH.Rm_Bunch = 'RETURN'
+			                        ) AS RSH_R
+			                        ON EPIRBO.PRODT_ORDER_NO = RSH_R.Rm_Order
+			                        AND EPIRBO.SEQ = RSH_R.Rm_OrderSeq
+			                        AND EPIRBO.CHILD_ITEM_CD = RSH_R.Rm_Material
+	                        ) AS T
+                        WHERE 
+	                        GroupTotalStockOutQty - GroupTotalReportedQty < CAVITY_QTY
+                 )
+                  BEGIN
+                    SELECT 0
+                  END
+                ELSE
+                  BEGIN
+                    SELECT 1
+                  END;
+                ";
+                return Convert.ToBoolean(DbAccess.Default.ExecuteScalar(query));
+            }
+            catch (Exception exception)
+            {
+                InsertIntoSysLog("E", exception.Message, ActiveValues.Workcenter);
+                MessageBox.Show("Lỗi cơ sở dữ liệu(Database Error)\r\n" + exception.Message, "Lỗi cơ sở dữ liệu(Database Error)", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                throw;
+            }
         }
 
         protected override void UserJobControl(JobControlEventArgs e)
@@ -830,10 +1010,10 @@ namespace WiseM.Client
 
                         break;
                     case WeJobControlAction.WorkOrderSelect:
-                        if (!VerifyWorkOrder(ActiveValues.WorkOrder))
+                        if (!VerifyWorkOrder(ActiveValues.WorkOrder, ActiveValues.Routing))
                         {
                             e.Cancel = true;
-                            System.Windows.Forms.MessageBox.Show($"Không thể bắt đầu chỉ thị thao tác\r\nThe work order cannot be started.", "cannot be started", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            System.Windows.Forms.MessageBox.Show($"Không thể chọn chỉ thị thao tác\r\nThe work order cannot be selected.", "cannot be selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
 
                         break;

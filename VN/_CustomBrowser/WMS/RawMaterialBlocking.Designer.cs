@@ -148,7 +148,7 @@
             this.dateTimePicker_From.CalendarFont = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_From.Checked = false;
             this.dateTimePicker_From.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker_From.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_From.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker_From.Location = new System.Drawing.Point(126, 6);
             this.dateTimePicker_From.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker_From.Name = "dateTimePicker_From";
@@ -161,7 +161,7 @@
             this.dateTimePicker_To.CalendarFont = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_To.Checked = false;
             this.dateTimePicker_To.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker_To.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_To.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker_To.Location = new System.Drawing.Point(450, 6);
             this.dateTimePicker_To.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker_To.Name = "dateTimePicker_To";

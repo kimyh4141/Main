@@ -569,9 +569,10 @@ namespace WiseM.Client
             }
             catch (Exception ex)
             {
-                InsertIntoSysLog("Process_Management.ReceivedFrom_1stScanner", ex.Message);
+                InsertIntoSysLog("Process_Management.ReceivedFrom_1stScanner", ex.Message); 
             }
         }
+
 
         private void Processing1StDouble(string scanData)
         {

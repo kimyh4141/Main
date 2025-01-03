@@ -284,13 +284,13 @@ namespace WiseM.Browser.WiseMEdit
             try
             {
                 string[,] pkValue = new string[10, 2];
-                if (this.CheckPKData(out pkValue) == false)
+                if (CheckPKData(out pkValue) == false)
                 {
                     string pkColumnNameStr = null;
-                    DataTable pkColumnNameDt = this.dtPKColumnName;
+                    DataTable pkColumnNameDt = dtPKColumnName;
                     for (int i = 0; i < pkColumnNameDt.Rows.Count; i++)
                     {
-                        pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"].ToString() + " , ";
+                        pkColumnNameStr += pkColumnNameDt.Rows[i]["COLUMN_NAME"] + " , ";
                     }
                     pkColumnNameStr = pkColumnNameStr.Remove(pkColumnNameStr.Length - 3, 3);
                     MessageBox.Show("You can edit and enter key Value(" + pkColumnNameStr + ")", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -300,16 +300,14 @@ namespace WiseM.Browser.WiseMEdit
                     string editValue = null;
                     foreach (DataGridViewRow dr in this.dataGridViewResult.Rows)
                     {
-                        if (dr.Cells["ColumnId"].Value.ToString().ToUpper().Equals("UPDATED") == false)
+                        if (dr.Cells["ColumnId"].Value.ToString().ToUpper().Equals("UPDATED")) continue;
+                        //SELECT B.name AS [Table] ,A.name AS [Colum] FROM syscolumns A JOIN sysobjects B ON B.id = A.id WHERE A.status = 128 and B.name = 'RawMaterial_Hist'
+                        string SidentityColumn = "SELECT A.name AS [Colum] FROM syscolumns A JOIN sysobjects B ON B.id = A.id WHERE A.status = 128 and B.name = '" + dr.Cells["ColumnId"].Value.ToString() + "'";
+                        DataTable dt = this.e.DbAccess.GetDataTable(SidentityColumn);
+                        if (dt.Rows.Count < 1)
                         {
-                            //SELECT B.name AS [Table] ,A.name AS [Colum] FROM syscolumns A JOIN sysobjects B ON B.id = A.id WHERE A.status = 128 and B.name = 'RawMaterial_Hist'
-                            string SidentityColumn = "SELECT A.name AS [Colum] FROM syscolumns A JOIN sysobjects B ON B.id = A.id WHERE A.status = 128 and B.name = '" + dr.Cells["ColumnId"].Value.ToString() + "'";
-                            DataTable dt = this.e.DbAccess.GetDataTable(SidentityColumn);
-                            if (dt.Rows.Count < 1)
-                            {
-                                editValue += dr.Cells["ColumnId"].Value + "= N'" + dr.Cells["ColumnValue"].Value + "' ,";
-                            }
-                        }                            
+                            editValue += dr.Cells["ColumnId"].Value + "= N'" + dr.Cells["ColumnValue"].Value + "' ,";
+                        }
                     }
                     editValue = editValue.Remove(editValue.Length - 1);
                     if (this.EditQuery(pkValue, editValue) == 1)

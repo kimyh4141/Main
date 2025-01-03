@@ -1,7 +1,7 @@
-﻿using clsBarcode;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.IO.Ports;
@@ -22,7 +22,7 @@ namespace WiseM.Client
         private static string WorkOrder => WbtCustomService.ActiveValues.WorkOrder;
         private static string Material => WbtCustomService.ActiveValues.Material;
         private static string WorkCenter => WbtCustomService.ActiveValues.Workcenter;
-        private static int OrderQty => (int) WbtCustomService.ActiveValues.OrderQty;
+        private static int OrderQty => (int)WbtCustomService.ActiveValues.OrderQty;
         private static string Routing => WbtCustomService.ActiveValues.Routing;
         private string Type { get; }
         private DateTime PackingDate { get; }
@@ -31,7 +31,8 @@ namespace WiseM.Client
 
         //변경필요한 것들
         private string ini_Qty = "0";
-       // private string line;
+
+        // private string line;
         private string _boxBcd;
         private string _palletBcd;
         private string _boxQty;
@@ -53,12 +54,12 @@ namespace WiseM.Client
         // DIO로 명령 보낸후 false,
         // DIO에서 응답이 오거나, TimeOut 걸리면 true
 
-        System.Timers.Timer tmrDio1 = new System.Timers.Timer {AutoReset = false, Interval = 1000};     // OK 접점 꺼주기 위해
-        System.Timers.Timer tmrDio2 = new System.Timers.Timer {AutoReset = false, Interval = 1000};     // NG 접점 꺼주기 위해
-        System.Timers.Timer tmrDioReply = new System.Timers.Timer {AutoReset = false, Interval = 1000}; // DIO가 응답을 안 할 수 있으니..
+        System.Timers.Timer tmrDio1 = new System.Timers.Timer { AutoReset = false, Interval = 1000 }; // OK 접점 꺼주기 위해
+        System.Timers.Timer tmrDio2 = new System.Timers.Timer { AutoReset = false, Interval = 1000 }; // NG 접점 꺼주기 위해
+        System.Timers.Timer tmrDioReply = new System.Timers.Timer { AutoReset = false, Interval = 1000 }; // DIO가 응답을 안 할 수 있으니..
 
-        System.Timers.Timer tmrIgnoreDataFromSerialPort2 = new System.Timers.Timer {AutoReset = false, Interval = 3000}; // 오토스캐너로부터 데이터 수신후, 일정시간 내에 수신되는 데이터 무시
-        System.Timers.Timer tmrIgnoreDataFromSerialPort3 = new System.Timers.Timer {AutoReset = false, Interval = 3000};
+        System.Timers.Timer tmrIgnoreDataFromSerialPort2 = new System.Timers.Timer { AutoReset = false, Interval = 3000 }; // 오토스캐너로부터 데이터 수신후, 일정시간 내에 수신되는 데이터 무시
+        System.Timers.Timer tmrIgnoreDataFromSerialPort3 = new System.Timers.Timer { AutoReset = false, Interval = 3000 };
 
         bool boolIgnoreDataFromSerialPort2; // true:IgnoreTimer가 가동중이므로, 이때 수신되는 데이터 무시.
         bool boolIgnoreDataFromSerialPort3;
@@ -78,7 +79,13 @@ namespace WiseM.Client
         [DllImport("kernel32")]
         private static extern int GetPrivateProfileString(string section, string key, string def, StringBuilder retVal, int size, string filePath);
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="type">Double or Single</param>
+        /// <param name="packingDate"></param>
+        /// <param name="previousPalletBarcode"></param>
+        /// <param name="previousBoxBarcode"></param>
         public Box_Palletizing(string type, DateTime packingDate, string previousPalletBarcode = "", string previousBoxBarcode = "")
         {
             InitializeComponent();
@@ -94,39 +101,38 @@ namespace WiseM.Client
                     Directory.CreateDirectory(path);
                 }
 
-                    var fileInfo = new FileInfo(path + @"\Config.ini");
+                var fileInfo = new FileInfo(path + @"\Config.ini");
 
-                    if (!fileInfo.Exists)
-                    {
-                        WritePrivateProfileString("Setting", "Digital I/O", "COM3", path + @"\Config.ini");
-                        WritePrivateProfileString("Setting", "SINGLE", "COM4", path + @"\Config.ini");
-                        WritePrivateProfileString("Setting", "Left", "COM4", path + @"\Config.ini");
-                        WritePrivateProfileString("Setting", "Right", "COM5", path + @"\Config.ini");
-                    }
+                if (!fileInfo.Exists)
+                {
+                    WritePrivateProfileString("Setting", "Digital I/O", "COM3", path + @"\Config.ini");
+                    WritePrivateProfileString("Setting", "SINGLE", "COM4", path + @"\Config.ini");
+                    WritePrivateProfileString("Setting", "Left", "COM4", path + @"\Config.ini");
+                    WritePrivateProfileString("Setting", "Right", "COM5", path + @"\Config.ini");
+                }
 
-                    var tempStrComPortName1 = new StringBuilder();
-                    var tempStrComPortName2 = new StringBuilder();
-                    var tempStrComPortName3 = new StringBuilder();
-                    var tempStrComPortName4 = new StringBuilder();
+                var tempStrComPortName1 = new StringBuilder();
+                var tempStrComPortName2 = new StringBuilder();
+                var tempStrComPortName3 = new StringBuilder();
+                var tempStrComPortName4 = new StringBuilder();
 
-                    GetPrivateProfileString("Setting", "Digital I/O", "", tempStrComPortName1, 256, path + @"\Config.ini");
-                    GetPrivateProfileString("Setting", "SINGLE", "", tempStrComPortName2, 256, path + @"\Config.ini");
-                    GetPrivateProfileString("Setting", "Left", "", tempStrComPortName3, 256, path + @"\Config.ini");
-                    GetPrivateProfileString("Setting", "Right", "", tempStrComPortName4, 256, path + @"\Config.ini");
+                GetPrivateProfileString("Setting", "Digital I/O", "", tempStrComPortName1, 256, path + @"\Config.ini");
+                GetPrivateProfileString("Setting", "SINGLE", "", tempStrComPortName2, 256, path + @"\Config.ini");
+                GetPrivateProfileString("Setting", "Left", "", tempStrComPortName3, 256, path + @"\Config.ini");
+                GetPrivateProfileString("Setting", "Right", "", tempStrComPortName4, 256, path + @"\Config.ini");
 
-                    bSlaveId = 1;
-                    strComPortName = tempStrComPortName1.ToString();
-                    singlePort = tempStrComPortName2.ToString();
-                    leftPort = tempStrComPortName3.ToString();
-                    rightPort = tempStrComPortName4.ToString();
+                bSlaveId = 1;
+                strComPortName = tempStrComPortName1.ToString();
+                singlePort = tempStrComPortName2.ToString();
+                leftPort = tempStrComPortName3.ToString();
+                rightPort = tempStrComPortName4.ToString();
+                Init();
             }
             catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show($"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Close();
+                Close();
             }
-
-            Init();
         }
 
 
@@ -251,8 +257,7 @@ namespace WiseM.Client
 
                     string queryGetStandardQty = $@"SELECT QtyInBox, BoxQtyInPallet FROM Material WHERE Material = '{_topMaterial}'";
                     var dataTable = DbAccess.Default.GetDataTable(queryGetStandardQty);
-                    if (!string.IsNullOrEmpty(PreviousPalletBarcode)
-                        || !string.IsNullOrEmpty(PreviousBoxBarcode))
+                    if (!string.IsNullOrEmpty(PreviousPalletBarcode) || !string.IsNullOrEmpty(PreviousBoxBarcode))
                     {
                         string tempQuery = $@"
                                             INSERT
@@ -299,52 +304,83 @@ namespace WiseM.Client
                         DbAccess.Default.ExecuteQuery(tempQuery);
                     }
 
-                    string ini_Q;
-                    ini_Q = $@"
-                            SELECT COALESCE(B.Count, 0) + COALESCE(OH.OutQty, 0) Cnt
+                     string ini_Q = $@"
+                            SELECT COALESCE(B.Count, 0) + COALESCE(OH.OutQty, 0) AS Cnt
                               FROM WorkOrder         WO
                                    LEFT OUTER JOIN (
-                                                   SELECT B.WorkOrder
-                                                       , COUNT(( B.PcbBcd )) AS Count
+                                                     SELECT B.WorkOrder
+                                                          , COUNT((B.PcbBcd)) AS Count
                                                        FROM BoxTemp B
-                                                   WHERE 1 = 1
-                                                       AND B.PalletBcd IS NULL
-                                                   GROUP BY
-                                                       B.WorkOrder
+                                                      WHERE 1 = 1
+                                                        AND B.PalletBcd IS NULL
+                                                      GROUP BY B.WorkOrder
                                                    ) B
                                                    ON WO.WorkOrder = B.WorkOrder
                                    LEFT OUTER JOIN (
-                                                   SELECT SUM(OH.OutQty) AS OutQty
-                                                       , OH.WorkOrder
+                                                     SELECT SUM(OH.OutQty) AS OutQty
+                                                          , OH.WorkOrder
                                                        FROM OutputHist AS OH
-                                                   GROUP BY
-                                                       OH.WorkOrder
+                                                      GROUP BY OH.WorkOrder
                                                    ) OH
                                                    ON WO.WorkOrder = OH.WorkOrder
                              WHERE WO.WorkOrder = '{WorkOrder}'
 
-                    SELECT ROW_NUMBER() OVER(ORDER BY(SELECT NULL)) Cnt, PcbBcd as PCB_Barcode, Updated
-                    FROM BoxTemp WHERE WorkCenter = '{WorkCenter}' and Boxbcd IS NULL ORDER BY RecordId
+                            SELECT ROW_NUMBER() OVER (ORDER BY (
+                                                                 SELECT NULL
+                                                               )) AS Cnt
+                                 , PcbBcd                         AS PCB_Barcode
+                                 , Updated
+                              FROM BoxTemp
+                             WHERE WorkCenter = '{WorkCenter}'
+                               AND BoxBcd IS NULL
+                             ORDER BY RecordId
 
-                    SELECT ROW_NUMBER() OVER (ORDER BY BT.Updated) AS Cnt, BT.BoxBcd, BT.Updated
-                    FROM (SELECT BT.BoxBcd, MAX(BT.Updated) AS Updated FROM boxtemp BT WHERE WorkCenter = '{WorkCenter}' AND PalletBcd IS NULL AND BoxBcd IS NOT NULL
-                    GROUP BY BT.BoxBcd) AS BT ORDER BY BT.Updated
+                            SELECT ROW_NUMBER() OVER (ORDER BY BT.Updated) AS Cnt
+                                 , BT.BoxBcd
+                                 , BT.Updated
+                              FROM (
+                                     SELECT BT.BoxBcd
+                                          , MAX(BT.Updated) AS Updated
+                                       FROM BoxTemp BT
+                                      WHERE WorkCenter = '{WorkCenter}'
+                                        AND PalletBcd IS NULL
+                                        AND BoxBcd IS NOT NULL
+                                      GROUP BY BT.BoxBcd
+                                   ) AS BT
+                             ORDER BY BT.Updated
 
-                    SELECT ROW_NUMBER() OVER (ORDER BY BT.Updated) AS Cnt, BT.PalletBcd, BT.Updated
-                    FROM (SELECT BT.PalletBcd, MAX(BT.Updated) AS Updated FROM boxtemp BT WHERE WorkCenter = '{WorkCenter}' AND PalletBcd IS NOT NULL
-                    GROUP BY BT.PalletBcd) AS BT ORDER BY BT.Updated
+                            SELECT ROW_NUMBER() OVER (ORDER BY BT.Updated) AS Cnt
+                                 , BT.PalletBcd
+                                 , BT.Updated
+                              FROM (
+                                     SELECT BT.PalletBcd
+                                          , MAX(BT.Updated) AS Updated
+                                       FROM BoxTemp BT
+                                      WHERE WorkCenter = '{WorkCenter}'
+                                        AND PalletBcd IS NOT NULL
+                                      GROUP BY BT.PalletBcd
+                                   ) AS BT
+                             ORDER BY BT.Updated
 
-                    SELECT TOP 1 BoxBcd FROM BoxTemp WHERE WorkOrder = '{WorkOrder}' AND BoxBcd IS NOT NULL ORDER BY RecordId DESC
+                            SELECT TOP 1 BoxBcd
+                              FROM BoxTemp
+                             WHERE WorkOrder = '{WorkOrder}'
+                               AND BoxBcd IS NOT NULL
+                             ORDER BY RecordId DESC
 
-                    SELECT TOP 1 PalletBcd FROM BoxTemp WHERE WorkOrder = '{WorkOrder}' AND PalletBcd IS NOT NULL ORDER BY RecordId DESC
+                            SELECT TOP 1 PalletBcd
+                              FROM BoxTemp
+                             WHERE WorkOrder = '{WorkOrder}'
+                               AND PalletBcd IS NOT NULL
+                             ORDER BY RecordId DESC
                     ";
 
                     DataSet dt_ini = DbAccess.Default.GetDataSet(ini_Q);
-                    string count_pcb = dt_ini.Tables[0].Rows[0]["Cnt"].ToString();
-                    string count_noBoxingPcb = dt_ini.Tables[1].Rows.Count.ToString();
-                    string count_box = dt_ini.Tables[2].Rows.Count.ToString();
+                    string countPcb = dt_ini.Tables[0].Rows[0]["Cnt"].ToString();
+                    string countNoBoxingPcb = dt_ini.Tables[1].Rows.Count.ToString();
+                    string countBox = dt_ini.Tables[2].Rows.Count.ToString();
 
-                    ini_Qty = count_pcb;
+                    ini_Qty = countPcb;
 
                     dgv_pcbInfo.DataSource = dt_ini.Tables[1];
                     dgv_boxInfo.DataSource = dt_ini.Tables[2];
@@ -363,16 +399,16 @@ namespace WiseM.Client
                         Close();
                     }
 
-                    lbl_Qty.Text = $@"{count_pcb} / {OrderQty}";
-                    lbl_BoxQty.Text = $@"{count_noBoxingPcb} / {_boxQty}";
-                    lbl_PalletQty.Text = $@"{count_box} / {_palletQty}";
+                    lbl_Qty.Text = $@"{countPcb} / {OrderQty}";
+                    lbl_BoxQty.Text = $@"{countNoBoxingPcb} / {_boxQty}";
+                    lbl_PalletQty.Text = $@"{countBox} / {_palletQty}";
 
                     lbl_BoxBarcode.Text = dt_ini.Tables[4].Rows.Count <= 0 ? "-" : dt_ini.Tables[4].Rows[0]["BoxBcd"].ToString();
                     lbl_PalletBarcode.Text = dt_ini.Tables[5].Rows.Count <= 0 ? "-" : dt_ini.Tables[5].Rows[0]["PalletBcd"].ToString();
                 }
                 catch (Exception ex)
                 {
-                    InsertIntoSysLog("ClearForm", ex.Message);
+                    InsertIntoSysLog("Init", ex.Message);
                     System.Windows.Forms.MessageBox.Show($"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Close();
                 }
@@ -498,18 +534,17 @@ namespace WiseM.Client
             }
             catch (Exception ex)
             {
-                InsertIntoSysLog("ClearForm(2)", ex.Message);
+                InsertIntoSysLog("Init(2)", ex.Message);
                 System.Windows.Forms.MessageBox.Show($"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Close();
-                                    
             }
         }
 
         void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            while (this.serialPort1.BytesToRead > 0)
+            while (serialPort1.BytesToRead > 0)
             {
-                string strTmp = this.serialPort1.ReadExisting();
+                serialPort1.ReadExisting();
             }
 
             InvokeProcessControls_Dio("");
@@ -629,11 +664,11 @@ namespace WiseM.Client
 
                 if (lbl_type.Text == "SINGLE")
                 {
-                    ProcessingSINGLE(scanData);
+                    ProcessingSingle(scanData);
                 }
                 else
                 {
-                    Processing1stDOUBLE(scanData);
+                    Processing1StDouble(scanData);
                 }
             }
             catch (Exception ex)
@@ -642,10 +677,11 @@ namespace WiseM.Client
             }
         }
 
-        private void ProcessingSINGLE(string scanData)
+        private void ProcessingSingle(string scanData)
         {
             if (btn_Setting.Enabled)
                 return;
+
             try
             {
                 string strCmd = $@"exec [Sp_WorkPcProcedureV3]
@@ -758,23 +794,23 @@ namespace WiseM.Client
                 {
                     string strErr = ds1.Tables[0].Rows[0]["RTN_TXT"].ToString();
 
-                    this.lbl_Current1.ForeColor = Color.Red;
-                    this.lbl_Error.Visible = true;
-                    this.lbl_Error.Text = strErr;
+                    lbl_Current1.ForeColor = Color.Red;
+                    lbl_Error.Visible = true;
+                    lbl_Error.Text = strErr;
 
                     SetLogMessage($"[{scanData}] {strErr}");
 
                     SetLogMessage($"Send NG signal to Digital I/O");
-                    this.WriteDigitalOut(2, true);
+                    WriteDigitalOut(2, true);
                 }
             }
             catch (Exception ex)
             {
-                InsertIntoSysLog("ProcessingSINGLE", ex.Message);
+                InsertIntoSysLog("ProcessingSingle", ex.Message);
             }
         }
 
-        private void Processing1stDOUBLE(string scanData)
+        private void Processing1StDouble(string scanData)
         {
             if (btn_Setting.Enabled)
                 return;
@@ -1007,7 +1043,7 @@ namespace WiseM.Client
             }
             catch (Exception ex)
             {
-                InsertIntoSysLog("Processing1stDOUBLE", ex.Message);
+                InsertIntoSysLog("Processing1StDouble", ex.Message);
             }
         }
 
@@ -1307,10 +1343,17 @@ namespace WiseM.Client
                     }
                 }
 
-                byte[] bCmdPresetSingleRegister = {bSlaveId, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+                /*
+                if (!serialPort1.IsOpen)
+                {
+                    serialPort1.Open(); // 포트가 닫혀 있으면 열기
+                }
+                */
 
-                bCmdPresetSingleRegister[3] = (byte) (intAdrs == 1 ? 0x02 : intAdrs == 2 ? 0x06 : intAdrs == 3 ? 0x0a : 0x0e); // Address      DO1:02,   DO2:06,     DO3:0a,       DO4:0e
-                bCmdPresetSingleRegister[5] = (byte) (bVal ? 1 : 0);                                                           // Value
+                byte[] bCmdPresetSingleRegister = { bSlaveId, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+
+                bCmdPresetSingleRegister[3] = (byte)(intAdrs == 1 ? 0x02 : intAdrs == 2 ? 0x06 : intAdrs == 3 ? 0x0a : 0x0e); // Address      DO1:02,   DO2:06,     DO3:0a,       DO4:0e
+                bCmdPresetSingleRegister[5] = (byte)(bVal ? 1 : 0); // Value
                 bCmdPresetSingleRegister = CalcCRC.GetCRC(bCmdPresetSingleRegister);
 
                 serialPort1.DiscardOutBuffer();
@@ -1332,7 +1375,7 @@ namespace WiseM.Client
             }
             catch (Exception ex)
             {
-                InsertIntoSysLog("WriteDigitalOut", ex.Message);
+                InsertIntoSysLog("WriteDigitalOut", ex.ToString());
             }
         }
 
@@ -1690,7 +1733,6 @@ namespace WiseM.Client
             {
                 try
                 {
-                     
                     var PNdt = DbAccess.Default.GetDataTable($@"SELECT LG_ITEM_CD, LG_ITEM_NM, Text FROM Material WHERE Material = '{_topMaterial}'");
                     var item_CD = PNdt.Rows[0]["LG_ITEM_CD"].ToString();
                     var item_NM = PNdt.Rows[0]["LG_ITEM_NM"].ToString();
@@ -1705,6 +1747,7 @@ namespace WiseM.Client
                     {
                         line = workOrderLine.ToString();
                     }
+
                     //gmryu 2024-02-20 임시
                     if (line.Equals("3"))
                     {
@@ -1742,10 +1785,10 @@ namespace WiseM.Client
                             _clsBarcode.Data.SetText("DESC", desc);
                             _clsBarcode.Data.SetText("SPEC", item_NM);
 
-                                //gmryu 2023-08-31 홍팀장님 요청 : S라인일 경우 박스라벨에 (VN) 미표기                  
-                                _clsBarcode.Data.SetText("Y2SOLUTION", $"Y2 SOLUTION{(char.IsDigit(workOrderLine) ? "(VN)" : "")}");
+                            //gmryu 2023-08-31 홍팀장님 요청 : S라인일 경우 박스라벨에 (VN) 미표기                  
+                            _clsBarcode.Data.SetText("Y2SOLUTION", $"Y2 SOLUTION{(char.IsDigit(workOrderLine) ? "(VN)" : "")}");
 
-                                _clsBarcode.Data.SetText("DATE", $"{PackingDate:yyyy. MM. dd}");
+                            _clsBarcode.Data.SetText("DATE", $"{PackingDate:yyyy. MM. dd}");
                             _clsBarcode.Data.SetText("BARCODE1", boxbcd1);
                             _clsBarcode.Data.SetText("BARCODE2", _boxBcd);
 
@@ -1820,6 +1863,7 @@ namespace WiseM.Client
 
                                 _clsBarcode.Print(false);
                             }
+
                             string p_printHistQ = $@"
                                             INSERT INTO PalletbcdPrintHist
                                             (LG_PartNo, Model, Qty, PalletBcd, Mfg_ymd, Mfg_Line, ProductionDate, ProductionLine,
@@ -1947,7 +1991,7 @@ namespace WiseM.Client
         }
 
         private void InsertIntoSysLog(string type, string source, string strMsg)
-            
+
         {
             strMsg = strMsg.Replace("'", "\x07"); //일부러? 
             DbAccess.Default.ExecuteQuery($"INSERT INTO SysLog (type, category, source, message, [user], updated) VALUES ('{type}',  'Client', 'Box_Palletizing.{source}', LEFT(ISNULL(N'{strMsg}',''),3000), '{WorkCenter}', GETDATE())");
@@ -1992,10 +2036,10 @@ namespace WiseM.Client
                 }
 
                 if (System.Windows.Forms.MessageBox.Show
-                        (
-                         "Bạn có chắc chắn không？ \r\nAre you sure?", "Đóng những hộp còn lại(Box Remainder Closing)",
-                         MessageBoxButtons.YesNo, MessageBoxIcon.Question
-                        )
+                    (
+                        "Bạn có chắc chắn không？ \r\nAre you sure?", "Đóng những hộp còn lại(Box Remainder Closing)",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question
+                    )
                     != DialogResult.Yes) return;
                 Print("Boxing", currentQty);
 
@@ -2060,10 +2104,10 @@ namespace WiseM.Client
                 }
 
                 if (System.Windows.Forms.MessageBox.Show
-                        (
-                         "Bạn có chắc chắn không？ \r\nAre you sure?", "Đóng những hộp còn lại(Pallet Remainder Closing)",
-                         MessageBoxButtons.YesNo, MessageBoxIcon.Question
-                        )
+                    (
+                        "Bạn có chắc chắn không？ \r\nAre you sure?", "Đóng những hộp còn lại(Pallet Remainder Closing)",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question
+                    )
                     != DialogResult.Yes) return;
                 Print("Palletizing", currentQty);
                 Palletizing(_palletBcd, currentQty);
@@ -2160,10 +2204,10 @@ namespace WiseM.Client
                 if (dgv_pcbInfo.Rows.Count <= 0) return;
 
                 if (System.Windows.Forms.MessageBox.Show
-                        (
-                         "Bạn có chắc chắn không？ \r\nAre you sure?", "Clear",
-                         MessageBoxButtons.YesNo, MessageBoxIcon.Question
-                        )
+                    (
+                        "Bạn có chắc chắn không？ \r\nAre you sure?", "Clear",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question
+                    )
                     != DialogResult.Yes) return;
 
                 string del_Q = $@"DELETE FROM BoxTemp WHERE WorkCenter = '{WorkCenter}' and BoxBcd IS NULL";
@@ -2242,10 +2286,10 @@ namespace WiseM.Client
                     if (lbl_BoxBarcode.Text == "-") return;
 
                     if (System.Windows.Forms.MessageBox.Show
-                            (
-                             "Bạn có chắc chắn không？ \r\nAre you sure?", "Reprint",
-                             MessageBoxButtons.YesNo, MessageBoxIcon.Question
-                            )
+                        (
+                            "Bạn có chắc chắn không？ \r\nAre you sure?", "Reprint",
+                            MessageBoxButtons.YesNo, MessageBoxIcon.Question
+                        )
                         != DialogResult.Yes) return;
                     string query = $@"SELECT TOP 1 * FROM BoxbcdPrintHist WHERE BoxBarcode_2 = '{lbl_BoxBarcode.Text}' ORDER BY SerialNo DESC";
                     var dataTable = DbAccess.Default.GetDataTable(query);
@@ -2338,10 +2382,10 @@ namespace WiseM.Client
                     if (lbl_PalletBarcode.Text == "-") return;
 
                     if (System.Windows.Forms.MessageBox.Show
-                            (
-                             "Bạn có chắc chắn không？ \r\nAre you sure?", "Reprint",
-                             MessageBoxButtons.YesNo, MessageBoxIcon.Question
-                            )
+                        (
+                            "Bạn có chắc chắn không？ \r\nAre you sure?", "Reprint",
+                            MessageBoxButtons.YesNo, MessageBoxIcon.Question
+                        )
                         != DialogResult.Yes) return;
                     string query = $@"SELECT TOP 1 * FROM PalletbcdPrintHist WITH(NOLOCK) WHERE PalletBcd = '{lbl_PalletBarcode.Text}' ORDER BY SerialNo DESC";
                     var dataTable = DbAccess.Default.GetDataTable(query);

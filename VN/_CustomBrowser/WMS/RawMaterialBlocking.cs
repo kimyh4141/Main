@@ -64,20 +64,27 @@ namespace WiseM.Browser.WMS
 
             string query = $@"
                             --'Barcode-Block'
-                            DECLARE @PramList NVARCHAR(MAX) = '{string.Join(",", checkList.ToArray())}';
+                            DECLARE @PramList NVARCHAR(MAX) = '{string.Join(",", checkList.ToArray())}'
+                            ;
+
                               WITH Main AS (
                                              SELECT LEFT(Split.value, CHARINDEX('-', Split.value) - 1)                                      AS Barcode
                                                   , CONVERT(BIT, SUBSTRING(Split.value, CHARINDEX('-', Split.value) + 1, LEN(Split.value))) AS Block
                                                FROM STRING_SPLIT(@PramList, ',') AS Split
                                            )
                             UPDATE Rm_Stock
-                               SET Block = Main.Block
+                               SET Block      = Main.Block
                                  , Rm_Updated = GETDATE()
                             OUTPUT inserted.Rm_BarCode
+                                 , inserted.Rm_Material
+                                 , inserted.Rm_Supplier
+                                 , inserted.Rm_ProdDate
+                                 , inserted.Rm_QtyinBox
+                                 , inserted.Rm_BoxSeq
                                  , inserted.Block
-                                 , inserted.Rm_Updated
                                  , '{WiseApp.Id}' AS Creator
-                              INTO RawMaterialStockBlockingHist (Barcode, Block, Creator, Created)
+                                 , inserted.Rm_Updated
+                              INTO RawMaterialStockBlockingHist (Barcode, Material, Supplier, ProdDate, QtyinBox, BoxSeq, Block, Creator, Created)
                               FROM Main
                              WHERE Rm_Stock.Rm_BarCode = Main.Barcode
                             ";

@@ -118,9 +118,7 @@ namespace WiseM.Browser
             {
                 var dictionary = new Dictionary<string, string>
                 {
-                    { "980328", "青岛工厂(청도공장)" },
-                    { "C0010", "青岛稀世电子(시스)" },
-                    { "C0058", "青岛丰汇电子(평휘)" }
+                    { "980318-S", "青岛工厂(청도공장)" },
                 };
                 cmbWorkCenter.DataSource = new BindingSource(dictionary, null);
                 cmbWorkCenter.ValueMember = "key";

@@ -383,61 +383,102 @@ SELECT KR.PcbBcd
                     ?
                     // BadHist Insert
                     $@"
-                    INSERT
-                      INTO BadHist
+                        INSERT
+                          INTO BadHist
                           (
-                              Division
-                          ,   ClientId
-                          ,   WorkCenter
-                          ,   Material
-                          ,   Routing
-                          ,   WorkOrder
-                          ,   Bad
-                          ,   IssueType
-                          ,   BadQty
-                          ,   SerialType
-                          ,   SerialNo
-                          ,   TransDate
+                            Division
+                          , ClientId
+                          , WorkCenter
+                          , Material
+                          , Routing
+                          , WorkOrder
+                          , Bad
+                          , IssueType
+                          , BadQty
+                          , SerialType
+                          , SerialNo
+                          , TransDate
                           )
-                    VALUES
-                        (
-                            'PL30'
-                        ,   'Browser'
-                        ,   N'{comboBox_WorkCenter.SelectedValue}'
-                        ,   N'{textBox_Material.Text}'
-                        ,   N'{comboBox_Routing.SelectedValue}'
-                        ,   N'{textBox_WorkOrder.Text}'
-                        ,   N'{comboBox_Bad.SelectedValue}'
-                        ,   'Browser'
-                        ,   1
-                        ,   'PCB'
-                        ,   N'{textBox_Barcode.Text}'
-                        ,   GetDate()
-                        )
+                        VALUES (
+                                 'PL30'
+                               , 'Browser'
+                               , N'{comboBox_WorkCenter.SelectedValue}'
+                               , N'{textBox_Material.Text}'
+                               , N'{comboBox_Routing.SelectedValue}'
+                               , N'{textBox_WorkOrder.Text}'
+                               , N'{comboBox_Bad.SelectedValue}'
+                               , 'Browser'
+                               , 1
+                               , 'PCB'
+                               , N'{textBox_Barcode.Text}'
+                               , GETDATE()
+                               )
+
+                        INSERT
+                          INTO RepairStockHist (
+                                                 Type
+                                               , PcbBarcode
+                                               , Material
+                                               , ERP_SL_CD_FROM
+                                               , ERP_SL_CD_TO
+                                               , SendStatusERP
+                                               , Created
+                                               )
+                        SELECT 'IN'
+                             , '{textBox_Barcode.Text}'
+                             , '{textBox_Material.Text}'
+                             , '980318'
+                             , '980328-4'
+                             , 0
+                             , GETDATE()
+                        ;
                     "
                     :
                     // RepairInfo Insert
                     $@"
-                     INSERT
-                      INTO RepairInfo ( PcbBcd
-                                      , WorkOrder
-                                      , Material
-                                      , Routing
-                                      , WorkCenter
-                                      , Status
-                                      , Bad
-                                      , Updater
-                                      , Updated )
-                    VALUES ( N'{textBox_Barcode.Text}'
-                           , N'{textBox_WorkOrder.Text}'
-                           , N'{textBox_Material.Text}'
-                           , N'{comboBox_Routing.SelectedValue}'
-                           , N'{comboBox_WorkCenter.SelectedValue}'
-                           , 1
-                           , N'{comboBox_Bad.SelectedValue}'
-                           , N'{WiseApp.Id}'
-                           , GETDATE() )
-                    ;
+                        INSERT
+                          INTO RepairInfo (
+                                            PcbBcd
+                                          , WorkOrder
+                                          , Material
+                                          , Routing
+                                          , WorkCenter
+                                          , Status
+                                          , Bad
+                                          , Updater
+                                          , Updated
+                                          )
+                        VALUES (
+                                 N'{textBox_Barcode.Text}'
+                               , N'{textBox_WorkOrder.Text}'
+                               , N'{textBox_Material.Text}'
+                               , N'{comboBox_Routing.SelectedValue}'
+                               , N'{comboBox_WorkCenter.SelectedValue}'
+                               , 1
+                               , N'{comboBox_Bad.SelectedValue}'
+                               , N'{WiseApp.Id}'
+                               , GETDATE()
+                               )
+                        ;
+
+                        INSERT
+                          INTO RepairStockHist (
+                                                 Type
+                                               , PcbBarcode
+                                               , Material
+                                               , ERP_SL_CD_FROM
+                                               , ERP_SL_CD_TO
+                                               , SendStatusERP
+                                               , Created
+                                               )
+                        SELECT 'IN'
+                             , '{textBox_Barcode.Text}'
+                             , '{textBox_Material.Text}'
+                             , '980318'
+                             , '980328-4'
+                             , 0
+                             , GETDATE()
+                        ;
                     "
             );
 

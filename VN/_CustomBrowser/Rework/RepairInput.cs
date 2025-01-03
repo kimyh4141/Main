@@ -58,7 +58,7 @@ namespace WiseM.Browser
 
             string Q = $@"
                         SELECT C.Common + ' / '  + C.[Text] AS BadGroup, B.Bad + ' / ' + B.[Text] AS Bad  FROM Bad B
-                        	LEFT OUTER JOIN Common C ON B.Bunch = C.Common
+                            LEFT OUTER JOIN Common C ON B.Bunch = C.Common
                         WHERE 1=1
                           AND C.Category = '200'
                           AND B.Bad = '{dataGridViewRow.Cells["Bad"].Value}'
@@ -78,7 +78,6 @@ namespace WiseM.Browser
 
             tb_MaterialName.Text = $@"{dataGridViewRow.Cells["Spec"].Value}";
              */
-
         }
 
         private void GetInfo()
@@ -326,14 +325,14 @@ namespace WiseM.Browser
                 return;
             }
 
-            if (cb_RepairResult.Text== "" || cb_RepairResult.Text == null)
+            if (cb_RepairResult.Text == "" || cb_RepairResult.Text == null)
             {
                 MessageBox.Show("Vui lòng chọn kết quả sửa hàng。(Please select repair result.)", "Không chọn(Not Select?)", MessageBoxIcon.Warning);
                 return;
             }
-          
 
-            if(comboBox_PartRouting.Text == "" && repairResult == "C")
+
+            if (comboBox_PartRouting.Text == "" && repairResult == "C")
             {
                 MessageBox.Show("Please Select Part Routing", "Part Routing Not Selected", MessageBoxIcon.Warning);
                 return;
@@ -398,6 +397,44 @@ namespace WiseM.Browser
                             );
                             break;
                     }
+
+                    query.AppendLine(
+                        $@"
+                        INSERT
+                          INTO RepairStockHist (
+                                                 Type
+                                               , PcbBarcode
+                                               , Material
+                                               , ERP_SL_CD_FROM
+                                               , ERP_SL_CD_TO
+                                               , SendStatusERP
+                                               , Created
+                                               )
+                        SELECT 'OUT'
+                             , RI.PcbBcd
+                             , RI.Material
+                             , CASE WC.Owner
+                                 WHEN 'Sehyun'
+                                   THEN 'VP20-M'
+                                 WHEN 'SungJin'
+                                   THEN 'VP20S-SM'
+                               END
+                             , CASE WC.Owner
+                                 WHEN 'Sehyun'
+                                   THEN 'VP20'
+                                 WHEN 'SungJin'
+                                   THEN 'VP20S'
+                               END
+                             , 0
+                             , GETDATE()
+                          FROM RepairInfo                 AS RI
+                               LEFT OUTER JOIN WorkCenter AS WC
+                                               ON RI.WorkCenter = WC.WorkCenter
+                         WHERE RI.PcbBcd = '{tb_Barcode.Text}'
+                        ;
+                        "
+                    );
+
                     break;
                 case "X":
                     query.AppendLine(
@@ -434,6 +471,7 @@ namespace WiseM.Browser
                 default:
                     throw new ArgumentOutOfRangeException("repairResult");
             }
+
             query.AppendLine(
                 $@"
                 INSERT
@@ -480,14 +518,12 @@ namespace WiseM.Browser
 
             try
             {
-               
                 DbAccess.Default.ExecuteQuery(query.ToString());
                 MessageBox.Show("Đã hoàn thành(Completed)", "Đã hoàn thành(Completed)", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 //  Close();
                 TextBox_Clear();
 
                 tb_Barcode.ReadOnly = false;
-               
             }
             catch (Exception ex)
             {
@@ -519,6 +555,7 @@ namespace WiseM.Browser
         }
 
         #endregion
+
         private bool VerifyBarcode(string barcode)
         {
             if (string.IsNullOrEmpty(barcode))
@@ -526,6 +563,7 @@ namespace WiseM.Browser
                 MessageBox.Show("Vui lòng nhập Barcode。(Please input barcode.)", "Barcode trống(Empty Barcode)", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return false;
             }
+
             try
             {
                 string Q = $@"
@@ -556,13 +594,13 @@ namespace WiseM.Browser
                     return false;
                 }
 
-                tb_Barcode.Text = $@"{dt.Rows[0]["PcbBcd"].ToString()}";
+                tb_Barcode.Text = $@"{dt.Rows[0]["PcbBcd"]}";
 
-                tb_WorkOrder.Text = $@"{dt.Rows[0]["WorkOrder"].ToString()}";
-                tb_Workcenter.Text = $@"{dt.Rows[0]["WorkCenter"].ToString()}";
-                tb_Routing.Text = $@"{dt.Rows[0]["Routing"].ToString()}";
-                tb_Material.Text = $@"{dt.Rows[0]["Material"].ToString()}";
-                tb_MaterialName.Text = $@"{dt.Rows[0]["MaterialName"].ToString()}";
+                tb_WorkOrder.Text = $@"{dt.Rows[0]["WorkOrder"]}";
+                tb_Workcenter.Text = $@"{dt.Rows[0]["WorkCenter"]}";
+                tb_Routing.Text = $@"{dt.Rows[0]["Routing"]}";
+                tb_Material.Text = $@"{dt.Rows[0]["Material"]}";
+                tb_MaterialName.Text = $@"{dt.Rows[0]["MaterialName"]}";
 
                 tb_BadGroup.Text = dt.Rows[0]["BadGroup"].ToString();
                 tb_BadCode.Text = dt.Rows[0]["BadCode"].ToString();
@@ -573,41 +611,35 @@ namespace WiseM.Browser
             catch (Exception)
             {
                 return false;
-
             }
-
-
         }
 
         private void TextBox_Clear()
-        {          
+        {
             try
             {
-                tb_Barcode.Text                    = "";
-                tb_WorkOrder.Text                  = "";
-                tb_Workcenter.Text                 = "";
-                tb_Routing.Text                    = "";
-                tb_Material.Text                   = "";
-                tb_MaterialName.Text               = "";
-                tb_BadGroup.Text                   = "";
-                tb_BadCode.Text                    = "";
-                tb_RepairComment.Text              = "";
-                tb_RepairLocation.Text             = "";
-                cb_Repair.Text                     = "";
-                cb_RepairGroup.SelectedIndex       = -1;                  
-                cb_RepairResult.SelectedIndex      = 0;
-                ComboBox_Worker.SelectedIndex      = 0;
+                tb_Barcode.Text = "";
+                tb_WorkOrder.Text = "";
+                tb_Workcenter.Text = "";
+                tb_Routing.Text = "";
+                tb_Material.Text = "";
+                tb_MaterialName.Text = "";
+                tb_BadGroup.Text = "";
+                tb_BadCode.Text = "";
+                tb_RepairComment.Text = "";
+                tb_RepairLocation.Text = "";
+                cb_Repair.Text = "";
+                cb_RepairGroup.SelectedIndex = -1;
+                cb_RepairResult.SelectedIndex = 0;
+                ComboBox_Worker.SelectedIndex = 0;
                 comboBox_PartRouting.SelectedIndex = 0;
-               
-
-
             }
             catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show(ex.StackTrace);
             }
-          
         }
+
         private void tb_Barcode_DoubleClick(object sender, EventArgs e)
         {
             TextBox_Clear();
@@ -622,13 +654,15 @@ namespace WiseM.Browser
                 tb_Barcode.Focus();
                 return;
             }
+
             if (!VerifyBarcode(tb_Barcode.Text))
-            {              
+            {
                 MessageBox.Show("Không thể tìm thấy Barcode。(Barcode could not be found.)", "Không tìm thấy(Not Found)", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 tb_Barcode.ReadOnly = false;
                 tb_Barcode.Focus();
                 return;
             }
+
             tb_Barcode.ReadOnly = true;
         }
     }

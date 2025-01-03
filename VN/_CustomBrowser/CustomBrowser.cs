@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -24,7 +23,7 @@ namespace WiseM.Browser
             return true;
         }
 
-        public override void BrowserCustomLogin(WiseM.AppService.LoginController controller)
+        public override void BrowserCustomLogin(AppService.LoginController controller)
         {
             new CustomLogin(controller).ShowDialog();
         }
@@ -605,12 +604,6 @@ namespace WiseM.Browser
                 case "jig202":
                     JigWarehouseSearch JigWarehouseSearch = new JigWarehouseSearch();
                     return JigWarehouseSearch;
-                case "dci001":
-                    Dell_Cab_RawMaterialCheck Dell_Cab_RawMaterialCheck = new Dell_Cab_RawMaterialCheck();
-                    return Dell_Cab_RawMaterialCheck;
-                case "cst208":
-                    Checksheet.CsCheckSheetSpec checkSheet = new Checksheet.CsCheckSheetSpec();
-                    return checkSheet;
                 case "prd802":
                     Outsourcing_Receipt_frmMain00 outsourcing_Receipt = new Outsourcing_Receipt_frmMain00();
                     return outsourcing_Receipt;
@@ -630,17 +623,24 @@ namespace WiseM.Browser
         {
             switch (e.Program.ToLower())
             {
+                //제품 출하
                 case "pn006":
                     switch (e.Link.ToLower())
                     {
+                        //제품 출하
                         case "shippingprocessing":
                             var Shipping_Process = new ShippingProcessing();
                             Shipping_Process.Show();
                             break;
+                        //제품 이동
                         case "movingprocessing":
-
                             var MovingProcessing = new MovingProcessing();
                             MovingProcessing.Show();
+                            break;
+                        //출하 취소
+                        case "shipback":
+                            var shipBack = new ShipBack();
+                            shipBack.ShowDialog();
                             break;
                     }
 
@@ -792,16 +792,6 @@ namespace WiseM.Browser
 
                     break;
 
-                case "wom100":
-                    if (e.Link.ToLower() == "aa")
-                    {
-                        //MES.NewBarcode2 nb22 = new MES.NewBarcode2(e);
-                        //nb22.ShowDialog();
-                        BarcodeHist bch = new BarcodeHist();
-                        bch.ShowDialog();
-                    }
-
-                    break;
                 case "jig0011":
                     if (e.Link.ToLower() == "new")
                     {
@@ -850,7 +840,7 @@ namespace WiseM.Browser
                                     string DeleteQuery1 = "Delete  From JigInfo where Jig = '" + currentJig + "' ";
                                     DbAccess.Default.ExecuteQuery(DeleteQuery);
                                     DbAccess.Default.ExecuteQuery(DeleteQuery1);
-                                    WiseM.MessageBox.Show("데이터 삭제가 완료되었습니다.", "OK", MessageBoxIcon.None);
+                                    MessageBox.Show("데이터 삭제가 완료되었습니다.", "OK", MessageBoxIcon.None);
                                     e.AfterRefresh = WeRefreshPanel.Current;
                                 }
                                 catch (Exception ex)
@@ -914,7 +904,7 @@ namespace WiseM.Browser
                                     string DeleteQuery1 = $"Delete  From JigInfo where Jig = '{currentJig}' ";
                                     e.DbAccess.ExecuteQuery(DeleteQuery);
                                     e.DbAccess.ExecuteQuery(DeleteQuery1);
-                                    WiseM.MessageBox.Show("데이터 삭제가 완료되었습니다.", "OK", MessageBoxIcon.None);
+                                    MessageBox.Show("데이터 삭제가 완료되었습니다.", "OK", MessageBoxIcon.None);
                                     e.AfterRefresh = WeRefreshPanel.Current;
                                 }
                                 catch (Exception ex)
@@ -1098,8 +1088,6 @@ namespace WiseM.Browser
 
                         MessageBox.Show(" Success Working!! ", "OK", MessageBoxIcon.None);
                         e.AfterRefresh = WeRefreshPanel.Current;
-
-                        break;
                     }
 
                     break;
@@ -1151,18 +1139,6 @@ namespace WiseM.Browser
                     }
 
                     break;
-                case "prm900":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm FCTSpec = new EditForm(e);
-                        FCTSpec.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                        //WiseMEdit.EditForm FCTSpec = new WiseMEdit.EditForm();
-                        //FCTSpec.ShowDialog();
-                        //e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
                 case "wip603":
                     if (e.Link.ToLower() == "export.csv")
                     {
@@ -1181,7 +1157,7 @@ namespace WiseM.Browser
                             StreamWriter sw = new StreamWriter
                             (
                                 path,
-                                true, System.Text.Encoding.Default
+                                true, Encoding.Default
                             );
                             ToCSV.WriteToStream(sw, (e.DataGridView.DataSource as DataTable), true, false);
 
@@ -1220,7 +1196,7 @@ namespace WiseM.Browser
                             StreamWriter sw = new StreamWriter
                             (
                                 path,
-                                true, System.Text.Encoding.Default
+                                true, Encoding.Default
                             );
                             ToCSV.WriteToStream(sw, (e.DataGridView.DataSource as DataTable), true, false);
 
@@ -1611,15 +1587,20 @@ namespace WiseM.Browser
                 #region WMS
 
                 case "wms001":
-                    if (e.Link.ToLower() == "barcodeprint")
+                    switch (e.Link.ToLower())
                     {
-                        WMS.BarcodeGenerator nb = new WMS.BarcodeGenerator();
-                        nb.ShowDialog();
-                    }
-                    else if (e.Link.ToLower() == "barcodereturn")
-                    {
-                        WMS.ReturnBarcodeHistory nr = new WMS.ReturnBarcodeHistory();
-                        nr.ShowDialog();
+                        case "barcodeprint":
+                        {
+                            var barcodeGenerator = new BarcodeGenerator();
+                            barcodeGenerator.ShowDialog();
+                            break;
+                        }
+                        case "barcodereturn":
+                        {
+                            var returnBarcodeHistory = new ReturnBarcodeHistory();
+                            returnBarcodeHistory.ShowDialog();
+                            break;
+                        }
                     }
 
                     break;
@@ -1628,7 +1609,7 @@ namespace WiseM.Browser
                     {
                         case "print_pcb":
                         {
-                            WMS.Print_PCB pp = new WMS.Print_PCB();
+                            var pp = new Print_PCB();
                             pp.Text = "Chương trình in Label Barcode PCB (PCB Barcode Label Printing Program)";
                             pp.ShowDialog();
                             e.AfterRefresh = WeRefreshPanel.Current;
@@ -1642,7 +1623,7 @@ namespace WiseM.Browser
                         }
                         case "reprint":
                         {
-                            WMS.Reprint_PCB rpp = new WMS.Reprint_PCB();
+                            var rpp = new Reprint_PCB();
                             rpp.Text = "PCB Barcode Reprint Program";
                             rpp.ShowDialog();
                             e.AfterRefresh = WeRefreshPanel.Current;
@@ -1650,7 +1631,7 @@ namespace WiseM.Browser
                         }
                         case "reprint_master":
                         {
-                            WMS.Reprint_PCB_M rpp_M = new WMS.Reprint_PCB_M();
+                            var rpp_M = new Reprint_PCB_M();
                             rpp_M.Text = "PCB Barcode Reprint Program Master";
                             rpp_M.ShowDialog();
                             e.AfterRefresh = WeRefreshPanel.Current;
@@ -1675,6 +1656,19 @@ namespace WiseM.Browser
 
                     break;
 
+                case "wms025":
+                    switch (e.Link)
+                    {
+                        case "DirectReceiptDelete":
+                        {
+                            var directReceiptDelete = new DirectReceiptDelete();
+                            directReceiptDelete.ShowDialog();
+                            break;
+                        }
+                    }
+
+                    break;
+
                 case "wms101":
                     switch (e.Link)
                     {
@@ -1683,6 +1677,7 @@ namespace WiseM.Browser
                             rawMaterialBlocking.ShowDialog();
                             break;
                     }
+
                     break;
 
                 #endregion
@@ -1832,37 +1827,6 @@ namespace WiseM.Browser
 
                     break;
 
-                case "dgs203":
-                    switch (e.Link.ToLower())
-                    {
-                        case "searchingdata":
-                        {
-                            DataSearching DataSearching = new DataSearching(e);
-                            DataSearching.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-
-                case "dgs210":
-                    if (e.Link.ToLower() == "searchingdata")
-                    {
-                        DataSearching DataSearching = new DataSearching(e);
-                        DataSearching.ShowDialog();
-                    }
-
-                    break;
-
-                case "dgs204":
-                    if (e.Link.ToLower() == "searchingdata")
-                    {
-                        DataSearching DataSearching = new DataSearching(e);
-                        DataSearching.ShowDialog();
-                    }
-
-                    break;
-
                 case "prm101":
                     if (e.Link.ToLower() == "edit")
                     {
@@ -1876,7 +1840,7 @@ namespace WiseM.Browser
                 case "prm102":
                     if (e.Link.ToLower() == "edit")
                     {
-                        WiseMEdit.EditForm prm102Process = new WiseMEdit.EditForm("Material Mapping", e);
+                        var prm102Process = new WiseMEdit.EditForm("Material Mapping", e);
                         prm102Process.ShowDialog();
                         e.AfterRefresh = WeRefreshPanel.Current;
                     }
@@ -1884,11 +1848,28 @@ namespace WiseM.Browser
                     break;
 
                 case "prm104":
-                    if (e.Link.ToLower() == "edit")
+                    switch (e.Link)
                     {
-                        WiseMEdit.EditForm prm104Process = new WiseMEdit.EditForm("RawMaterial", e);
-                        prm104Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
+                        case "Edit":
+                        {
+                            using (var prm104Process = new WiseMEdit.EditForm("RawMaterial", e))
+                            {
+                                prm104Process.ShowDialog();
+                                e.AfterRefresh = WeRefreshPanel.Current;
+                            }
+
+                            break;
+                        }
+                        case "FifoStatusChange":
+                        {
+                            if (e.DataGridView?.CurrentRow is null) return;
+                            using (var fifoStatusChange = new FifoStatusChange(e.DataGridView.CurrentRow))
+                            {
+                                fifoStatusChange.ShowDialog();
+                            }
+
+                            break;
+                        }
                     }
 
                     break;
@@ -1898,16 +1879,6 @@ namespace WiseM.Browser
                     {
                         WiseMEdit.EditForm wip511Process = new WiseMEdit.EditForm("RawMaterial_Hist", e);
                         wip511Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-
-                case "prm103":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm prm103Process = new EditForm(e);
-                        prm103Process.ShowDialog();
                         e.AfterRefresh = WeRefreshPanel.Current;
                     }
 
@@ -1933,26 +1904,6 @@ namespace WiseM.Browser
 
                     break;
 
-                case "prm203":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm prm203Process = new EditForm(e);
-                        prm203Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-
-                case "prm204":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm prm204Process = new EditForm(e);
-                        prm204Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-
                 case "prm205":
                     if (e.Link.ToLower() == "edit")
                     {
@@ -1963,56 +1914,11 @@ namespace WiseM.Browser
 
                     break;
 
-                case "prm303":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm prm303Process = new EditForm(e);
-                        prm303Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-
-                case "prm302":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        Edit_Worker Edit_Worker = new Edit_Worker(e);
-                        Edit_Worker.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-                    else if (e.Link.ToLower() == "setfalse")
-                    {
-                        WorkerSetToFalse startSetFalse = new WorkerSetToFalse();
-                        startSetFalse.ProcessStart(e);
-                    }
-
-                    break;
-
                 case "prm304":
                     if (e.Link.ToLower() == "edit")
                     {
                         WiseMEdit.EditForm prm304Process = new WiseMEdit.EditForm("WorkTeam", e);
                         prm304Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-
-                case "prm401":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm prm401Process = new EditForm(e);
-                        prm401Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-
-                case "prm501":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm prm501Process = new EditForm(e);
-                        prm501Process.ShowDialog();
                         e.AfterRefresh = WeRefreshPanel.Current;
                     }
 
@@ -2131,16 +2037,6 @@ namespace WiseM.Browser
 
                     break;
 
-                case "wpm001":
-                    if (e.Link.ToLower() == "edit")
-                    {
-                        EditForm wpm001Process = new EditForm(e);
-                        wpm001Process.ShowDialog();
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-
                 case "wip701":
                     if (e.Link.ToLower() == "blocking_rm")
                     {
@@ -2238,19 +2134,15 @@ namespace WiseM.Browser
                     }
                     else
                     {
-                        string script = "select MinValue, MaxValue from SpcItems "
-                                        + " where SpcItem = N'"
-                                        + e.DataGridView.CurrentRow.Cells["spcitem"].Value.ToString()
-                                        + "' "
-                                        + "       And ItemType = '"
-                                        + e.DataGridView.CurrentRow.Cells["ItemType"].Value.ToString()
-                                        + "' "
-                                        + "       And Model = '"
-                                        + e.DataGridView.CurrentRow.Cells["Model"].Value.ToString()
-                                        + "' "
-                                        + "       And InspType = '"
-                                        + e.DataGridView.CurrentRow.Cells["InspType"].Value.ToString()
-                                        + "' ";
+                        string script = $@"
+                                        SELECT MinValue
+                                             , MaxValue
+                                          FROM SpcItems
+                                         WHERE SpcItem = N'{e.DataGridView.CurrentRow.Cells["spcitem"].Value}'
+                                           AND ItemType = '{e.DataGridView.CurrentRow.Cells["ItemType"].Value}'
+                                           AND Model = '{e.DataGridView.CurrentRow.Cells["Model"].Value}'
+                                           AND InspType = '{e.DataGridView.CurrentRow.Cells["InspType"].Value}'
+                                        ";
                         DataTable minmax = DbAccess.Default.GetDataTable(script);
 
                         // SpcCl 조회 - ybkim
@@ -2261,22 +2153,15 @@ namespace WiseM.Browser
                         tempDateTime = tempDateTime.AddMonths(-1);
                         spcDate = tempDateTime.ToString("yyyy-MM");
                         tempString[1] = spcDate;
-                        string spcClscript = "select * from SpcCl "
-                                             + " where SpcDate = '"
-                                             + spcDate
-                                             + "' "
-                                             + "       And SpcItem = N'"
-                                             + tempString[3].ToString()
-                                             + "' "
-                                             + "       And ItemType = '"
-                                             + tempString[5].ToString()
-                                             + "' "
-                                             + "       And Model = '"
-                                             + tempString[7].ToString()
-                                             + "' "
-                                             + "       And InspType = '"
-                                             + tempString[9].ToString()
-                                             + "' ";
+                        string spcClscript = $@"
+                                            SELECT *
+                                              FROM SpcCl
+                                             WHERE SpcDate = '{spcDate}'
+                                               AND SpcItem = N'{tempString[3]}'
+                                               AND ItemType = '{tempString[5]}'
+                                               AND Model = '{tempString[7]}'
+                                               AND InspType = '{tempString[9]}' 
+                                            ";
                         DataTable spcClDataTable = DbAccess.Default.GetDataTable(spcClscript);
 
                         if (spcClDataTable.Rows.Count > 0) // SpcCl 조회 결과 유무
@@ -2314,727 +2199,7 @@ namespace WiseM.Browser
                         }
                     }
 
-
                     break;
-
-                #region 체크시트
-
-                // 기준정보 - 라인명관리
-                case "cst001":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            WiseMEdit.EditForm eForm = new WiseMEdit.EditForm("CsLineRoute", e);
-                            eForm.ShowDialog();
-
-                            //EditForm cst001Process = new EditForm(e);
-                            //cst001Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            WiseMEdit.EditForm eForm = new WiseMEdit.EditForm("CsLineRoute", e);
-                            eForm.ShowDialog();
-
-                            //EditForm cst001Process = new EditForm(e);
-                            //cst001Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 기준정보 - 체크시트관리
-                case "cst002":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            EditForm cst002Process = new EditForm(e);
-                            cst002Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            WiseMEdit.EditForm eForm = new WiseMEdit.EditForm("CsSpec", e);
-                            eForm.ShowDialog();
-
-                            //EditForm cst002Process = new EditForm(e);
-                            //cst002Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 일일장비점검 사양관리
-                case "cst003":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            EditForm cst003Process = new EditForm(e);
-                            cst003Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            EditForm cst003Process = new EditForm(e);
-                            cst003Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 정기장비점검 사양관리
-                case "cst004":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            EditForm cst004Process = new EditForm(e);
-                            cst004Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            EditForm cst004Process = new EditForm(e);
-                            cst004Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 설비예방점검 사양관리
-                case "cst005":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            EditForm cst005Process = new EditForm(e);
-                            cst005Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            EditForm cst005Process = new EditForm(e);
-                            cst005Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 연간 Overhaul 사양관리
-                case "cst006":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            EditForm cst006Process = new EditForm(e);
-                            cst006Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            EditForm cst006Process = new EditForm(e);
-                            cst006Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 3정5행 사양관리
-                case "cst007":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            EditForm cst007Process = new EditForm(e);
-                            cst007Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            EditForm cst007Process = new EditForm(e);
-                            cst007Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 체크시트 사양관리
-                case "cst008":
-                    switch (e.Link.ToLower())
-                    {
-                        // /Parameter [CsCode:'CsCode'] Parameter/
-                        case "insert" when string.IsNullOrEmpty(e.Script) == false:
-                        {
-                            Checksheet.CsCheckSheetSpecDetail specDetail
-                                = new Checksheet.CsCheckSheetSpecDetail(true, e);
-
-                            if (specDetail.ShowDialog() == DialogResult.OK)
-                                e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                        case "insert":
-                            MessageBox.Show
-                            (
-                                "Please select after search parent panel.", "Not Valid"
-                                , MessageBoxButtons.OK, MessageBoxIcon.Information
-                            );
-                            break;
-                        case "update":
-                        {
-                            Checksheet.CsCheckSheetSpecDetail specDetail = new Checksheet.CsCheckSheetSpecDetail(false, e);
-
-                            if (specDetail.ShowDialog() == DialogResult.OK)
-                                e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                        case "delete":
-                        {
-                            Checksheet.CsCheckSheetSpecDetail specDetail = new Checksheet.CsCheckSheetSpecDetail();
-
-                            if (specDetail.Delete(e) == true)
-                            {
-                                e.AfterRefresh = WeRefreshPanel.Current;
-                            }
-
-                            break;
-                        }
-                    }
-
-                    break;
-                // 파라매터 사양관리
-                case "cst009":
-                    switch (e.Link.ToLower())
-                    {
-                        case "insert":
-                        {
-                            EditForm cst009Process = new EditForm(e);
-                            cst009Process.ShowDialog();
-                            break;
-                        }
-                        case "update":
-                        {
-                            WiseMEdit.EditForm eForm = new WiseMEdit.EditForm("CsParameterCheckSpec", e);
-                            eForm.ShowDialog();
-
-                            //EditForm cst002Process = new EditForm(e);
-                            //cst002Process.ShowDialog();
-                            break;
-                        }
-                    }
-
-                    break;
-                // 일일장비점검 실적현황
-                case "cst101":
-                    switch (e.Link.ToLower())
-                    {
-                        case "managercheck":
-                        {
-                            string UpdatetQuery = "Update CsDailyHist Set "
-                                                  + " confirmed=getdate()"
-                                                  + ",Confirmer='"
-                                                  + WiseApp.Id
-                                                  + "'"
-                                                  + " Where CsDate='"
-                                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                      .Substring(0, 10) //"yyyy-MM-dd"
-                                                  + "' and Line ='"
-                                                  + e.DataGridView.CurrentRow.Cells["Line"].Value
-                                                      .ToString()
-                                                  + "' and CsShift ='"
-                                                  + e.DataGridView.CurrentRow.Cells["CsShift"].Value
-                                                      .ToString()
-                                                  + "' and (Confirmer='' or Confirmer is null)";
-
-                            e.DbAccess.ExecuteQuery(UpdatetQuery);
-
-                            WiseM.MessageBox.Show("관리자확인 완료", "안내", MessageBoxIcon.Information);
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                        case "delete":
-                        {
-                            string DeleteQuery = "Delete From CsDailyHist "
-                                                 + " Where CsDate='"
-                                                 + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                     .Substring(0, 10) //"yyyy-MM-dd"
-                                                 + "' and Line ='"
-                                                 + e.DataGridView.CurrentRow.Cells["Line"].Value
-                                                     .ToString()
-                                                 + "' and CsShift ='"
-                                                 + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString()
-                                                 + "'";
-
-                            e.DbAccess.ExecuteQuery(DeleteQuery);
-
-                            WiseM.MessageBox.Show("이력삭제 완료", "안내", MessageBoxIcon.Information);
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                    }
-
-                    break;
-                // 정기장비점검 실적현황
-                case "cst102":
-                    if (e.Link.ToLower() == "managercheck")
-                    {
-                        string UpdatetQuery;
-                        string DTQuery
-                            = "select (select Checkperiod from CsPeriodicSpec where Line=c.Line and Seq=c.Seq) as Checkperiod,(select PlannedDate from CsPeriodicSpec where Line=c.Line and Seq=c.Seq) as PlannedDate,* from CsPeriodicHist c Where CsDate='"
-                              + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10)
-                              + "' and Line ='"
-                              + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString()
-                              + "' and (Confirmer='' or Confirmer is null)";
-
-
-                        DataTable specDT = e.DbAccess.GetDataTable(DTQuery);
-
-                        for (int i = 0; i < specDT.Rows.Count; i++)
-                        {
-                            string strDate
-                                = specDT.Rows[i]["PlannedDate"].ToString().Substring(0, 10); //가져온 PlannedDate
-
-                            DateTime convDate = DateTime.Now;
-
-                            switch (specDT.Rows[i]["CheckPeriod"].ToString())
-                            {
-                                ////   --2-Weekly / 3_Monthly / 3-Monthly / 6_Monthly / 6-Monthly / Monthly / Yearly
-                                case "2-Weekly":
-                                    convDate = DateTime.Parse(strDate).AddDays(14);
-                                    break;
-                                case "3_Monthly":
-                                    convDate = DateTime.Parse(strDate).AddMonths(3);
-                                    break;
-                                case "3-Monthly":
-                                    convDate = DateTime.Parse(strDate).AddMonths(3);
-                                    break;
-                                case "6_Monthly":
-                                    convDate = DateTime.Parse(strDate).AddMonths(6);
-                                    break;
-                                case "6-Monthly":
-                                    convDate = DateTime.Parse(strDate).AddMonths(6);
-                                    break;
-                                case "Monthly":
-                                    convDate = DateTime.Parse(strDate).AddMonths(1);
-                                    break;
-                                case "Yearly":
-                                    convDate = DateTime.Parse(strDate).AddYears(1);
-                                    break;
-                                default:
-                                    break;
-                            }
-
-                            if (specDT.Rows[i]["Values"].ToString() == "")
-                            {
-                            }
-                            else
-                            {
-                                UpdatetQuery = "Update CsPeriodicHist Set "
-                                               + " confirmed=getdate()"
-                                               + ",Confirmer='"
-                                               + WiseApp.Id
-                                               + "'" //ManagerCheck
-                                               + " Where CsDate='"
-                                               + specDT.Rows[i]["CsDate"].ToString().Substring(0, 10)
-                                               + "' and Line ='"
-                                               + specDT.Rows[i]["Line"].ToString()
-                                               + "' and Seq='"
-                                               + specDT.Rows[i]["Seq"].ToString()
-                                               + "'";
-
-                                UpdatetQuery += "Update  CsPeriodicSpec set PlannedDate = '" + convDate.ToString().Substring(0, 10) + "' Where Line ='" + specDT.Rows[i]["Line"].ToString() + "' and Seq='" + specDT.Rows[i]["Seq"].ToString() + "'";
-                                e.DbAccess.ExecuteQuery(UpdatetQuery);
-                            }
-                        }
-
-                        WiseM.MessageBox.Show("관리자확인 완료", "안내", MessageBoxIcon.Information);
-                        e.AfterRefresh = WeRefreshPanel.Current;
-                    }
-
-                    break;
-                // 3정5행 실적현황
-                case "cst103":
-                    switch (e.Link.ToLower())
-                    {
-                        case "managercheck":
-                        {
-                            string UpdatetQuery = "Update Cs3c5sHist Set "
-                                                  + " confirmed=getdate()"
-                                                  + ",Confirmer='"
-                                                  + WiseApp.Id
-                                                  + "'"
-                                                  + " Where CsDate='"
-                                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                      .Substring(0, 10) //"yyyy-MM-dd"
-                                                  + "' and Line ='"
-                                                  + e.DataGridView.CurrentRow.Cells["Line"].Value
-                                                      .ToString()
-                                                  + "' and  (Confirmer='' or Confirmer is null)";
-
-                            e.DbAccess.ExecuteQuery(UpdatetQuery);
-
-                            WiseM.MessageBox.Show("관리자확인 완료", "안내", MessageBoxIcon.Information);
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                        case "delete":
-                        {
-                            string DeleteQuery = "Delete From Cs3c5sHist "
-                                                 + " Where CsDate='"
-                                                 + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                     .Substring(0, 10) //"yyyy-MM-dd"
-                                                 + "' and Line ='"
-                                                 + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString()
-                                                 + "'";
-
-                            e.DbAccess.ExecuteQuery(DeleteQuery);
-
-                            WiseM.MessageBox.Show("이력삭제 완료", "안내", MessageBoxIcon.Information);
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                    }
-
-                    break;
-                // 예방보전 실적현황
-                case "cst104":
-                    switch (e.Link.ToLower())
-                    {
-                        case "managercheck":
-                        {
-                            string UpdatetQuery;
-                            string DTQuery
-                                = "select (select Checkperiod from CsPreventSpec where Line=c.Line and Seq=c.Seq) as Checkperiod,(select PlannedDate from CsPreventSpec where Line=c.Line and Seq=c.Seq) as PlannedDate,* from CsPreventHist c Where CsDate='"
-                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10)
-                                  + "' and Line ='"
-                                  + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString()
-                                  + "' and (Confirmer='' or Confirmer is null)";
-
-
-                            DataTable specDT = e.DbAccess.GetDataTable(DTQuery);
-
-                            for (int i = 0; i < specDT.Rows.Count; i++)
-                            {
-                                string strDate
-                                    = specDT.Rows[i]["PlannedDate"].ToString().Substring(0, 10); //가져온 PlannedDate
-
-                                DateTime convDate = DateTime.Now;
-
-                                switch (specDT.Rows[i]["CheckPeriod"].ToString())
-                                {
-                                    ////   --2-Weekly / 3_Monthly / 3-Monthly / 6_Monthly / 6-Monthly / Monthly / Yearly
-                                    case "2-Weekly":
-                                        convDate = DateTime.Parse(strDate).AddDays(14);
-                                        break;
-                                    case "3_Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(3);
-                                        break;
-                                    case "3-Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(3);
-                                        break;
-                                    case "6_Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(6);
-                                        break;
-                                    case "6-Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(6);
-                                        break;
-                                    case "Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(1);
-                                        break;
-                                    case "Yearly":
-                                        convDate = DateTime.Parse(strDate).AddYears(1);
-                                        break;
-                                    default:
-                                        break;
-                                }
-
-                                if (specDT.Rows[i]["Values"].ToString() == "")
-                                {
-                                }
-                                else
-                                {
-                                    UpdatetQuery = "Update CsPreventHist Set "
-                                                   + " confirmed=getdate()"
-                                                   + ",Confirmer='"
-                                                   + WiseApp.Id
-                                                   + "'" //ManagerCheck
-                                                   + " Where CsDate='"
-                                                   + specDT.Rows[i]["CsDate"].ToString().Substring(0, 10)
-                                                   + "' and Line ='"
-                                                   + specDT.Rows[i]["Line"].ToString()
-                                                   + "' and Seq='"
-                                                   + specDT.Rows[i]["Seq"].ToString()
-                                                   + "'";
-
-                                    UpdatetQuery += "Update  CsPreventSpec set PlannedDate = '" + convDate.ToString().Substring(0, 10) + "' Where Line ='" + specDT.Rows[i]["Line"].ToString() + "' and Seq='" + specDT.Rows[i]["Seq"].ToString() + "'";
-                                    e.DbAccess.ExecuteQuery(UpdatetQuery);
-                                }
-                            }
-
-                            WiseM.MessageBox.Show("관리자확인 완료", "안내", MessageBoxIcon.Information);
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                    }
-
-                    break;
-                // Overhaul 실적현황
-                case "cst105":
-                    switch (e.Link.ToLower())
-                    {
-                        case "managercheck":
-                        {
-                            string UpdatetQuery;
-                            string DTQuery
-                                = "select (select Checkperiod from CsOverhaulSpec where Line=c.Line and Seq=c.Seq) as Checkperiod,(select PlannedDate from CsOverhaulSpec where Line=c.Line and Seq=c.Seq) as PlannedDate,* from CsOverhaulHist c Where CsDate='"
-                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10)
-                                  + "' and Line ='"
-                                  + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString()
-                                  + "' and (Confirmer='' or Confirmer is null)";
-
-
-                            DataTable specDT = e.DbAccess.GetDataTable(DTQuery);
-
-                            for (int i = 0; i < specDT.Rows.Count; i++)
-                            {
-                                string strDate
-                                    = specDT.Rows[i]["PlannedDate"].ToString().Substring(0, 10); //가져온 PlannedDate
-
-                                DateTime convDate = DateTime.Now;
-
-                                switch (specDT.Rows[i]["CheckPeriod"].ToString())
-                                {
-                                    ////   --2-Weekly / 3_Monthly / 3-Monthly / 6_Monthly / 6-Monthly / Monthly / Yearly
-                                    case "2-Weekly":
-                                        convDate = DateTime.Parse(strDate).AddDays(14);
-                                        break;
-                                    case "3_Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(3);
-                                        break;
-                                    case "3-Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(3);
-                                        break;
-                                    case "6_Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(6);
-                                        break;
-                                    case "6-Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(6);
-                                        break;
-                                    case "Monthly":
-                                        convDate = DateTime.Parse(strDate).AddMonths(1);
-                                        break;
-                                    case "Yearly":
-                                        convDate = DateTime.Parse(strDate).AddYears(1);
-                                        break;
-                                    default:
-                                        break;
-                                }
-
-                                if (specDT.Rows[i]["Values"].ToString() == "")
-                                {
-                                }
-                                else
-                                {
-                                    UpdatetQuery = "Update CsOverhaulHist Set "
-                                                   + " confirmed=getdate()"
-                                                   + ",Confirmer='"
-                                                   + WiseApp.Id
-                                                   + "'" //ManagerCheck
-                                                   + " Where CsDate='"
-                                                   + specDT.Rows[i]["CsDate"].ToString().Substring(0, 10)
-                                                   + "' and Line ='"
-                                                   + specDT.Rows[i]["Line"].ToString()
-                                                   + "' and Seq='"
-                                                   + specDT.Rows[i]["Seq"].ToString()
-                                                   + "'";
-
-                                    UpdatetQuery += "Update  CsOverhaulSpec set PlannedDate = '" + convDate.ToString().Substring(0, 10) + "' Where Line ='" + specDT.Rows[i]["Line"].ToString() + "' and Seq='" + specDT.Rows[i]["Seq"].ToString() + "'";
-                                    e.DbAccess.ExecuteQuery(UpdatetQuery);
-                                }
-                            }
-
-                            WiseM.MessageBox.Show("관리자확인 완료", "안내", MessageBoxIcon.Information);
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                    }
-
-                    break;
-                // 체크시트 실적현황
-                case "cst106":
-                    switch (e.Link.ToLower())
-                    {
-                        case "managercheck":
-                        {
-                            string query = string.Empty;
-
-                            query += "\r\n";
-                            query += "\r\n IF EXISTS (SELECT TOP 1 NULL FROM CsCheckSheet WHERE CsDate = '" + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10) + "' AND CsShift = '" + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString() + "' AND CsCode IN (SELECT CsCode FROM CsSpec WHERE Line = '" + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString() + "' GROUP BY CsCode) AND ISNULL(Confirmer, '') = '') ";
-                            query += "\r\n BEGIN ";
-
-                            query += "\r\n";
-                            query
-                                += "\r\n  INSERT INTO CsCheckSheetHist (CsCode, CsDate, CsShift, Seq, CheckGroup, CheckItems, [Values], Remark, Checked, Checker, Confirmed, Confirmer, Updated, Updater, [Type]) ";
-                            query += "\r\n  SELECT  CsCode ";
-                            query += "\r\n          ,CsDate ";
-                            query += "\r\n          ,CsShift ";
-                            query += "\r\n          ,Seq ";
-                            query += "\r\n          ,CheckGroup ";
-                            query += "\r\n          ,CheckItems ";
-                            query += "\r\n          ,[Values] ";
-                            query += "\r\n          ,Remark ";
-                            query += "\r\n          ,Checked ";
-                            query += "\r\n          ,Checker ";
-                            query += "\r\n          ,GETDATE() ";
-                            query += "\r\n          ,'" + WiseApp.Id + "' ";
-                            query += "\r\n          ,Updated ";
-                            query += "\r\n          ,Updater ";
-                            query += "\r\n          ,[Type] ";
-                            query += "\r\n  FROM    CsCheckSheet ";
-                            query += "\r\n  WHERE   CsDate = '" + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10) + "' ";
-                            query += "\r\n      AND CsShift = '" + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString() + "' ";
-                            query += "\r\n      AND CsCode IN (SELECT CsCode FROM CsSpec WHERE Line = '" + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString() + "' GROUP BY CsCode) ";
-                            query += "\r\n      AND ISNULL(Confirmer, '') = '' ";
-
-                            query += "\r\n";
-                            query += "\r\n  UPDATE    CsCheckSheet ";
-                            query += "\r\n  SET       Confirmed = GETDATE() ";
-                            query += "\r\n            ,Confirmer = '" + WiseApp.Id + "' ";
-                            query += "\r\n  WHERE     CsDate = '" + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10) + "' ";
-                            query += "\r\n        AND CsShift = '" + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString() + "' ";
-                            query += "\r\n        AND CsCode IN (SELECT CsCode FROM CsSpec WHERE Line = '" + e.DataGridView.CurrentRow.Cells["Line"].Value.ToString() + "' GROUP BY CsCode) ";
-                            query += "\r\n        AND ISNULL(Confirmer, '') = '' ";
-
-                            query += "\r\n END ";
-
-                            e.DbAccess.ExecuteQuery(query);
-
-                            WiseM.MessageBox.Show("관리자확인 완료", "안내", MessageBoxIcon.Information);
-
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                        case "delete":
-                        {
-                            string query = string.Empty;
-
-                            query += "\r\n DELETE FROM CsCheckSheetHist ";
-                            query += "\r\n WHERE  CsCheckSheetHist = ( ";
-                            query += "\r\n                              SELECT  TOP 1 B.CsCheckSheetHist ";
-                            query += "\r\n                              FROM    CsCheckSheetHist B ";
-                            query += "\r\n                              WHERE   B.CsDate = '" + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10) + "' ";
-                            query += "\r\n                                  AND B.CsShift = '" + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString() + "' ";
-                            query += "\r\n                                  AND B.CsCode = '" + e.DataGridView.CurrentRow.Cells["CsCode"].Value.ToString() + "' ";
-                            query += "\r\n                                  AND B.Seq = '" + e.DataGridView.CurrentRow.Cells["Seq"].Value.ToString() + "' ";
-                            query += "\r\n                              ORDER BY B.Updated DESC ";
-                            query += "\r\n                           ) ";
-
-                            query += "\r\n";
-                            query += "\r\n IF EXISTS (SELECT TOP 1 NULL FROM CsCheckSheetHist B WHERE   B.CsDate = '" + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10) + "' ";
-                            query += "\r\n                                                          AND B.CsShift = '" + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString() + "' ";
-                            query += "\r\n                                                          AND B.CsCode = '" + e.DataGridView.CurrentRow.Cells["CsCode"].Value.ToString() + "' ";
-                            query += "\r\n                                                          AND B.Seq = '" + e.DataGridView.CurrentRow.Cells["Seq"].Value.ToString() + "' ";
-                            query += "\r\n          ) ";
-                            query += "\r\n BEGIN ";
-                            query += "\r\n";
-                            query += "\r\n      UPDATE   CsCheckSheet ";
-                            query += "\r\n      SET      CheckGroup  = S.CheckGroup ";
-                            query += "\r\n               ,CheckItems = S.CheckItems ";
-                            query += "\r\n               ,[Values]   = S.[Values] ";
-                            query += "\r\n               ,Remark     = S.Remark ";
-                            query += "\r\n               ,Checked    = S.Checked ";
-                            query += "\r\n               ,Checker    = S.Checker ";
-                            query += "\r\n               ,Confirmed  = S.Confirmed ";
-                            query += "\r\n               ,Confirmer  = S.Confirmer ";
-                            query += "\r\n               ,Updated    = S.Updated ";
-                            query += "\r\n               ,Updater    = S.Updater ";
-                            query += "\r\n               ,[Type]     = S.[Type] ";
-                            query += "\r\n      FROM     ( ";
-                            query += "\r\n                SELECT  TOP 1 * ";
-                            query += "\r\n                FROM    CsCheckSheetHist B ";
-                            query += "\r\n                WHERE   B.CsDate = '" + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10) + "' ";
-                            query += "\r\n                    AND B.CsShift = '" + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString() + "' ";
-                            query += "\r\n                    AND B.CsCode = '" + e.DataGridView.CurrentRow.Cells["CsCode"].Value.ToString() + "' ";
-                            query += "\r\n                    AND B.Seq = '" + e.DataGridView.CurrentRow.Cells["Seq"].Value.ToString() + "' ";
-                            query += "\r\n                ORDER BY B.Updated DESC ";
-                            query += "\r\n               ) S ";
-                            query += "\r\n      WHERE    CsCheckSheet.CsDate = S.CsDate ";
-                            query += "\r\n           AND CsCheckSheet.CsShift = S.CsShift ";
-                            query += "\r\n           AND CsCheckSheet.CsCode = S.CsCode ";
-                            query += "\r\n           AND CsCheckSheet.Seq = S.Seq ";
-                            query += "\r\n";
-                            query += "\r\n END ";
-                            query += "\r\n ELSE ";
-                            query += "\r\n BEGIN ";
-                            query += "\r\n";
-                            query += "\r\n      DELETE FROM CsCheckSheet ";
-                            query += "\r\n      WHERE   CsDate = '" + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString().Substring(0, 10) + "' ";
-                            query += "\r\n          AND CsShift = '" + e.DataGridView.CurrentRow.Cells["CsShift"].Value.ToString() + "' ";
-                            query += "\r\n          AND CsCode = '" + e.DataGridView.CurrentRow.Cells["CsCode"].Value.ToString() + "' ";
-                            query += "\r\n          AND Seq = '" + e.DataGridView.CurrentRow.Cells["Seq"].Value.ToString() + "' ";
-                            query += "\r\n";
-                            query += "\r\n END ";
-
-                            e.DbAccess.ExecuteQuery(query);
-
-                            WiseM.MessageBox.Show("이력삭제 완료", "안내", MessageBoxIcon.Information);
-
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                    }
-
-                    break;
-                // 파라미터 조건관리 실적현황
-                case "cst107":
-                    switch (e.Link.ToLower())
-                    {
-                        case "managercheck":
-                        {
-                            string UpdatetQuery = "Update CsParameterCheckHist Set "
-                                                  + " confirmed=getdate()"
-                                                  + ",Confirmer='"
-                                                  + WiseApp.Id
-                                                  + "'"
-                                                  + " Where CsDate='"
-                                                  + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                      .Substring(0, 10) //"yyyy-MM-dd"
-                                                  + "' and CsCode ='"
-                                                  + e.DataGridView.CurrentRow.Cells["CsCode"].Value
-                                                      .ToString()
-                                                  + "' and (Confirmer='' or Confirmer is null)";
-
-                            e.DbAccess.ExecuteQuery(UpdatetQuery);
-
-
-                            WiseM.MessageBox.Show("관리자확인 완료", "안내", MessageBoxIcon.Information);
-
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                        case "delete":
-                        {
-                            string DeleteQuery = "Delete From CsParameterCheckHist "
-                                                 + " Where CsDate='"
-                                                 + e.DataGridView.CurrentRow.Cells["CsDate"].Value.ToString()
-                                                     .Substring(0, 10) //"yyyy-MM-dd"
-                                                 + "' and CsCode ='"
-                                                 + e.DataGridView.CurrentRow.Cells["CsCode"].Value.ToString()
-                                                 + "'";
-
-                            e.DbAccess.ExecuteQuery(DeleteQuery);
-
-                            WiseM.MessageBox.Show("이력삭제 완료", "안내", MessageBoxIcon.Information);
-                            e.AfterRefresh = WeRefreshPanel.Current;
-                            break;
-                        }
-                    }
-
-                    break;
-
-                #endregion
             }
         }
 

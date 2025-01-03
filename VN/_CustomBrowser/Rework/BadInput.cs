@@ -197,88 +197,104 @@ namespace WiseM.Browser
             var query = new StringBuilder();
             query.AppendLine(
                 $@"
-                    SELECT KR.PcbBcd
-                         , KR.Routing
-                         , R.Text  AS RoutingName
-                         , KR.WorkOrder
-                         , M.Material
-                         , M.Spec  AS Spec
-                         , WC.WorkCenter
-                         , WC.Text AS WorkCenterName
-                         , KR.Bad
-                         , KR.Blocking
-                         , KR.ReWork
-                      FROM (
-                           SELECT KR.PcbBcd
-                                , CASE
-                                      WHEN KR.Mi_Loaded IS NOT NULL
-                                          THEN 'Mi_Load'
-                                      WHEN KR.Smt_Unloaded IS NOT NULL
-                                          THEN 'St_Unload'
-                                      WHEN KR.Smt_Loaded IS NOT NULL
-                                          THEN 'St_Load'
-                                      WHEN KR.Ai_Unloaded IS NOT NULL
-                                          THEN 'Ai_Unload'
-                                      WHEN KR.Ai_Loaded IS NOT NULL
-                                          THEN 'Ai_Load'
-                                      WHEN KR.Ai_Loaded IS NULL
-                                          THEN 'None'
-                                  END AS Routing
-                                , CASE
-                                      WHEN KR.Mi_Loaded IS NOT NULL
-                                          THEN KR.Mi_WorkOrder
-                                      WHEN KR.Smt_Unloaded IS NOT NULL
-                                          THEN KR.Smt_WorkOrder
-                                      WHEN KR.Smt_Loaded IS NOT NULL
-                                          THEN KR.Smt_WorkOrder
-                                      WHEN KR.Ai_Unloaded IS NOT NULL
-                                          THEN KR.Ai_WorkOrder_Unload
-                                      WHEN KR.Ai_Loaded IS NOT NULL
-                                          THEN KR.Ai_WorkOrder_Load
-                                      WHEN KR.Ai_Loaded IS NULL
-                                          THEN 'None'
-                                  END AS WorkOrder
-                                , CASE
-                                      WHEN KR.Mi_Loaded IS NOT NULL
-                                          THEN KR.Mi_Material
-                                      WHEN KR.Smt_Unloaded IS NOT NULL
-                                          THEN KR.Smt_Material
-                                      WHEN KR.Smt_Loaded IS NOT NULL
-                                          THEN KR.Smt_Material
-                                      WHEN KR.Ai_Unloaded IS NOT NULL
-                                          THEN KR.Ai_Material_Unload
-                                      WHEN KR.Ai_Loaded IS NOT NULL
-                                          THEN KR.Ai_Material_Load
-                                      WHEN KR.Ai_Loaded IS NULL
-                                          THEN 'None'
-                                  END AS Material
-                                , CASE
-                                      WHEN KR.Mi_Loaded IS NOT NULL
-                                          THEN KR.Mi_Line
-                                      WHEN KR.Smt_Unloaded IS NOT NULL
-                                          THEN KR.Smt_Line
-                                      WHEN KR.Smt_Loaded IS NOT NULL
-                                          THEN KR.Smt_Line
-                                      WHEN KR.Ai_Unloaded IS NOT NULL
-                                          THEN KR.Ai_Line_Unload
-                                      WHEN KR.Ai_Loaded IS NOT NULL
-                                          THEN KR.Ai_Line_Load
-                                      WHEN KR.Ai_Loaded IS NULL
-                                          THEN 'None'
-                                  END AS WorkCenter
-                                , KR.Bad
-                                , KR.Blocking
-                                , KR.ReWork
-                             FROM KeyRelation KR
-                            WHERE KR.PcbBcd = '{barcode}'
-                           )                          KR
-                           LEFT OUTER JOIN Routing    R
-                                           ON KR.Routing = R.Routing
-                           LEFT OUTER JOIN Material   M
-                                           ON KR.Material = M.Material
-                           LEFT OUTER JOIN WorkCenter WC
-                                           ON KR.WorkCenter = WC.WorkCenter
-                    ;
+                SELECT KR.PcbBcd
+                     , KR.Routing
+                     , R.Text  AS RoutingName
+                     , KR.WorkOrder
+                     , M.Material
+                     , M.Spec  AS Spec
+                     , WC.Workcenter
+                     , WC.Text AS WorkCenterName
+                     , KR.Bad
+                     , KR.Blocking
+                     , KR.ReWork
+                  FROM (
+                         SELECT KR.PcbBcd
+                              , CASE
+                                  WHEN KR.Packed IS NOT NULL
+                                    THEN 'Pk_StockIn'
+                                  WHEN KR.Palletized IS NOT NULL
+                                    THEN 'Pk_Boxing'
+                                  WHEN KR.Mi_Loaded IS NOT NULL
+                                    THEN 'Mi_Load'
+                                  WHEN KR.Smt_Unloaded IS NOT NULL
+                                    THEN 'St_Unload'
+                                  WHEN KR.Smt_Loaded IS NOT NULL
+                                    THEN 'St_Load'
+                                  WHEN KR.Ai_Unloaded IS NOT NULL
+                                    THEN 'Ai_Unload'
+                                  WHEN KR.Ai_Loaded IS NOT NULL
+                                    THEN 'Ai_Load'
+                                  WHEN KR.Ai_Loaded IS NULL
+                                    THEN 'None'
+                                END AS Routing
+                              , CASE
+                                  WHEN KR.Packed IS NOT NULL
+                                    THEN KR.Pack_WorkOrder
+                                  WHEN KR.Palletized IS NOT NULL
+                                    THEN KR.Box_WorkOrder
+                                  WHEN KR.Mi_Loaded IS NOT NULL
+                                    THEN KR.Mi_WorkOrder
+                                  WHEN KR.Smt_Unloaded IS NOT NULL
+                                    THEN KR.Smt_WorkOrder_Unload
+                                  WHEN KR.Smt_Loaded IS NOT NULL
+                                    THEN KR.Smt_WorkOrder
+                                  WHEN KR.Ai_Unloaded IS NOT NULL
+                                    THEN KR.Ai_WorkOrder_Unload
+                                  WHEN KR.Ai_Loaded IS NOT NULL
+                                    THEN KR.Ai_WorkOrder_Load
+                                  WHEN KR.Ai_Loaded IS NULL
+                                    THEN 'None'
+                                END AS WorkOrder
+                              , CASE
+                                  WHEN KR.Packed IS NOT NULL
+                                    THEN KR.Pack_Material
+                                  WHEN KR.Palletized IS NOT NULL
+                                    THEN KR.Box_Material
+                                  WHEN KR.Mi_Loaded IS NOT NULL
+                                    THEN KR.Mi_Material
+                                  WHEN KR.Smt_Unloaded IS NOT NULL
+                                    THEN KR.Smt_Material_Unload
+                                  WHEN KR.Smt_Loaded IS NOT NULL
+                                    THEN KR.Smt_Material
+                                  WHEN KR.Ai_Unloaded IS NOT NULL
+                                    THEN KR.Ai_Material_Unload
+                                  WHEN KR.Ai_Loaded IS NOT NULL
+                                    THEN KR.Ai_Material_Load
+                                  WHEN KR.Ai_Loaded IS NULL
+                                    THEN 'None'
+                                END AS Material
+                              , CASE
+                                  WHEN KR.Packed IS NOT NULL
+                                    THEN KR.Pack_Line
+                                  WHEN KR.Palletized IS NOT NULL
+                                    THEN KR.Box_Line
+                                  WHEN KR.Mi_Loaded IS NOT NULL
+                                    THEN KR.Mi_Line
+                                  WHEN KR.Smt_Unloaded IS NOT NULL
+                                    THEN KR.Smt_Line_Unload
+                                  WHEN KR.Smt_Loaded IS NOT NULL
+                                    THEN KR.Smt_Line
+                                  WHEN KR.Ai_Unloaded IS NOT NULL
+                                    THEN KR.Ai_Line_Unload
+                                  WHEN KR.Ai_Loaded IS NOT NULL
+                                    THEN KR.Ai_Line_Load
+                                  WHEN KR.Ai_Loaded IS NULL
+                                    THEN 'None'
+                                END AS WorkCenter
+                              , KR.Bad
+                              , KR.Blocking
+                              , KR.ReWork
+                           FROM KeyRelation KR
+                          WHERE KR.PcbBcd = '{barcode}'
+                       )                          KR
+                       LEFT OUTER JOIN Routing    R
+                                       ON KR.Routing = R.Routing
+                       LEFT OUTER JOIN Material   M
+                                       ON KR.Material = M.Material
+                       LEFT OUTER JOIN WorkCenter WC
+                                       ON KR.WorkCenter = WC.Workcenter
+                ;
                     "
             );
 
@@ -297,12 +313,14 @@ namespace WiseM.Browser
                     return false;
                 }
 
+                var pcbBcd = dataRow["PcbBcd"] as string;
                 var workOrder = dataRow["WorkOrder"] as string;
                 var material = dataRow["Material"] as string;
                 var materialName = dataRow["Spec"] as string;
                 var routing = dataRow["Routing"] as string;
                 var workCenter = dataRow["WorkCenter"] as string;
 
+                textBox_Barcode.Text = pcbBcd;
                 textBox_WorkOrder.Text = workOrder;
                 textBox_Material.Text = material;
                 textBox_MaterialName.Text = materialName;
@@ -442,6 +460,37 @@ namespace WiseM.Browser
                         ,   N'{textBox_Barcode.Text}'
                         ,   GetDate()
                         )
+
+                        INSERT
+                          INTO RepairStockHist (
+                                                 Type
+                                               , PcbBarcode
+                                               , Material
+                                               , ERP_SL_CD_FROM
+                                               , ERP_SL_CD_TO
+                                               , SendStatusERP
+                                               , Created
+                                               )
+                        SELECT 'IN'
+                             , '{textBox_Barcode.Text}'
+                             , '{textBox_Material.Text}'
+                             , CASE Owner
+                                 WHEN 'Sehyun'
+                                   THEN 'VP20'
+                                 WHEN 'SungJin'
+                                   THEN 'VP20S'
+                               END
+                             , CASE Owner
+                                 WHEN 'Sehyun'
+                                   THEN 'VP20-M'
+                                 WHEN 'SungJin'
+                                   THEN 'VP20S-SM'
+                               END
+                             , 0
+                             , GETDATE()
+                          FROM WorkCenter
+                         WHERE Workcenter = '{comboBox_WorkCenter.SelectedValue}'
+                        ;
                     "
                     :
                     //comboBox_Bad.SelectedValue
@@ -467,6 +516,37 @@ namespace WiseM.Browser
                            , N'{WiseApp.Id}'
                            , GETDATE() )
                     ;
+
+                        INSERT
+                          INTO RepairStockHist (
+                                                 Type
+                                               , PcbBarcode
+                                               , Material
+                                               , ERP_SL_CD_FROM
+                                               , ERP_SL_CD_TO
+                                               , SendStatusERP
+                                               , Created
+                                               )
+                        SELECT 'IN'
+                             , '{textBox_Barcode.Text}'
+                             , '{textBox_Material.Text}'
+                             , CASE Owner
+                                 WHEN 'Sehyun'
+                                   THEN 'VP20'
+                                 WHEN 'SungJin'
+                                   THEN 'VP20S'
+                               END
+                             , CASE Owner
+                                 WHEN 'Sehyun'
+                                   THEN 'VP20-M'
+                                 WHEN 'SungJin'
+                                   THEN 'VP20S-SM'
+                               END
+                             , 0
+                             , GETDATE()
+                          FROM WorkCenter
+                         WHERE Workcenter = '{comboBox_WorkCenter.SelectedValue}'
+                        ;
                     "
             );
 

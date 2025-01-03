@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BarcodeLib">
-      <HintPath>..\ReferenceDll\BarcodeLib.dll</HintPath>
+      <HintPath>..\..\Reference\BarcodeLib.dll</HintPath>
     </Reference>
     <Reference Include="clsBarcode">
       <HintPath>..\..\Reference\clsBarcode.dll</HintPath>
@@ -138,12 +138,11 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Reference\wiseclient.exe</HintPath>
     </Reference>
-    <Reference Include="wisewin, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\ReferenceDll\wisewin.dll</HintPath>
+    <Reference Include="wisewin">
+      <HintPath>..\..\Reference\wisewin.dll</HintPath>
     </Reference>
     <Reference Include="zxing">
-      <HintPath>..\ReferenceDll\zxing.dll</HintPath>
+      <HintPath>..\..\Reference\zxing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

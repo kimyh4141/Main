@@ -447,7 +447,7 @@ namespace WiseM.Browser.WMS
                                , 'R'
                                , @IF_TIME
                                , 'T61'
-                               , '980328'
+                               , '980318-S'
                                , 'I'
                                , @OldMaterial
                                , @Material

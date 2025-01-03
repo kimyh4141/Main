@@ -383,6 +383,31 @@ namespace WiseM.Browser
                             break;
                     }
 
+                    query.AppendLine(
+                        $@"
+                        INSERT
+                          INTO RepairStockHist (
+                                                 Type
+                                               , PcbBarcode
+                                               , Material
+                                               , ERP_SL_CD_FROM
+                                               , ERP_SL_CD_TO
+                                               , SendStatusERP
+                                               , Created
+                                               )
+                        SELECT 'OUT'
+                             , RI.PcbBcd
+                             , RI.Material
+                             , '980328-4'
+                             , '980318'
+                             , 0
+                             , GETDATE()
+                          FROM RepairInfo                 AS RI
+                         WHERE RI.PcbBcd = '{tb_Barcode.Text}'
+                        ;
+                        "
+                    );
+
                     break;
                 case "X":
                     query.AppendLine(

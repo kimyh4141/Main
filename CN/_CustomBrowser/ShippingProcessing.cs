@@ -41,6 +41,8 @@ namespace WiseM.Browser
             textBox_OrderNo.Text = string.Empty;
             textBox_OrderSeq.Text = string.Empty;
             label_OrderQtyValue.Text = string.Empty;
+            textBox_BP_CD.Text = string.Empty;
+            textBox_BP_NM.Text = string.Empty;
 
             textBox_Material.Text = string.Empty;
             textBox_MaterialName.Text = string.Empty;
@@ -78,11 +80,9 @@ namespace WiseM.Browser
                 //이미 입력됬는지 확인
                 foreach (DataGridViewRow dataGridViewRow in dataGridView_List.Rows)
                 {
-                    if (dataGridViewRow.Cells["PalletBarcode"].Value.ToString().Equals(barcode))
-                    {
-                        System.Windows.Forms.MessageBox.Show("它已经在列表中存在了。(It already exists in the list.)", "警告(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return false;
-                    }
+                    if (!dataGridViewRow.Cells["PalletBarcode"].Value.ToString().Equals(barcode)) continue;
+                    System.Windows.Forms.MessageBox.Show("它已经在列表中存在了。(It already exists in the list.)", "警告(Warning)", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return false;
                 }
 
                 //Stock에 있는 Pallet 인지
@@ -94,9 +94,9 @@ namespace WiseM.Browser
                 }
 
                 //팔레트에 블락킹되있는 박스가 있는지
-                string BlockQuery = "Select Count(*) from Stock where PalletBcd = '" + barcode + "' AND Block = 1";
+                string blockCheckQuery = "Select Count(*) from Stock where PalletBcd = '" + barcode + "' AND Block = 1";
 
-                if (Convert.ToInt32(DbAccess.Default.ExecuteScalar(BlockQuery)) > 0)
+                if (Convert.ToInt32(DbAccess.Default.ExecuteScalar(blockCheckQuery)) > 0)
                 {
                     System.Windows.Forms.MessageBox.Show("此托盘包括闭塞箱。(This Pallet include blocking Box.)");
                     return false;
@@ -214,7 +214,7 @@ namespace WiseM.Browser
                         SELECT 'X'
                           FROM #TEMP T
                          WHERE T.PLANT_CD = 'PL30'
-                           AND T.SL_CD = '980328-1'
+                           AND T.SL_CD = '980318-P'
                     ))
                     BEGIN
                         INSERT
@@ -236,7 +236,7 @@ namespace WiseM.Browser
                              , Qty
                              , PalletList
                              , 'PL30'
-                             , '980328-1'
+                             , '980318-P'
                              , @IF_TIME
                           FROM (
                                    SELECT STRING_AGG(T.PalletBcd, ',') AS PalletList
@@ -246,7 +246,7 @@ namespace WiseM.Browser
                                                    , COUNT(T.PcbBcd) AS Qty
                                                 FROM #TEMP T
                                                WHERE T.PLANT_CD = 'PL30'
-                                                 AND T.SL_CD = '980328-1'
+                                                 AND T.SL_CD = '980318-P'
                                                GROUP BY T.PalletBcd
                                           ) AS T
                                ) AS T
@@ -537,26 +537,7 @@ namespace WiseM.Browser
         }
 
         #endregion
-
-        private void Clear()
-        {
-            textBox_Material.Text = string.Empty;
-            textBox_MaterialName.Text = string.Empty;
-            textBox_Spec.Text = string.Empty;
-            textBox_OrderNo.Text = string.Empty;
-            textBox_OrderSeq.Text = string.Empty;
-            textBox_BP_CD.Text = string.Empty;
-            textBox_BP_NM.Text = string.Empty;
-            label_OrderQtyValue.Text = "-";
-
-            _id = string.Empty;
-            _orderNo = string.Empty;
-            _orderNoSeq = string.Empty;
-            _totalQty = 0;
-            _scanQty = 0;
-            _material = string.Empty;
-        }
-
+        
         private void checkBox_OrderStatus_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_OrderStatus.Checked)
@@ -571,8 +552,7 @@ namespace WiseM.Browser
                 btn_Search.Enabled = true;
                 label_OrderQtyValue.Visible = true;
             }
-
-            Clear();
+            Initialize();
         }
 
         private void numericUpDown_AddQty_Leave(object sender, EventArgs e)

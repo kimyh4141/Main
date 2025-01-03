@@ -69,6 +69,34 @@ namespace WiseM.Driver
                    // throw new Exception($"Can not update into table KeyRelation.Voltage with PCB_ID:{pcbId}");
                 }
 
+                bool fileLocked = true;
+                int maxRetries = 5;
+                int retryCount = 0;
+
+                /*
+                while (fileLocked && retryCount < maxRetries)
+                {
+                    try
+                    {
+                        using (FileStream fs = File.Open(e.FullPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
+                        {
+                            fileLocked = false;
+                        }
+                    }
+                    catch (IOException)
+                    {
+                        retryCount++;
+                        Thread.Sleep(500);
+                    }
+                    
+                }
+                if (fileLocked)
+                {
+                    InsertIntoSysLog("파일 잠금 해제 실패", e.DriverName);
+                    return;
+                }
+                */
+
                 //보험 File.ReadAllBytes(e.FullPath)
                 Thread.Sleep(500);
             

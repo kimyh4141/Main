@@ -119,7 +119,7 @@
             this.tableLayoutPanel1.Controls.Add(this.textBox_Scan, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.lbl_Error, 0, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -127,7 +127,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1501, 887);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1499, 885);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // tableLayoutPanel9
@@ -144,7 +144,7 @@
             this.tableLayoutPanel9.RowCount = 2;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(1495, 200);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(1493, 200);
             this.tableLayoutPanel9.TabIndex = 5;
             // 
             // groupBox6
@@ -152,7 +152,7 @@
             this.groupBox6.Controls.Add(this.tableLayoutPanel4);
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(900, 3);
+            this.groupBox6.Location = new System.Drawing.Point(898, 3);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.tableLayoutPanel9.SetRowSpan(this.groupBox6, 2);
@@ -172,11 +172,11 @@
             this.tableLayoutPanel4.Controls.Add(this.btn_Palletizing, 2, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(5, 22);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(5, 26);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(582, 166);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(582, 162);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // btn_testPrint_Pallet
@@ -187,7 +187,7 @@
             this.btn_testPrint_Pallet.ForeColor = System.Drawing.Color.Black;
             this.btn_testPrint_Pallet.Location = new System.Drawing.Point(247, 3);
             this.btn_testPrint_Pallet.Name = "btn_testPrint_Pallet";
-            this.btn_testPrint_Pallet.Size = new System.Drawing.Size(156, 160);
+            this.btn_testPrint_Pallet.Size = new System.Drawing.Size(156, 156);
             this.btn_testPrint_Pallet.TabIndex = 19;
             this.btn_testPrint_Pallet.Text = "In thử Pallet\r\n(Pallet Test Print)";
             this.btn_testPrint_Pallet.UseVisualStyleBackColor = false;
@@ -201,7 +201,7 @@
             this.lbl_PalletQty.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold);
             this.lbl_PalletQty.Location = new System.Drawing.Point(3, 0);
             this.lbl_PalletQty.Name = "lbl_PalletQty";
-            this.lbl_PalletQty.Size = new System.Drawing.Size(238, 166);
+            this.lbl_PalletQty.Size = new System.Drawing.Size(238, 162);
             this.lbl_PalletQty.TabIndex = 17;
             this.lbl_PalletQty.Text = "48 / 48";
             this.lbl_PalletQty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -214,7 +214,7 @@
             this.btn_Palletizing.ForeColor = System.Drawing.Color.Black;
             this.btn_Palletizing.Location = new System.Drawing.Point(409, 3);
             this.btn_Palletizing.Name = "btn_Palletizing";
-            this.btn_Palletizing.Size = new System.Drawing.Size(170, 160);
+            this.btn_Palletizing.Size = new System.Drawing.Size(170, 156);
             this.btn_Palletizing.TabIndex = 18;
             this.btn_Palletizing.Text = "Đóng Pallet\r\n(PalletClosing)";
             this.btn_Palletizing.UseVisualStyleBackColor = false;
@@ -227,7 +227,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(891, 94);
+            this.groupBox1.Size = new System.Drawing.Size(889, 94);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "[Quay lại]  Prev. ";
@@ -239,11 +239,11 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.lbl_prev, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 19);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 23);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(885, 72);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(883, 68);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // lbl_prev
@@ -255,7 +255,7 @@
             this.lbl_prev.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbl_prev.Location = new System.Drawing.Point(3, 0);
             this.lbl_prev.Name = "lbl_prev";
-            this.lbl_prev.Size = new System.Drawing.Size(879, 72);
+            this.lbl_prev.Size = new System.Drawing.Size(877, 68);
             this.lbl_prev.TabIndex = 16;
             this.lbl_prev.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -266,7 +266,7 @@
             this.groupBox3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(3, 103);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(891, 94);
+            this.groupBox3.Size = new System.Drawing.Size(889, 94);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "[Hiện tại] Current";
@@ -278,9 +278,9 @@
             this.lbl_Current.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_Current.Font = new System.Drawing.Font("Tahoma", 40F, System.Drawing.FontStyle.Bold);
             this.lbl_Current.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lbl_Current.Location = new System.Drawing.Point(3, 19);
+            this.lbl_Current.Location = new System.Drawing.Point(3, 23);
             this.lbl_Current.Name = "lbl_Current";
-            this.lbl_Current.Size = new System.Drawing.Size(885, 72);
+            this.lbl_Current.Size = new System.Drawing.Size(883, 68);
             this.lbl_Current.TabIndex = 20;
             this.lbl_Current.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -289,10 +289,10 @@
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.splitContainer1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 461);
+            this.panel4.Location = new System.Drawing.Point(3, 468);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(10);
-            this.panel4.Size = new System.Drawing.Size(1495, 348);
+            this.panel4.Size = new System.Drawing.Size(1493, 339);
             this.panel4.TabIndex = 23;
             // 
             // splitContainer1
@@ -308,8 +308,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tableLayoutPanel8);
-            this.splitContainer1.Size = new System.Drawing.Size(1475, 328);
-            this.splitContainer1.SplitterDistance = 882;
+            this.splitContainer1.Size = new System.Drawing.Size(1473, 319);
+            this.splitContainer1.SplitterDistance = 880;
             this.splitContainer1.TabIndex = 0;
             // 
             // tableLayoutPanel7
@@ -324,7 +324,7 @@
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(882, 328);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(880, 319);
             this.tableLayoutPanel7.TabIndex = 9;
             // 
             // btn_Clear
@@ -333,9 +333,9 @@
             this.btn_Clear.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_Clear.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Clear.ForeColor = System.Drawing.Color.Black;
-            this.btn_Clear.Location = new System.Drawing.Point(3, 276);
+            this.btn_Clear.Location = new System.Drawing.Point(3, 267);
             this.btn_Clear.Name = "btn_Clear";
-            this.btn_Clear.Size = new System.Drawing.Size(876, 49);
+            this.btn_Clear.Size = new System.Drawing.Size(874, 49);
             this.btn_Clear.TabIndex = 21;
             this.btn_Clear.Text = "Xóa thông tin BOX(Clear BOX Information)";
             this.btn_Clear.UseVisualStyleBackColor = false;
@@ -366,7 +366,7 @@
             this.dgv_List.RowHeadersVisible = false;
             this.dgv_List.RowTemplate.Height = 23;
             this.dgv_List.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_List.Size = new System.Drawing.Size(876, 267);
+            this.dgv_List.Size = new System.Drawing.Size(874, 258);
             this.dgv_List.TabIndex = 8;
             // 
             // No
@@ -408,7 +408,7 @@
             this.tableLayoutPanel8.RowCount = 2;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(589, 328);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(589, 319);
             this.tableLayoutPanel8.TabIndex = 11;
             // 
             // dgv_palletInfo
@@ -439,13 +439,13 @@
             this.dgv_palletInfo.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_palletInfo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv_palletInfo.GridColor = System.Drawing.SystemColors.ButtonFace;
-            this.dgv_palletInfo.Location = new System.Drawing.Point(3, 100);
+            this.dgv_palletInfo.Location = new System.Drawing.Point(3, 97);
             this.dgv_palletInfo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgv_palletInfo.Name = "dgv_palletInfo";
             this.dgv_palletInfo.ReadOnly = true;
             this.dgv_palletInfo.RowHeadersVisible = false;
             this.dgv_palletInfo.RowTemplate.Height = 23;
-            this.dgv_palletInfo.Size = new System.Drawing.Size(583, 226);
+            this.dgv_palletInfo.Size = new System.Drawing.Size(583, 220);
             this.dgv_palletInfo.TabIndex = 13;
             this.dgv_palletInfo.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_palletInfo_CellDoubleClick);
             this.dgv_palletInfo.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dgv_palletInfo_DataBindingComplete);
@@ -465,7 +465,7 @@
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 1F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(583, 92);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(583, 89);
             this.tableLayoutPanel6.TabIndex = 12;
             // 
             // lbl_PalletBarcode
@@ -475,7 +475,7 @@
             this.lbl_PalletBarcode.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_PalletBarcode.Location = new System.Drawing.Point(183, 0);
             this.lbl_PalletBarcode.Name = "lbl_PalletBarcode";
-            this.lbl_PalletBarcode.Size = new System.Drawing.Size(294, 92);
+            this.lbl_PalletBarcode.Size = new System.Drawing.Size(294, 89);
             this.lbl_PalletBarcode.TabIndex = 3;
             this.lbl_PalletBarcode.Text = "-";
             this.lbl_PalletBarcode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -487,7 +487,7 @@
             this.label5.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(174, 92);
+            this.label5.Size = new System.Drawing.Size(174, 89);
             this.label5.TabIndex = 2;
             this.label5.Text = "Pallet Barcode";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -499,7 +499,7 @@
             this.button_PalletReprint.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_PalletReprint.Location = new System.Drawing.Point(483, 3);
             this.button_PalletReprint.Name = "button_PalletReprint";
-            this.button_PalletReprint.Size = new System.Drawing.Size(97, 86);
+            this.button_PalletReprint.Size = new System.Drawing.Size(97, 83);
             this.button_PalletReprint.TabIndex = 5;
             this.button_PalletReprint.Text = "Reprint";
             this.button_PalletReprint.UseVisualStyleBackColor = false;
@@ -517,7 +517,7 @@
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1495, 201);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1493, 201);
             this.tableLayoutPanel5.TabIndex = 25;
             // 
             // panel2
@@ -525,10 +525,10 @@
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(825, 3);
+            this.panel2.Location = new System.Drawing.Point(824, 3);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
-            this.panel2.Size = new System.Drawing.Size(667, 195);
+            this.panel2.Size = new System.Drawing.Size(666, 195);
             this.panel2.TabIndex = 18;
             // 
             // panel7
@@ -538,7 +538,7 @@
             this.panel7.Location = new System.Drawing.Point(10, 10);
             this.panel7.Name = "panel7";
             this.panel7.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.panel7.Size = new System.Drawing.Size(647, 175);
+            this.panel7.Size = new System.Drawing.Size(646, 175);
             this.panel7.TabIndex = 0;
             // 
             // groupBox4
@@ -549,7 +549,7 @@
             this.groupBox4.Location = new System.Drawing.Point(5, 0);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox4.Size = new System.Drawing.Size(642, 175);
+            this.groupBox4.Size = new System.Drawing.Size(641, 175);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = " [ Q\'ty (Actual / Planned) ] ";
@@ -560,9 +560,9 @@
             this.lbl_Qty.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lbl_Qty.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_Qty.Font = new System.Drawing.Font("Tahoma", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Qty.Location = new System.Drawing.Point(5, 21);
+            this.lbl_Qty.Location = new System.Drawing.Point(5, 25);
             this.lbl_Qty.Name = "lbl_Qty";
-            this.lbl_Qty.Size = new System.Drawing.Size(632, 149);
+            this.lbl_Qty.Size = new System.Drawing.Size(631, 145);
             this.lbl_Qty.TabIndex = 16;
             this.lbl_Qty.Text = "99999 / 99999";
             this.lbl_Qty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -574,7 +574,7 @@
             this.panel8.Location = new System.Drawing.Point(3, 3);
             this.panel8.Name = "panel8";
             this.panel8.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.panel8.Size = new System.Drawing.Size(816, 195);
+            this.panel8.Size = new System.Drawing.Size(815, 195);
             this.panel8.TabIndex = 10;
             // 
             // groupBox2
@@ -585,7 +585,7 @@
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox2.Size = new System.Drawing.Size(811, 195);
+            this.groupBox2.Size = new System.Drawing.Size(810, 195);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "[Thông tin lệnh thao tác] WorkOrder Info.";
@@ -604,7 +604,7 @@
             this.tableLayoutPanel3.Controls.Add(this.label6, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.comboBox_Line, 1, 2);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 21);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 25);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 4;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -612,7 +612,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(801, 169);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(800, 165);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // label4
@@ -620,9 +620,9 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 126);
+            this.label4.Location = new System.Drawing.Point(3, 123);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(256, 43);
+            this.label4.Size = new System.Drawing.Size(323, 42);
             this.label4.TabIndex = 20;
             this.label4.Text = "Ngày đóng gói(Packing Date)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -634,7 +634,7 @@
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 42);
+            this.label1.Size = new System.Drawing.Size(323, 41);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bản HDTT(W/O)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -644,9 +644,9 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 42);
+            this.label2.Location = new System.Drawing.Point(3, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(256, 42);
+            this.label2.Size = new System.Drawing.Size(323, 41);
             this.label2.TabIndex = 1;
             this.label2.Text = "Vật liệu(Material)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -657,9 +657,9 @@
             this.lbl_item.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_item.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_item.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_item.Location = new System.Drawing.Point(265, 42);
+            this.lbl_item.Location = new System.Drawing.Point(332, 41);
             this.lbl_item.Name = "lbl_item";
-            this.lbl_item.Size = new System.Drawing.Size(533, 42);
+            this.lbl_item.Size = new System.Drawing.Size(465, 41);
             this.lbl_item.TabIndex = 16;
             this.lbl_item.Text = "P123456 / SMPS FOR LG PLAT LED TELEVISION";
             this.lbl_item.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -670,9 +670,9 @@
             this.lbl_workorder.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_workorder.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbl_workorder.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_workorder.Location = new System.Drawing.Point(265, 0);
+            this.lbl_workorder.Location = new System.Drawing.Point(332, 0);
             this.lbl_workorder.Name = "lbl_workorder";
-            this.lbl_workorder.Size = new System.Drawing.Size(533, 42);
+            this.lbl_workorder.Size = new System.Drawing.Size(465, 41);
             this.lbl_workorder.TabIndex = 15;
             this.lbl_workorder.Text = "WO1234-8769876";
             this.lbl_workorder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -685,9 +685,9 @@
             this.dateTimePicker_PackingDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.dateTimePicker_PackingDate.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_PackingDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker_PackingDate.Location = new System.Drawing.Point(265, 129);
+            this.dateTimePicker_PackingDate.Location = new System.Drawing.Point(332, 126);
             this.dateTimePicker_PackingDate.Name = "dateTimePicker_PackingDate";
-            this.dateTimePicker_PackingDate.Size = new System.Drawing.Size(533, 40);
+            this.dateTimePicker_PackingDate.Size = new System.Drawing.Size(465, 48);
             this.dateTimePicker_PackingDate.TabIndex = 21;
             // 
             // label6
@@ -696,9 +696,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(215, 84);
+            this.label6.Location = new System.Drawing.Point(270, 82);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 42);
+            this.label6.Size = new System.Drawing.Size(56, 41);
             this.label6.TabIndex = 23;
             this.label6.Text = "Line";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -712,9 +712,9 @@
             this.comboBox_Line.Enabled = false;
             this.comboBox_Line.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold);
             this.comboBox_Line.FormattingEnabled = true;
-            this.comboBox_Line.Location = new System.Drawing.Point(265, 87);
+            this.comboBox_Line.Location = new System.Drawing.Point(332, 85);
             this.comboBox_Line.Name = "comboBox_Line";
-            this.comboBox_Line.Size = new System.Drawing.Size(533, 41);
+            this.comboBox_Line.Size = new System.Drawing.Size(465, 49);
             this.comboBox_Line.TabIndex = 24;
             // 
             // textBox_Scan
@@ -723,7 +723,7 @@
             this.textBox_Scan.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox_Scan.Location = new System.Drawing.Point(3, 416);
             this.textBox_Scan.Name = "textBox_Scan";
-            this.textBox_Scan.Size = new System.Drawing.Size(1495, 39);
+            this.textBox_Scan.Size = new System.Drawing.Size(1493, 46);
             this.textBox_Scan.TabIndex = 0;
             this.textBox_Scan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox_Scan.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_Scan_KeyUp);
@@ -735,17 +735,17 @@
             this.lbl_Error.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_Error.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Error.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Error.Location = new System.Drawing.Point(3, 812);
+            this.lbl_Error.Location = new System.Drawing.Point(3, 810);
             this.lbl_Error.Name = "lbl_Error";
             this.lbl_Error.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbl_Error.Size = new System.Drawing.Size(1495, 75);
+            this.lbl_Error.Size = new System.Drawing.Size(1493, 75);
             this.lbl_Error.TabIndex = 18;
             this.lbl_Error.Text = "Error Code";
             this.lbl_Error.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Palletizing
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1507, 893);
             this.Name = "Palletizing";

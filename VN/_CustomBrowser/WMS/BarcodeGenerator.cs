@@ -331,143 +331,143 @@ namespace WiseM.Browser.WMS
                     afterQuery.AppendLine
                         (
                          $@"
-DECLARE @NewBarcode  NVARCHAR(50) = '{barcode}'
-DECLARE @OldBarcode  NVARCHAR(50) = '{barcodeBase}'
-DECLARE @Material    NVARCHAR(50) = '{material}'
-DECLARE @OldMaterial NVARCHAR(50) = '{dataRow["Material"]}'
-DECLARE @BoxSeq      NVARCHAR(50) = '{seq:00#}'
-DECLARE @Qty         INT = '{qty}'
-DECLARE @IF_TIME     NVARCHAR(50) = GETDATE()
+                        DECLARE @NewBarcode  NVARCHAR(50) = '{barcode}'
+                        DECLARE @OldBarcode  NVARCHAR(50) = '{barcodeBase}'
+                        DECLARE @Material    NVARCHAR(50) = '{material}'
+                        DECLARE @OldMaterial NVARCHAR(50) = '{dataRow["Material"]}'
+                        DECLARE @BoxSeq      NVARCHAR(50) = '{seq:00#}'
+                        DECLARE @Qty         INT = '{qty}'
+                        DECLARE @IF_TIME     NVARCHAR(50) = GETDATE()
 
---NEW 재고 추가
-INSERT
-  INTO Rm_Stock (
-                  Rm_BarCode
-                , Rm_Material
-                , Rm_Supplier
-                , Rm_ProdDate
-                , Rm_QtyinBox
-                , Rm_BoxSeq
-                , Rm_Bunch
-                , Rm_StockQty
-                , Rm_Status
-                , Rm_LocationGroup
-                , Rm_Location
-                , Storage
-                , Rm_Created
-                , Rm_Updated
-                )
-SELECT TOP 1 @NewBarcode
-           , @Material
-           , Rm_Supplier
-           , Rm_ProdDate
-           , Rm_QtyinBox
-           , @BoxSeq
-           , 'CHANGE'
-           , Rm_StockQty
-           , 1
-           , Rm_LocationGroup
-           , Rm_Location
-           , Storage
-           , @IF_TIME
-           , @IF_TIME
-  FROM Rm_Stock
- WHERE Rm_BarCode = @OldBarcode
- ORDER BY Rm_Updated DESC
+                        --NEW 재고 추가
+                        INSERT
+                          INTO Rm_Stock (
+                                          Rm_BarCode
+                                        , Rm_Material
+                                        , Rm_Supplier
+                                        , Rm_ProdDate
+                                        , Rm_QtyinBox
+                                        , Rm_BoxSeq
+                                        , Rm_Bunch
+                                        , Rm_StockQty
+                                        , Rm_Status
+                                        , Rm_LocationGroup
+                                        , Rm_Location
+                                        , Storage
+                                        , Rm_Created
+                                        , Rm_Updated
+                                        )
+                        SELECT TOP 1 @NewBarcode
+                                   , @Material
+                                   , Rm_Supplier
+                                   , Rm_ProdDate
+                                   , Rm_QtyinBox
+                                   , @BoxSeq
+                                   , 'CHANGE'
+                                   , Rm_StockQty
+                                   , 1
+                                   , Rm_LocationGroup
+                                   , Rm_Location
+                                   , Storage
+                                   , @IF_TIME
+                                   , @IF_TIME
+                          FROM Rm_Stock
+                         WHERE Rm_BarCode = @OldBarcode
+                         ORDER BY Rm_Updated DESC
 
---NEW 재고이력 추가
-INSERT
-  INTO Rm_StockHist (
-                      Rm_BarCode
-                    , Rm_IO_Type
-                    , Rm_Material
-                    , Rm_Supplier
-                    , Rm_ProdDate
-                    , Rm_QtyinBox
-                    , Rm_BoxSeq
-                    , Rm_Bunch
-                    , Rm_StockQty
-                    , Rm_Status
-                    , Rm_LocationGroup
-                    , Rm_Location
-                    , ERP_SL_CD_FROM
-                    , ERP_SL_CD_TO
-                    , SendStatusErp
-                    , Rm_Created
-                    , Rm_Updated
-                    )
-SELECT TOP 1 @NewBarcode
-           , 'IN'
-           , @Material
-           , Rm_Supplier
-           , Rm_ProdDate
-           , Rm_QtyinBox
-           , @BoxSeq
-           , 'CHANGE'
-           , Rm_StockQty
-           , 1
-           , Rm_LocationGroup
-           , Rm_Location
-           , Storage
-           , Storage
-           , 1
-           , @IF_TIME
-           , @IF_TIME
-  FROM Rm_Stock
- WHERE Rm_BarCode = @OldBarcode
- ORDER BY Rm_Updated DESC
+                        --NEW 재고이력 추가
+                        INSERT
+                          INTO Rm_StockHist (
+                                              Rm_BarCode
+                                            , Rm_IO_Type
+                                            , Rm_Material
+                                            , Rm_Supplier
+                                            , Rm_ProdDate
+                                            , Rm_QtyinBox
+                                            , Rm_BoxSeq
+                                            , Rm_Bunch
+                                            , Rm_StockQty
+                                            , Rm_Status
+                                            , Rm_LocationGroup
+                                            , Rm_Location
+                                            , ERP_SL_CD_FROM
+                                            , ERP_SL_CD_TO
+                                            , SendStatusErp
+                                            , Rm_Created
+                                            , Rm_Updated
+                                            )
+                        SELECT TOP 1 @NewBarcode
+                                   , 'IN'
+                                   , @Material
+                                   , Rm_Supplier
+                                   , Rm_ProdDate
+                                   , Rm_QtyinBox
+                                   , @BoxSeq
+                                   , 'CHANGE'
+                                   , Rm_StockQty
+                                   , 1
+                                   , Rm_LocationGroup
+                                   , Rm_Location
+                                   , Storage
+                                   , Storage
+                                   , 1
+                                   , @IF_TIME
+                                   , @IF_TIME
+                          FROM Rm_Stock
+                         WHERE Rm_BarCode = @OldBarcode
+                         ORDER BY Rm_Updated DESC
 
---변경이력 추가
-INSERT
-  INTO Rm_BCR (
-                Rm_Origin
-              , Rm_NewBarcodeList
-              , Issue
-              , Created
-              )
-VALUES (
-         @OldBarcode
-       , @NewBarcode
-       , 'Change'
-       , @IF_TIME
-       )
-;
+                        --변경이력 추가
+                        INSERT
+                          INTO Rm_BCR (
+                                        Rm_Origin
+                                      , Rm_NewBarcodeList
+                                      , Issue
+                                      , Created
+                                      )
+                        VALUES (
+                                 @OldBarcode
+                               , @NewBarcode
+                               , 'Change'
+                               , @IF_TIME
+                               )
+                        ;
 
---ERP 전송
-INSERT
-  INTO MES_IF_VN.dbo.MTE_INV_TRANS (
-                                     IF_TIME
-                                   , I_PROC_STEP
-                                   , I_APPLY_STATUS
-                                   , DOCUMENT_DT
-                                   , MOV_TYPE
-                                   , SL_CD
-                                   , IN_OUT_FLAG
-                                   , ITEM_CD_FR
-                                   , ITEM_CD_TO
-                                   , QTY
-                                   , APPLY_FLAG
-                                   )
-SELECT TOP 1 @IF_TIME
-           , 'C'
-           , 'R'
-           , @IF_TIME
-           , 'T61'
-           , Storage
-           , 'I'
-           , @OldMaterial
-           , @Material
-           , @Qty
-           , 'N'
-  FROM Rm_Stock
- WHERE Rm_BarCode = @OldBarcode
- ORDER BY Rm_Updated DESC
+                        --ERP 전송
+                        INSERT
+                          INTO MES_IF_VN.dbo.MTE_INV_TRANS (
+                                                             IF_TIME
+                                                           , I_PROC_STEP
+                                                           , I_APPLY_STATUS
+                                                           , DOCUMENT_DT
+                                                           , MOV_TYPE
+                                                           , SL_CD
+                                                           , IN_OUT_FLAG
+                                                           , ITEM_CD_FR
+                                                           , ITEM_CD_TO
+                                                           , QTY
+                                                           , APPLY_FLAG
+                                                           )
+                        SELECT TOP 1 @IF_TIME
+                                   , 'C'
+                                   , 'R'
+                                   , @IF_TIME
+                                   , 'T61'
+                                   , Storage
+                                   , 'I'
+                                   , @OldMaterial
+                                   , @Material
+                                   , @Qty
+                                   , 'N'
+                          FROM Rm_Stock
+                         WHERE Rm_BarCode = @OldBarcode
+                         ORDER BY Rm_Updated DESC
 
---OLD 재고 삭제
-DELETE
-  FROM Rm_Stock
- WHERE Rm_BarCode = @OldBarcode
-;
+                        --OLD 재고 삭제
+                        DELETE
+                          FROM Rm_Stock
+                         WHERE Rm_BarCode = @OldBarcode
+                        ;
                         "
                         );
                     break;

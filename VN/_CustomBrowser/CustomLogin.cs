@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace WiseM.Browser
@@ -42,6 +36,11 @@ namespace WiseM.Browser
                 // Cancel 이나 Retry 가 아닌 경우 로그인이 정상상태 임.
                 // 이곳에서 추가 프로세스 구성하면 됨
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
